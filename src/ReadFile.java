@@ -8,12 +8,12 @@ public class ReadFile {
     public ArrayList<GraphData> readFile(String fileName) {
         ArrayList<GraphData> graphData = new ArrayList<GraphData>();
         try {
-            File file = new File(fileName + ".txt");
+            File file = new File(fileName);
             Scanner scanner = new Scanner(file);
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
-                String[] data = line.split(" ");
-                graphData.add(new GraphData(Integer.parseInt(data[0]), Integer.parseInt(data[1])));
+                String[] data = line.split(",");
+                graphData.add(new GraphData(Integer.parseInt(data[0]), Integer.parseInt(data[1]), Integer.parseInt(data[2])));
             }
             scanner.close();
         } catch (FileNotFoundException e) {

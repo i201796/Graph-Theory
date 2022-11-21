@@ -3,11 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="e0d720f5-ca65-40a1-b129-27c72db415a3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CollegeMsg.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Graph.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Graph.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/GraphData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/GraphData.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/ReadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/ReadFile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GraphData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReadFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +32,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Hp0LJt0Q6rbi9qVEagpufm0DEs" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -89,7 +96,9 @@
       <workItem from="1668966664627" duration="8926000" />
       <workItem from="1669012593631" duration="466000" />
       <workItem from="1669013856443" duration="854000" />
-      <workItem from="1669027696004" duration="1907000" />
+      <workItem from="1669027696004" duration="3375000" />
+      <workItem from="1669031386940" duration="450000" />
+      <workItem from="1669062507950" duration="7318000" />
     </task>
     <servers />
   </component>
@@ -106,20 +115,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>3</line>
-          <properties class="Main" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

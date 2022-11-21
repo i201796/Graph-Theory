@@ -4,12 +4,24 @@ public class GraphData {
     private int source;
     private int destination;
 
+    private int weight;
+
+    public static ArrayList<Integer> uniqueVertices = new ArrayList<Integer>();
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
     public GraphData() {
     }
 
-    public GraphData(int source, int destination) {
+    public GraphData(int source, int destination, int weight) {
         this.source = source;
         this.destination = destination;
+        this.weight = weight;
     }
 
     public int numberOfVertices(ArrayList<GraphData> graphData) {
@@ -23,14 +35,15 @@ public class GraphData {
     }
 
     public ArrayList<Integer> removeDuplicate(ArrayList<Integer> vertices) {
-        ArrayList<Integer> uniqueVertices = new ArrayList<Integer>();
         for (int i = 0; i < vertices.size(); i++) {
             if (!uniqueVertices.contains(vertices.get(i))) {
                 uniqueVertices.add(vertices.get(i));
             }
         }
+     //   uniqueVertices.add(-1);
         return uniqueVertices;
     }
+
 
     @Override
     public String toString() {
@@ -52,4 +65,6 @@ public class GraphData {
     public void setDestination(int destination) {
         this.destination = destination;
     }
+
+
 }

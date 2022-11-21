@@ -1,21 +1,14 @@
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         ReadFile readFile = new ReadFile();
-        ArrayList<GraphData> graphData = readFile.readFile("Graph");
-     //   System.out.println(new GraphData().numberOfVertices(graphData));
-        Graph graph = new Graph(new GraphData().numberOfVertices(graphData), graphData);
-        System.out.println("Number of vertices: " + (graph.getNumberOfVertices()-1));
-        System.out.println("Graph:");
+        ArrayList<GraphData> graphData = readFile.readFile("Graph.txt");
+        int numberOfVertices = new GraphData().numberOfVertices(graphData);
+        ArrayList<Integer> vertices = GraphData.uniqueVertices;
+        Graph graph = new Graph();
+        ArrayList<Node> nodes = graph.GraphCreation(numberOfVertices, graphData, vertices);
         graph.printGraph();
-        System.out.println("DFS:");
-        graph.DFS(1);
-        System.out.println("\nBFS:");
-        graph.BFS(1);
-        if (graph.isCyclic()){
-            System.out.println("\nCycle Exists");
-        }
-        else System.out.println("\nCycle Doesnt Exists");
     }
 }

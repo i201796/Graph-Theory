@@ -3,9 +3,10 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
         ReadFile readFile = new ReadFile();
-        ArrayList<GraphData> graphData = readFile.readFile("CollegeMsg");
+        ArrayList<GraphData> graphData = readFile.readFile("Graph");
+     //   System.out.println(new GraphData().numberOfVertices(graphData));
         Graph graph = new Graph(new GraphData().numberOfVertices(graphData), graphData);
-        System.out.println("Number of vertices: " + graph.getNumberOfVertices());
+        System.out.println("Number of vertices: " + (graph.getNumberOfVertices()-1));
         System.out.println("Graph:");
         graph.printGraph();
         System.out.println("DFS:");

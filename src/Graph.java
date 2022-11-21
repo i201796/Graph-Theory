@@ -16,10 +16,10 @@ public class Graph {
     }
 
     public Graph(int numberOfVertices, ArrayList<GraphData> graphData) {
-        this.numberOfVertices = numberOfVertices;
+        this.numberOfVertices = numberOfVertices+1;
         this.graph = new ArrayList<ArrayList<Integer>>();
 
-        for (int i = 0; i <= numberOfVertices+1; i++) {
+        for (int i = 0; i < numberOfVertices+1; i++) {
             this.graph.add(new ArrayList<Integer>());
         }
         for (int i = 0; i < graphData.size(); i++) {

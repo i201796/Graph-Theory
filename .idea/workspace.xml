@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0d720f5-ca65-40a1-b129-27c72db415a3" name="Changes" comment="">
+    <list default="true" id="e0d720f5-ca65-40a1-b129-27c72db415a3" name="Changes" comment="&quot;Graph Done with diff label&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Graph.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Graph.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/Graph.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GraphData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,8 +100,17 @@
       <workItem from="1669013856443" duration="854000" />
       <workItem from="1669027696004" duration="3375000" />
       <workItem from="1669031386940" duration="450000" />
-      <workItem from="1669062507950" duration="8619000" />
+      <workItem from="1669062507950" duration="9652000" />
+      <workItem from="1669072350247" duration="2398000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;Graph Done with diff label&quot;">
+      <created>1669071384498</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669071384498</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,5 +138,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;Graph Done with diff label&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Graph Done with diff label&quot;" />
   </component>
 </project>

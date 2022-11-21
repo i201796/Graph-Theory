@@ -3,15 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e0d720f5-ca65-40a1-b129-27c72db415a3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CollegeMsg.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Graph.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Graph.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/GraphData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/GraphData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/Graph.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/ReadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/ReadFile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GraphData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReadFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -98,7 +99,7 @@
       <workItem from="1669013856443" duration="854000" />
       <workItem from="1669027696004" duration="3375000" />
       <workItem from="1669031386940" duration="450000" />
-      <workItem from="1669062507950" duration="7318000" />
+      <workItem from="1669062507950" duration="8619000" />
     </task>
     <servers />
   </component>
@@ -110,7 +111,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="DFS-BFS-CYL" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

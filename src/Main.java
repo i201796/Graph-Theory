@@ -2,7 +2,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
+    public static void run(){
         ReadFile readFile = new ReadFile();
         ArrayList<GraphData> graphData = readFile.readFile("Graph.txt");
         ArrayList<Integer> vertices = new GraphData().removeDuplicate(graphData);
@@ -11,17 +11,23 @@ public class Main {
 
         System.out.println("Graph (Adjacency List):");
         graph.printGraph();
-        WriteFile.writeGraphToFile();
 
         System.out.println("DFS:");
         graph.dfs(nodes.get(1));
-        WriteFile.writeDFSToFile();
 
         graph.makeAllNodesUnvisited();
         System.out.println("\nBFS:");
         graph.bfs(nodes.get(1));
+
+        writeToFile();
+    }
+
+    public static void writeToFile(){
+        WriteFile.writeGraphToFile();
+        WriteFile.writeDFSToFile();
         WriteFile.writeBFSToFile();
-
-
+    }
+    public static void main(String[] args) throws IOException {
+        run();
     }
 }

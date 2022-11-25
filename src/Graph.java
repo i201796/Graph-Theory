@@ -14,17 +14,20 @@ public class Graph {
         }
 
         for (GraphData graphDatum : graphData) {
-            for (int j = 1; j < nodes.size(); j++) {
+            int j , k;
+            for (j = 1; j < nodes.size(); j++) {
                 if (graphDatum.getSource() == nodes.get(j).getLabel()) {
                     Node temp = new Node();
-                    for (int k = 1; k < this.nodes.size(); k++) {
+                    for (k = 1; k < this.nodes.size(); k++) {
                         if (nodes.get(k).getLabel() == graphDatum.getDestination()) {
                             temp = nodes.get(k);
                             break;
                         }
                     }
                     nodes.get(j).getNeighbors().add(temp);
+                    nodes.get(k).getNeighbors().add(nodes.get(j));
                     nodes.get(j).getWeights().add(graphDatum.getWeight());
+                    nodes.get(k).getWeights().add(graphDatum.getWeight());
                 }
             }
         }

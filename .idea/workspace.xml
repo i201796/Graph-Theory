@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e0d720f5-ca65-40a1-b129-27c72db415a3" name="Changes" comment="&quot;Graph Done with diff label&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Graph.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GraphData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +97,9 @@
       <workItem from="1669027696004" duration="3375000" />
       <workItem from="1669031386940" duration="450000" />
       <workItem from="1669062507950" duration="9652000" />
-      <workItem from="1669072350247" duration="2398000" />
+      <workItem from="1669072350247" duration="2732000" />
+      <workItem from="1669115252527" duration="49000" />
+      <workItem from="1669411348808" duration="2587000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Graph Done with diff label&quot;">
       <created>1669071384498</created>

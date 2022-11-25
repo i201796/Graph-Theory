@@ -33,6 +33,7 @@ public class Graph {
     public void dfs(Node node) {
         node.setVisited(true);
         System.out.print(node.getLabel() + " ");
+        Results.DFSResult+=node.getLabel()+" ";
         for (int i = 0; i < node.getNeighbors().size(); i++) {
             if (!node.getNeighbors().get(i).isVisited()) {
                 dfs(node.getNeighbors().get(i));
@@ -42,10 +43,30 @@ public class Graph {
     public void printGraph() {
         for (int i = 1; i < this.nodes.size(); i++) {
             System.out.print(this.nodes.get(i).getLabel() + " -> ");
+            Results.graph+=this.nodes.get(i).getLabel() + " -> ";
             for (int j = 0; j < this.nodes.get(i).getNeighbors().size(); j++) {
                 System.out.print(this.nodes.get(i).getNeighbors().get(j).getLabel() + "("+this.nodes.get(i).getWeights().get(j)+") ");
+                Results.graph+=this.nodes.get(i).getNeighbors().get(j).getLabel() + "("+this.nodes.get(i).getWeights().get(j)+") ";
             }
             System.out.println();
+            Results.graph+="\n";
+        }
+    }
+
+    public void bfs(Node node) {
+        ArrayList<Node> queue = new ArrayList<>();
+        queue.add(node);
+        node.setVisited(true);
+        while (!queue.isEmpty()) {
+            Node temp = queue.remove(0);
+            System.out.print(temp.getLabel() + " ");
+            Results.BFSResult+=temp.getLabel()+" ";
+            for (int i = 0; i < temp.getNeighbors().size(); i++) {
+                if (!temp.getNeighbors().get(i).isVisited()) {
+                    queue.add(temp.getNeighbors().get(i));
+                    temp.getNeighbors().get(i).setVisited(true);
+                }
+            }
         }
     }
 }

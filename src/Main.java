@@ -11,9 +11,16 @@ public class Main {
 
         System.out.println("Graph (Adjacency List):");
         graph.printGraph();
+        WriteFile.writeGraphToFile();
+
+        System.out.println("\nBFS:");
+        graph.bfs(nodes.get(1));
+        WriteFile.writeBFSToFile();
 
         System.out.println("DFS:");
         graph.dfs(nodes.get(1));
+        WriteFile.writeDFSToFile();
+
 
     }
 }

@@ -53,6 +53,12 @@ public class Graph {
         }
     }
 
+    public void makeAllNodesUnvisited() {
+        for (int i = 1; i < this.nodes.size(); i++) {
+            this.nodes.get(i).setVisited(false);
+        }
+    }
+
     public void bfs(Node node) {
         ArrayList<Node> queue = new ArrayList<>();
         queue.add(node);

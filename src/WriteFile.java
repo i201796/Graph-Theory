@@ -36,4 +36,15 @@ public class WriteFile {
             e.printStackTrace();
         }
     }
+
+    public static void writeCycleToFile(){
+        try {
+            FileWriter fileWriter = new FileWriter("Cycle.txt");
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+            bufferedWriter.write(Results.cycle);
+            bufferedWriter.close();
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+    }
 }

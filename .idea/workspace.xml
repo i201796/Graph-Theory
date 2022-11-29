@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0d720f5-ca65-40a1-b129-27c72db415a3" name="Changes" comment="Undirected Graph">
+    <list default="true" id="e0d720f5-ca65-40a1-b129-27c72db415a3" name="Changes" comment="DFS BFS Cycle Complete">
+      <change afterPath="$PROJECT_DIR$/Dijkstra.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BFS Result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BFS Result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cycle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Cycle.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DFS Result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DFS Result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Graph Result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Graph.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Graph.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Cycle_201796_200760_202308.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/Cycle_201796_200760_202308.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/Graph.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/ReadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/ReadFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Results.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/Results.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/WriteFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/WriteFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BFS_DFS_201796_200760_202308.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BFS_DFS_201796_200760_202308.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReadFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Results.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Results.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WriteFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WriteFile.java" afterDir="false" />
     </list>
@@ -61,7 +73,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -70,6 +82,7 @@
       <recent name="D:\MY SHID\AlgoProject\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MY SHID\AlgoProject\src" />
       <recent name="D:\MY SHID\AlgoProject" />
     </key>
   </component>
@@ -112,7 +125,13 @@
       <workItem from="1669072350247" duration="2732000" />
       <workItem from="1669115252527" duration="49000" />
       <workItem from="1669411348808" duration="10702000" />
-      <workItem from="1669423789695" duration="122000" />
+      <workItem from="1669423789695" duration="705000" />
+      <workItem from="1669452020136" duration="954000" />
+      <workItem from="1669453033738" duration="159000" />
+      <workItem from="1669453250406" duration="2376000" />
+      <workItem from="1669714740060" duration="716000" />
+      <workItem from="1669745650531" duration="1749000" />
+      <workItem from="1669747743026" duration="11997000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Graph Done with diff label&quot;">
       <created>1669071384498</created>
@@ -163,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669420458161</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="DFS BFS Cycle Complete">
+      <created>1669424109578</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669424109578</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +223,7 @@
     <MESSAGE value="&quot;Dfs(Done) and bfs(in progress)&quot;" />
     <MESSAGE value="&quot;Dfs &amp; BFS Done&quot;" />
     <MESSAGE value="Undirected Graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="Undirected Graph" />
+    <MESSAGE value="DFS BFS Cycle Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="DFS BFS Cycle Complete" />
   </component>
 </project>

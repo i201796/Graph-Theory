@@ -79,5 +79,20 @@ public class Graph {
             this.nodes.get(i).setVisited(false);
         }
     }
+
+    public void makeAllNodesDistanceMax() {
+        for (int i = 1; i < this.nodes.size(); i++) {
+            this.nodes.get(i).setDistance(Integer.MAX_VALUE);
+        }
+    }
+
+    public Node getNode(int label){
+        for (int i = 1; i < this.nodes.size(); i++) {
+            if(this.nodes.get(i).getLabel() == label){
+                return this.nodes.get(i);
+            }
+        }
+        return null;
+    }
 }
 

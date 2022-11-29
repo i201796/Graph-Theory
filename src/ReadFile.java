@@ -13,11 +13,12 @@ public class ReadFile {
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
                 String[] data = line.split(",");
-                graphData.add(new GraphData(Integer.parseInt(data[0]), Integer.parseInt(data[1]), Integer.parseInt(data[2])));
+                graphData.add(new GraphData(Integer.parseInt(data[0]), Integer.parseInt(data[1]), Math.abs(Integer.parseInt(data[2]))));
             }
             scanner.close();
         } catch (FileNotFoundException e) {
             System.out.println("An error occurred: File Not Found.");
+            Main.main(null);
         }
         return graphData;
     }

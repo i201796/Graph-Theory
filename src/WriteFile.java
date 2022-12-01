@@ -59,4 +59,14 @@ public class WriteFile {
         }
     }
 
+    public void writeBellmanFordResult() {
+        try {
+            FileWriter fileWriter = new FileWriter("Bellman-Ford.txt");
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+            bufferedWriter.write(Results.bellmanFordResult);
+            bufferedWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }

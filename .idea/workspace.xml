@@ -1,30 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0d720f5-ca65-40a1-b129-27c72db415a3" name="Changes" comment="DFS BFS Cycle Complete">
-      <change afterPath="$PROJECT_DIR$/Dijkstra.txt" afterDir="false" />
+    <list default="true" id="e0d720f5-ca65-40a1-b129-27c72db415a3" name="Changes" comment="Dijkstra Done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BFS Result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BFS Result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cycle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Cycle.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DFS Result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DFS Result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dijkstra.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dijkstra.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Graph Result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Graph.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Cycle_201796_200760_202308.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/Cycle_201796_200760_202308.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/ReadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/ReadFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Results.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/Results.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/WriteFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/WriteFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BFS_DFS_201796_200760_202308.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BFS_DFS_201796_200760_202308.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cycle_201796_200760_202308.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cycle_201796_200760_202308.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dijkstra_201796_200760_202308.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dijkstra_201796_200760_202308.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Queue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReadFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Results.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Results.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WriteFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WriteFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,22 +47,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/MY SHID/AlgoProject&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/MY SHID/AlgoProject",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\MY SHID\AlgoProject" />
@@ -131,7 +118,8 @@
       <workItem from="1669453250406" duration="2376000" />
       <workItem from="1669714740060" duration="716000" />
       <workItem from="1669745650531" duration="1749000" />
-      <workItem from="1669747743026" duration="11997000" />
+      <workItem from="1669747743026" duration="12244000" />
+      <workItem from="1669879060205" duration="6221000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Graph Done with diff label&quot;">
       <created>1669071384498</created>
@@ -189,7 +177,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669424109578</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="DFS BFS Cycle Complete">
+      <created>1669760263429</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669760263429</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Dijkstra Done">
+      <created>1669760321799</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669760321799</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +226,7 @@
     <MESSAGE value="&quot;Dfs &amp; BFS Done&quot;" />
     <MESSAGE value="Undirected Graph" />
     <MESSAGE value="DFS BFS Cycle Complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="DFS BFS Cycle Complete" />
+    <MESSAGE value="Dijkstra Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dijkstra Done" />
   </component>
 </project>

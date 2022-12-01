@@ -135,6 +135,7 @@ public class Menu {
                 }
                 case 5 -> {
                     dijkstra();
+                    writeFile.writeDijkstraResult();
                     break;
                 }
                 case 0 -> {

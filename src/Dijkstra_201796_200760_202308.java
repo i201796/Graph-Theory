@@ -1,17 +1,25 @@
 import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.PriorityQueue;
 
 public class Dijkstra_201796_200760_202308 {
 
     public void dijkstra(Node node) {
-        ArrayList<Node> queue = new ArrayList<>();
-        queue.add(node);
+
         node.setDistance(0);
+        PriorityQueue<Node> queue = new PriorityQueue<Node>(Comparator.comparing(Node::getDistance));
+        queue.add(node);
         while (!queue.isEmpty()) {
-            Node temp = queue.remove(0);
+            Node temp = queue.remove();
             for (int i = 0; i < temp.getNeighbors().size(); i++) {
-                if (temp.getDistance() + temp.getWeights().get(i) < temp.getNeighbors().get(i).getDistance()) {
-                    temp.getNeighbors().get(i).setDistance(temp.getDistance() + temp.getWeights().get(i));
-                    queue.add(temp.getNeighbors().get(i));
+                Node neighbor = temp.getNeighbors().get(i);
+                int weight = temp.getWeights().get(i);
+                int distance = temp.getDistance() + weight;
+                if (distance < neighbor.getDistance()) {
+                    queue.remove(neighbor);
+                    neighbor.setDistance(distance);
+                    neighbor.setPrevious(temp);
+                    queue.add(neighbor);
                 }
             }
         }

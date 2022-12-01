@@ -4,6 +4,7 @@ public class Node {
     private int label;
     private ArrayList<Node> neighbors;
     private ArrayList<Integer> weights;
+    private Node previous;
     private boolean visited;
 
     private int distance;
@@ -17,6 +18,14 @@ public class Node {
         this.weights = new ArrayList<Integer>();
         this.visited = false;
         this.distance = Integer.MAX_VALUE;
+    }
+
+    public Node getPrevious() {
+        return previous;
+    }
+
+    public void setPrevious(Node previous) {
+        this.previous = previous;
     }
 
     public int getDistance() {

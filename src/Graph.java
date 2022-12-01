@@ -61,6 +61,7 @@ public class Graph {
         }
         return nodes;
     }
+
     public void printGraph() {
         for (int i = 1; i < this.nodes.size(); i++) {
             System.out.print(this.nodes.get(i).getLabel() + " -> ");

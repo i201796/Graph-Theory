@@ -14,6 +14,8 @@ public class Menu {
     private final ArrayList<Node> undirectedGraph;
     private final ArrayList<Node> directedGraph;
 
+    private BellmanFord_201796_200760_202308 bellmenFord = new BellmanFord_201796_200760_202308();
+
     public Menu(String fileName) {
         graphData = readFile.readFile(fileName);
         vertices = new GraphData().removeDuplicate(graphData);
@@ -77,6 +79,7 @@ public class Menu {
             String source = new Scanner(System.in).next();
             if (source.equalsIgnoreCase("S")) {
                 System.out.println("Dijkstra's Algorithm:");
+                udGraph.takeAbsOfWeight();
                 dijkstra.dijkstra(undirectedGraph.get(1));
                 dijkstra.printResult(undirectedGraph);
                 udGraph.makeAllNodesUnvisited();
@@ -95,6 +98,39 @@ public class Menu {
         }while (!flag);
     }
 
+    public void bellmanFord(){
+        boolean flag = false;
+        do {
+            System.out.print("\n\nBellman Ford Algorithm\nEnter the source vertex or Enter S to skip: ");
+            String source = new Scanner(System.in).next();
+            if (source.equalsIgnoreCase("S")) {
+                System.out.println("Bellman Ford Algorithm:");
+                if (bellmenFord.bellmanFord(directedGraph, directedGraph.get(1))) {
+                    bellmenFord.printResult(directedGraph);
+                    dirGraph.makeAllNodesUnvisited();
+                    flag = true;
+                }else {
+                    System.out.println("Negative Cycle Detected");
+                    flag = true;
+                }
+            } else {
+                Node temp = udGraph.getNode(Integer.parseInt(source));
+                if (temp != null) {
+                    if (bellmenFord.bellmanFord(undirectedGraph, temp)) {
+                        bellmenFord.printResult(undirectedGraph);
+                        dirGraph.makeAllNodesUnvisited();
+                        flag = true;
+                    }else {
+                        System.out.println("Negative Cycle Detected");
+                        flag = true;
+                    }
+                } else {
+                    System.out.println("Invalid Source Vertex");
+                }
+            }
+        }while (!flag);
+    }
+
     public void menu() {
         int choice;
         do {
@@ -103,6 +139,7 @@ public class Menu {
             System.out.println("Press 3 to Print BFS Traversal");
             System.out.println("Press 4 to Check if there is a Cycle");
             System.out.println("Press 5 to Print Dijkstra's Algorithm");
+            System.out.println("Press 6 to Print Bellman-Ford Algorithm");
             System.out.println("Press 0 to Perform All the Above");
             System.out.println("Press -1 to Exit");
             System.out.print("Enter your choice: ");
@@ -114,29 +151,23 @@ public class Menu {
                     System.out.println("\nGraph:");
                     udGraph.printGraph();
                     writeFile.writeGraphToFile();
-                    break;
                 }
                 case 2 -> {
                     dfs();
                     writeFile.writeDFSToFile();
-                    break;
                 }
                 case 3 -> {
                     bfs();
                     writeFile.writeBFSToFile();
-                    break;
                 }
                 case 4 -> {
                     System.out.println("\nCycle: " + cycle.hasCycle(directedGraph.get(0))+"\n");
                     dirGraph.makeAllNodesUnvisited();
                     writeFile.writeCycleToFile();
-
-                    break;
                 }
                 case 5 -> {
                     dijkstra();
                     writeFile.writeDijkstraResult();
-                    break;
                 }
                 case 0 -> {
                     System.out.println("\nGraph:");
@@ -152,15 +183,16 @@ public class Menu {
                     writeFile.writeCycleToFile();
                     dirGraph.makeAllNodesUnvisited();
                     dijkstra();
-                    break;
                 }
                 case -1 -> {
                     System.out.println("\nExiting...");
-                    break;
+                }
+                case 6 -> {
+                    bellmanFord();
+                    writeFile.writeBellmanFordResult();
                 }
                 default -> {
                     System.out.println("Invalid Choice");
-                    break;
                 }
             }
         } while (choice != -1);

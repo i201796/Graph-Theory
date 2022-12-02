@@ -2,7 +2,6 @@ import java.util.ArrayList;
 
 public class BellmanFord_201796_200760_202308 {
 
-    private boolean negativeCycle = false;
     public boolean bellmanFord(ArrayList<Node> graph, Node source) {
         source.setDistance(0);
 
@@ -25,30 +24,24 @@ public class BellmanFord_201796_200760_202308 {
                 int weight = node.getWeights().get(k);
                 int distance = node.getDistance() + weight;
                 if (distance < neighbor.getDistance()) {
-                    negativeCycle = true;
                     return false;
                 }
             }
         }
         return true;
     }
-    public void printResult(ArrayList<Node> graph){
-
+    public void printResult(ArrayList<Node> graph) {
         System.out.println("Bellmen-Ford:");
-        if (negativeCycle) {
-            Results.bellmanFordResult = "Negative cycle detected";
-            System.out.println("Negative cycle detected");
-            return;
-        }
-        for (int i = 1; i < graph.size(); i++) {
-            if(graph.get(i).getDistance() == Integer.MAX_VALUE){
-                Results.bellmanFordResult += graph.get(i).getLabel() + " is not reachable from Vertex 1\n";
-                System.out.println(graph.get(i).getLabel() + " is not reachable from Vertex 1");
-            } else {
-               Results.bellmanFordResult += graph.get(i).getLabel() + " -->      " + graph.get(i).getDistance() + "\n";
-                System.out.println(graph.get(i).getLabel() + " -->      " + graph.get(i).getDistance());
+            for (int i = 1; i < graph.size(); i++) {
+                if (graph.get(i).getDistance() == Integer.MAX_VALUE) {
+                    Results.bellmanFordResult += graph.get(i).getLabel() + " is not reachable from Vertex 1\n";
+                    System.out.println(graph.get(i).getLabel() + " is not reachable from Vertex 1");
+                } else {
+                    Results.bellmanFordResult += graph.get(i).getLabel() + " -->      " + graph.get(i).getDistance() + "\n";
+                    System.out.println(graph.get(i).getLabel() + " -->      " + graph.get(i).getDistance());
+                }
             }
+            System.out.println();
         }
-        System.out.println();
-    }
+
 }

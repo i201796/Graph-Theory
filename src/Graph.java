@@ -54,9 +54,7 @@ public class Graph {
                         }
                     }
                     nodes.get(j).getNeighbors().add(temp);
-                  //  nodes.get(k).getNeighbors().add(nodes.get(j));
                     nodes.get(j).getWeights().add(graphDatum.getWeight());
-                    // nodes.get(k).getWeights().add(graphDatum.getWeight());
                 }
             }
         }
@@ -102,10 +100,6 @@ public class Graph {
             }
         }
         return null;
-    }
-
-    public int getNumberOfEdges(ArrayList<GraphData> graphData) {
-        return graphData.size();
     }
 }
 

@@ -3,6 +3,7 @@ import java.util.ArrayList;
 public class Graph {
 
     private final ArrayList<Node> nodes;
+    private int numberOfEdges;
     public Graph() {
         nodes = new ArrayList<>();
     }
@@ -53,9 +54,7 @@ public class Graph {
                         }
                     }
                     nodes.get(j).getNeighbors().add(temp);
-                  //  nodes.get(k).getNeighbors().add(nodes.get(j));
                     nodes.get(j).getWeights().add(graphDatum.getWeight());
-                    // nodes.get(k).getWeights().add(graphDatum.getWeight());
                 }
             }
         }
@@ -87,6 +86,13 @@ public class Graph {
         }
     }
 
+    public void takeAbsOfWeight() {
+        for (int i = 1; i < this.nodes.size(); i++) {
+            for (int j = 0; j < this.nodes.get(i).getWeights().size(); j++) {
+                this.nodes.get(i).getWeights().set(j, Math.abs(this.nodes.get(i).getWeights().get(j)));
+            }
+        }
+    }
     public Node getNode(int label){
         for (int i = 1; i < this.nodes.size(); i++) {
             if(this.nodes.get(i).getLabel() == label){

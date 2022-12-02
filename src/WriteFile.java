@@ -39,7 +39,7 @@ public class WriteFile {
 
     public  void writeCycleToFile(){
         try {
-            FileWriter fileWriter = new FileWriter("Cycle.txt");
+            FileWriter fileWriter = new FileWriter("Cycle Result.txt");
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
             bufferedWriter.write(Results.cycle);
             bufferedWriter.close();
@@ -50,7 +50,7 @@ public class WriteFile {
 
     public   void writeDijkstraResult(){
         try {
-            FileWriter fileWriter = new FileWriter("Dijkstra.txt");
+            FileWriter fileWriter = new FileWriter("Dijkstra Result.txt");
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
             bufferedWriter.write(Results.dijkstra);
             bufferedWriter.close();
@@ -59,4 +59,25 @@ public class WriteFile {
         }
     }
 
+    public void writeBellmanFordResult() {
+        try {
+            FileWriter fileWriter = new FileWriter("Bellman Ford Result.txt");
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+            bufferedWriter.write(Results.bellmanFordResult);
+            bufferedWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void writeDiameterResult() {
+        try {
+            FileWriter fileWriter = new FileWriter("Diameter Result.txt");
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+            bufferedWriter.write(Results.diameterResult);
+            bufferedWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }

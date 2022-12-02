@@ -1,2 +1,6 @@
-Negative Cycle Detected
-Execution Time: 903011100 ns
+1 -->      0
+2 -->      3
+3 -->      4
+4 -->      7
+
+Execution Time: 245700 ns

@@ -33,22 +33,22 @@ public class Menu {
             String source = new Scanner(System.in).next();
             if (source.equalsIgnoreCase("S")) {
                 System.out.println("Depth First Search Traversal:");
-                long startTime = System.nanoTime();
+                double startTime = System.nanoTime();
                 traversal.dfs(undirectedGraph.get(1));
-                long elapsedTime = System.nanoTime() - startTime;
-                System.out.println("\nExecution Time: " + elapsedTime + " ns");
-                Results.DFSResult += "\nExecution Time: " + elapsedTime + " ns";
+                double elapsedTime = System.nanoTime() - startTime;
+                System.out.println("\nExecution Time: " + elapsedTime/1000000000 + " sec");
+                Results.DFSResult += "\nExecution Time: " + elapsedTime/1000000000 + " sec";
                 udGraph.makeAllNodesUnvisited();
                 flag = true;
             } else {
                 Node temp = udGraph.getNode(Integer.parseInt(source));
                 if (temp != null) {
                     System.out.println("Depth First Search Traversal:");
-                    long startTime = System.nanoTime();
+                    double startTime = System.nanoTime();
                     traversal.dfs(temp);
-                    long elapsedTime = System.nanoTime() - startTime;
-                    System.out.println("\nExecution Time: " + elapsedTime + " ns");
-                    Results.DFSResult += "\nExecution Time: " + elapsedTime + " ns";
+                    double elapsedTime = System.nanoTime() - startTime;
+                    System.out.println("\nExecution Time: " + elapsedTime/1000000000 + " sec");
+                    Results.DFSResult += "\nExecution Time: " + elapsedTime/1000000000 + " sec";
                     udGraph.makeAllNodesUnvisited();
                     flag = true;
                 } else {
@@ -65,22 +65,22 @@ public class Menu {
             String source = new Scanner(System.in).next();
             if (source.equalsIgnoreCase("S")) {
                 System.out.println("Breath First Search Traversal:");
-                long startTime = System.nanoTime();
+                double startTime = System.nanoTime();
                 traversal.bfs(undirectedGraph.get(1));
-                long elapsedTime = System.nanoTime() - startTime;
-                System.out.println("\nExecution Time: " + elapsedTime + " ns");
-                Results.BFSResult += "\nExecution Time: " + elapsedTime + " ns";
+                double elapsedTime = System.nanoTime() - startTime;
+                System.out.println("\nExecution Time: " + elapsedTime/1000000000 + " sec");
+                Results.BFSResult += "\nExecution Time: " + elapsedTime/1000000000 + " sec";
                 udGraph.makeAllNodesUnvisited();
                 flag = true;
             } else {
                 Node temp = udGraph.getNode(Integer.parseInt(source));
                 if (temp != null) {
                     System.out.println("Breath First Search Traversal:");
-                    long startTime = System.nanoTime();
+                    double startTime = System.nanoTime();
                     traversal.bfs(temp);
-                    long elapsedTime = System.nanoTime() - startTime;
-                    Results.BFSResult += "\nExecution Time: " + elapsedTime + " ns";
-                    System.out.println("\nExecution Time: " + elapsedTime + " ns");
+                    double elapsedTime = System.nanoTime() - startTime;
+                    Results.BFSResult += "\nExecution Time: " + elapsedTime/1000000000 + " sec";
+                    System.out.println("\nExecution Time: " + elapsedTime/1000000000 + " sec");
                     dirGraph.makeAllNodesUnvisited();
                     flag = true;
                 } else {
@@ -98,24 +98,24 @@ public class Menu {
             String source = new Scanner(System.in).next();
             if (source.equalsIgnoreCase("S")) {
                 System.out.println("Dijkstra's Algorithm:");
-                long startTime = System.nanoTime();
+                double startTime = System.nanoTime();
                 dijkstra.dijkstra(absUdGraph.get(1));
-                long elapsedTime = System.nanoTime() - startTime;
+                double elapsedTime = System.nanoTime() - startTime;
                 dijkstra.printResult(absUdGraph);
-                System.out.println("\nExecution Time: " + elapsedTime + " ns");
-                Results.dijkstra += "\nExecution Time: " + elapsedTime + " ns";
+                System.out.println("\nExecution Time: " + elapsedTime/1000000000 + " sec");
+                Results.dijkstra += "\nExecution Time: " + elapsedTime/1000000000 + " sec";
                 udGraph.makeAllNodesUnvisited();
                 flag = true;
             } else {
                 Node temp = absGraph.getNode(Integer.parseInt(source));
                 if (temp != null) {
                     System.out.println("Dijkstra's Algorithm:");
-                    long startTime = System.nanoTime();
+                    double startTime = System.nanoTime();
                     dijkstra.dijkstra(temp);
-                    long elapsedTime = System.nanoTime() - startTime;
+                    double elapsedTime = System.nanoTime() - startTime;
                     dijkstra.printResult(absUdGraph);
-                    System.out.println("\nExecution Time: " + elapsedTime + " ns");
-                    Results.dijkstra += "\nExecution Time: " + elapsedTime + " ns";
+                    System.out.println("\nExecution Time: " + elapsedTime/1000000000 + " sec");
+                    Results.dijkstra += "\nExecution Time: " + elapsedTime/1000000000 + " sec";
                     flag = true;
                 } else {
                     System.out.println("Invalid Source Vertex");
@@ -132,37 +132,37 @@ public class Menu {
             String source = new Scanner(System.in).next();
             if (source.equalsIgnoreCase("S")) {
                 System.out.println("Bellman Ford Algorithm:");
-                long startTime = System.nanoTime();
+                double startTime = System.nanoTime();
                 boolean flag1 = bellmenFord.bellmanFord(directedGraph, directedGraph.get(1));
-                long elapsedTime = System.nanoTime() - startTime;
+                double elapsedTime = System.nanoTime() - startTime;
                 if (flag1) {
                     bellmenFord.printResult(directedGraph);
-                    System.out.println("\nExecution Time: " + elapsedTime + " ns");
-                    Results.bellmanFordResult += "\nExecution Time: " + elapsedTime + " ns";
+                    System.out.println("\nExecution Time: " + elapsedTime/1000000000 + " sec");
+                    Results.bellmanFordResult += "\nExecution Time: " + elapsedTime/1000000000 + " sec";
                     dirGraph.makeAllNodesUnvisited();
                     flag = true;
                 } else {
                     System.out.println("Negative Cycle Detected");
-                    System.out.println("\nExecution Time: " + elapsedTime + " ns");
-                    Results.bellmanFordResult += "Negative Cycle Detected\nExecution Time: " + elapsedTime + " ns";
+                    System.out.println("\nExecution Time: " + elapsedTime/1000000000 + " sec");
+                    Results.bellmanFordResult += "Negative Cycle Detected\nExecution Time: " + elapsedTime/1000000000 + " sec";
                     flag = true;
                 }
             } else {
                 Node temp = udGraph.getNode(Integer.parseInt(source));
                 if (temp != null) {
-                    long startTime = System.nanoTime();
+                    double startTime = System.nanoTime();;
                     boolean flag1 = bellmenFord.bellmanFord(undirectedGraph, temp);
-                    long elapsedTime = System.nanoTime() - startTime;
+                    double elapsedTime = System.nanoTime() - startTime;
                     if (flag1) {
                         bellmenFord.printResult(undirectedGraph);
-                        System.out.println("\nExecution Time: " + elapsedTime + " ns");
-                        Results.bellmanFordResult += "\nExecution Time: " + elapsedTime + " ns";
+                        System.out.println("\nExecution Time: " + elapsedTime/1000000000 + " sec");
+                        Results.bellmanFordResult += "\nExecution Time: " + elapsedTime/1000000000 + " sec";
                         dirGraph.makeAllNodesUnvisited();
                         flag = true;
                     } else {
                         System.out.println("Negative Cycle Detected");
-                        System.out.println("\nExecution Time: " + elapsedTime + " ns");
-                        Results.bellmanFordResult += "Negative Cycle Detected\nExecution Time: " + elapsedTime + " ns";
+                        System.out.println("\nExecution Time: " + elapsedTime/1000000000 + " sec");
+                        Results.bellmanFordResult += "Negative Cycle Detected\nExecution Time: " + elapsedTime/1000000000 + " sec";
                         flag = true;
                     }
                 } else {
@@ -174,23 +174,23 @@ public class Menu {
 
     public void cycle(){
        Cycle_201796_200760_202308 cycle = new Cycle_201796_200760_202308();
-        long startTime = System.nanoTime();
+        double startTime = System.nanoTime();
         boolean result = cycle.hasCycle(directedGraph.get(1));
-        long elapsedTime = System.nanoTime() - startTime;
+        double elapsedTime = System.nanoTime() - startTime;
         System.out.println("\nCycle: " + result +"\n");
-        System.out.println("Execution Time: " + elapsedTime + " ns");
-        Results.cycle += "\nExecution Time: " + elapsedTime + " ns";
+        System.out.println("Execution Time: " + elapsedTime/1000000000 + " sec");
+        Results.cycle += "\nExecution Time: " + elapsedTime/1000000000 + " sec";
         dirGraph.makeAllNodesUnvisited();
     }
     public void diameter(){
         Diameter_201796_200760_202308 diameter = new Diameter_201796_200760_202308();
-        long startTime = System.nanoTime();
+        double startTime = System.nanoTime();
         int diameterOfGraph = diameter.diameter(absUdGraph);
-        long elapsedTime = System.nanoTime() - startTime;
+        double elapsedTime = System.nanoTime() - startTime;
         Results.diameterResult += "Diameter: " + diameterOfGraph;
         System.out.println("\nDiameter: " + diameterOfGraph);
-        System.out.println("Execution Time: " + elapsedTime + " ns");
-        Results.diameterResult += "\nExecution Time: " + elapsedTime + " ns";
+        System.out.println("Execution Time: " + elapsedTime/1000000000 + " sec");
+        Results.diameterResult += "\nExecution Time: " + elapsedTime/1000000000 + " sec";
         udGraph.makeAllNodesUnvisited();
     }
 

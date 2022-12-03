@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 public class Graph {
 
+    public ArrayList<GraphData> graphData = new ArrayList<>();
     private final ArrayList<Node> nodes;
     private int numberOfEdges;
     public Graph() {
@@ -101,5 +102,48 @@ public class Graph {
         }
         return null;
     }
+
+    public ArrayList<GraphData> heapSort() {
+        int n = graphData.size();
+        for (int i = n / 2 - 1; i >= 0; i--) {
+            heapify(graphData, n, i);
+        }
+        for (int i = n - 1; i >= 0; i--) {
+            GraphData temp = graphData.get(0);
+            graphData.set(0, graphData.get(i));
+            graphData.set(i, temp);
+            heapify(graphData, i, 0);
+        }
+
+        return graphData;
+
+    }
+    public ArrayList<GraphData> undirectedGraph(ArrayList<GraphData> dataset){
+        ArrayList<GraphData> graphData = new ArrayList<>();
+        for (GraphData graphDatum : dataset) {
+            graphData.add(new GraphData(graphDatum.getSource(), graphDatum.getDestination(), graphDatum.getWeight()));
+            graphData.add(new GraphData(graphDatum.getDestination(), graphDatum.getSource(), graphDatum.getWeight()));
+        }
+        return graphData;
+    }
+    private void heapify(ArrayList<GraphData> graphData, int n, int i) {
+        int largest = i;
+        int l = 2 * i + 1;
+        int r = 2 * i + 2;
+        if (l < n && graphData.get(l).getWeight() > graphData.get(largest).getWeight()) {
+            largest = l;
+        }
+        if (r < n && graphData.get(r).getWeight() > graphData.get(largest).getWeight()) {
+            largest = r;
+        }
+        if (largest != i) {
+            GraphData swap = graphData.get(i);
+            graphData.set(i, graphData.get(largest));
+            graphData.set(largest, swap);
+            heapify(graphData, n, largest);
+        }
+    }
+
+
 }
 

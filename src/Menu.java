@@ -10,6 +10,7 @@ public class Menu {
     private final Graph udGraph = new Graph();
     private final Graph dirGraph = new Graph();
 
+
     private final Graph absGraph = new Graph();
     private final BFS_DFS_201796_200760_202308 traversal = new BFS_DFS_201796_200760_202308();
     private final ArrayList<Node> undirectedGraph;
@@ -193,6 +194,49 @@ public class Menu {
         udGraph.makeAllNodesUnvisited();
     }
 
+    public void averagedegree(){
+        AverageDegree_201796_200760_202308 averageDegree = new AverageDegree_201796_200760_202308();
+        long startTime = System.nanoTime();
+        Graph graph = new Graph();
+        ArrayList<GraphData> undir= graph.undirectedGraph(graphData);
+        double averageDegreeOfGraph = averageDegree.averageDegree(undir);
+        long elapsedTime = System.nanoTime() - startTime;
+        Results.AverageDegree += "Average Degree: " + averageDegreeOfGraph;
+        System.out.println("\nAverage Degree: " + averageDegreeOfGraph);
+        System.out.println("Execution Time: " + elapsedTime + " ns");
+        Results.AverageDegree += "\nExecution Time: " + elapsedTime + " ns";
+        udGraph.makeAllNodesUnvisited();
+    }
+
+    public void kruskals(){
+        Kruskals_201796_200760_202308 kruskals = new Kruskals_201796_200760_202308();
+        long startTime = System.nanoTime();
+        Graph graph = new Graph();
+        ArrayList<GraphData> undir= graph.undirectedGraph(graphData);
+        graph.graphData = undir;
+        ArrayList<GraphData> sortedEdge = graph.heapSort();
+        kruskals.kruskals(sortedEdge);
+        long elapsedTime = System.nanoTime() - startTime;
+        System.out.println("\nExecution Time: " + elapsedTime + " ns");
+        Results.Kruskals += "\nExecution Time: " + elapsedTime + " ns";
+        udGraph.makeAllNodesUnvisited();
+    }
+    public void prims(){
+        Prims_201796_200760_202308 prims = new Prims_201796_200760_202308();
+        long startTime = System.nanoTime();
+        Graph graph = new Graph();
+        ArrayList<GraphData> undir= graph.undirectedGraph(graphData);
+        graph.graphData = undir;
+        ArrayList<GraphData> sortedEdge = graph.heapSort();
+        prims.prims(sortedEdge,undirectedGraph);
+        long elapsedTime = System.nanoTime() - startTime;
+        System.out.println("\nExecution Time: " + elapsedTime + " ns");
+        Results.Prims += "\nExecution Time: " + elapsedTime + " ns";
+        udGraph.makeAllNodesUnvisited();
+
+    }
+
+
     public void menu() {
         int choice;
         do {
@@ -203,6 +247,9 @@ public class Menu {
             System.out.println("Press 5 to Print Dijkstra's Result");
             System.out.println("Press 6 to Print Bellman-Ford Result");
             System.out.println("Press 7 to Find the Diameter of the graph");
+            System.out.println("Press 8 to Print Kruskal's Result");
+            System.out.println("Press 9 to Print Prim's Result");
+            System.out.println("Press 10 to Print the Average Degree of the graph");
             System.out.println("Press 0 to Perform All the Above");
             System.out.println("Press -1 to Exit");
             System.out.print("Enter your choice: ");
@@ -239,6 +286,18 @@ public class Menu {
                     diameter();
                     writeFile.writeDiameterResult();
                 }
+                case 8 ->{
+                    kruskals();
+                    writeFile.writeKruskalToFile();
+                }
+                case 9 ->{
+                    prims();
+                    writeFile.writePrimsToFile();
+                }
+                case 10 ->{
+                    averagedegree();
+                    writeFile.writeAverageDegreeToFile();
+                }
                 case 0 -> {
                     System.out.println("\nGraph:");
                     dirGraph.printGraph();
@@ -257,6 +316,13 @@ public class Menu {
                     writeFile.writeBellmanFordResult();
                     diameter();
                     writeFile.writeCycleToFile();
+                    kruskals();
+                    writeFile.writeKruskalToFile();
+                    prims();
+                    writeFile.writePrimsToFile();
+                    averagedegree();
+                    writeFile.writeAverageDegreeToFile();
+
                 }
                 case -1 -> {
                     System.out.println("\nExiting...");

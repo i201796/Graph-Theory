@@ -26,6 +26,38 @@ public class WriteFile {
         }
     }
 
+    public  void writeKruskalToFile() {
+        try {
+            FileWriter fileWriter = new FileWriter("Kruskals.txt");
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+            bufferedWriter.write(Results.Kruskals);
+            bufferedWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    public   void writePrimsToFile(){
+        try {
+            FileWriter fileWriter = new FileWriter("Prims.txt");
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+            bufferedWriter.write(Results.Prims);
+            bufferedWriter.close();
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+    }
+
+    public   void writeAverageDegreeToFile(){
+        try {
+            FileWriter fileWriter = new FileWriter("AverageDegree.txt");
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+            bufferedWriter.write(Results.AverageDegree);
+            bufferedWriter.close();
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+    }
+
     public  void writeBFSToFile() {
         try {
             FileWriter fileWriter = new FileWriter("BFS Result.txt");

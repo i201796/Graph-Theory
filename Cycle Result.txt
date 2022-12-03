@@ -1,90 +1,47 @@
-Step 1:
-Visited: 1
+No cycle was found in the graph.Step 1:
+Add 1 to queue
 
-Step 2
-Checking neighbor: 2
+Step 2:
+Set 1 to visited
 
-Step 3
-Neighbor 2 is not visited
+Step 3:
+Remove 1 from queue
 
-Step 4
-Previous of 2 is set to 1
+Step 4:
+Get neighbor 2 of 1
 
-Step 5
-Recursively calling findCycle on neighbor 2
+Step 5:
+2 is not visited so added to queue and set true
 
 Step 6:
-Visited: 2
+Remove 2 from queue
 
-Step 7
-Checking neighbor: 5
+Step 7:
+Get neighbor 5 of 2
 
-Step 8
-Neighbor 5 is not visited
+Step 8:
+5 is not visited so added to queue and set true
 
-Step 9
-Previous of 5 is set to 2
+Step 9:
+Get neighbor 3 of 2
 
-Step 10
-Recursively calling findCycle on neighbor 5
+Step 10:
+3 is not visited so added to queue and set true
 
 Step 11:
-Visited: 5
+Remove 5 from queue
 
-Step 12
-Checking neighbor: 6
+Step 12:
+Get neighbor 6 of 5
 
-Step 13
-Neighbor 6 is not visited
+Step 13:
+6 is not visited so added to queue and set true
 
-Step 14
-Previous of 6 is set to 5
+Step 14:
+Remove 3 from queue
 
-Step 15
-Recursively calling findCycle on neighbor 6
+Step 15:
+Get neighbor 1 of 3
 
-Step 16:
-Visited: 6
-
-Step 17
-Checking neighbor: 2
-Neighbor 2 is visited and not reVisited
-Cycle 1: 6 --> 5 --> 2
-
-Step 18:
-ReVisited Ture for node: 6
-
-Step 19:
-ReVisited Ture for node: 5
-
-Step 20
-Checking neighbor: 3
-
-Step 21
-Neighbor 3 is not visited
-
-Step 22
-Previous of 3 is set to 2
-
-Step 23
-Recursively calling findCycle on neighbor 3
-
-Step 24:
-Visited: 3
-
-Step 25
-Checking neighbor: 1
-Neighbor 1 is visited and not reVisited
-Cycle 3: 3 --> 2 --> 1
-
-Step 26:
-ReVisited Ture for node: 3
-
-Step 27:
-ReVisited Ture for node: 2
-
-Step 28:
-ReVisited Ture for node: 1
-
-
-Execution Time: 0.0261231 sec
+A Cycle was found between Vertex 3 and 1
+Execution Time: 0.0255953 sec

@@ -176,7 +176,7 @@ public class Menu {
     public void cycle(){
        Cycle_201796_200760_202308 cycle = new Cycle_201796_200760_202308();
         double startTime = System.nanoTime();
-        cycle.findCycle(directedGraph.get(1));
+        System.out.println("Cycle Detection:" + cycle.hasCycle(directedGraph.get(1)));
         double elapsedTime = System.nanoTime() - startTime;
         System.out.println("Execution Time: " + elapsedTime/1000000000 + " sec");
         Results.cycle += "\nExecution Time: " + elapsedTime/1000000000 + " sec";

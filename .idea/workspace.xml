@@ -3,10 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="e0d720f5-ca65-40a1-b129-27c72db415a3" name="Changes" comment="prim kruskal added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BFS Result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BFS Result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bellman Ford Result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Bellman Ford Result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cycle Result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Cycle Result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DFS Result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DFS Result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Diameter Result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Diameter Result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dijkstra Result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dijkstra Result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph Result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/WriteFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/WriteFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BellmanFord_201796_200760_202308.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BellmanFord_201796_200760_202308.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cycle_201796_200760_202308.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cycle_201796_200760_202308.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diameter_201796_200760_202308.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diameter_201796_200760_202308.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dijkstra_201796_200760_202308.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dijkstra_201796_200760_202308.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Results.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Results.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WriteFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WriteFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +132,7 @@
       <workItem from="1669992070338" duration="920000" />
       <workItem from="1670058379954" duration="9706000" />
       <workItem from="1670086888743" duration="2597000" />
+      <workItem from="1670094309925" duration="4333000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Graph Done with diff label&quot;">
       <created>1669071384498</created>

@@ -1,7 +1,188 @@
-1 -->      0
-2 -->      3
-3 -->      4
-4 -->      7
-5 -->      14
 
-Execution Time: 1.831E-4 sec
+Step 1:
+ Set source distance to 0
+
+Step 2:
+ Relax all edges 5 times
+
+Step 3:
+Relaxing edge 1 --> 2
+
+Step 4:
+Distance of 2 is updated to 3
+
+Step 5:
+Relaxing edge 2 --> 5
+
+Step 6:
+Distance of 5 is updated to 4
+
+Step 7:
+Relaxing edge 2 --> 3
+
+Step 8:
+Distance of 3 is updated to 8
+
+Step 9:
+Relaxing edge 3 --> 1
+
+Step 10:
+Relaxing edge 6 --> 2
+
+Step 11:
+Distance of 2 is updated to -2147483648
+
+Step 12:
+Relaxing edge 5 --> 6
+
+Step 13:
+Distance of 6 is updated to 5
+
+Step 14:
+Relaxing edge 1 --> 2
+
+Step 15:
+Relaxing edge 2 --> 5
+
+Step 16:
+Distance of 5 is updated to -2147483647
+
+Step 17:
+Relaxing edge 2 --> 3
+
+Step 18:
+Distance of 3 is updated to -2147483643
+
+Step 19:
+Relaxing edge 3 --> 1
+
+Step 20:
+Distance of 1 is updated to -2147483642
+
+Step 21:
+Relaxing edge 6 --> 2
+
+Step 22:
+Relaxing edge 5 --> 6
+
+Step 23:
+Distance of 6 is updated to -2147483646
+
+Step 24:
+Relaxing edge 1 --> 2
+
+Step 25:
+Relaxing edge 2 --> 5
+
+Step 26:
+Relaxing edge 2 --> 3
+
+Step 27:
+Relaxing edge 3 --> 1
+
+Step 28:
+Relaxing edge 6 --> 2
+
+Step 29:
+Relaxing edge 5 --> 6
+
+Step 30:
+Relaxing edge 1 --> 2
+
+Step 31:
+Relaxing edge 2 --> 5
+
+Step 32:
+Relaxing edge 2 --> 3
+
+Step 33:
+Relaxing edge 3 --> 1
+
+Step 34:
+Relaxing edge 6 --> 2
+
+Step 35:
+Relaxing edge 5 --> 6
+
+Step 36:
+Relaxing edge 1 --> 2
+
+Step 37:
+Relaxing edge 2 --> 5
+
+Step 38:
+Relaxing edge 2 --> 3
+
+Step 39:
+Relaxing edge 3 --> 1
+
+Step 40:
+Relaxing edge 6 --> 2
+
+Step 41:
+Relaxing edge 5 --> 6
+
+Step 42:
+Checking for negative weight cycle
+
+Step 43:
+Checking for negative weight cycle
+
+Step 44:
+Relaxing edge 1 --> 2
+
+Step 45:
+Distance of 2 is updated to -2147483639
+
+Step 46:
+Checking for negative weight cycle
+
+Step 47:
+Relaxing edge 2 --> 5
+
+Step 48:
+Distance of 5 is updated to -2147483647
+
+Step 49:
+Relaxing edge 2 --> 3
+
+Step 50:
+Distance of 3 is updated to -2147483643
+
+Step 51:
+Checking for negative weight cycle
+
+Step 52:
+Relaxing edge 3 --> 1
+
+Step 53:
+Distance of 1 is updated to -2147483642
+
+Step 54:
+Checking for negative weight cycle
+
+Step 55:
+Relaxing edge 6 --> 2
+
+Step 56:
+Distance of 2 is updated to -2147483645
+
+Step 57:
+Checking for negative weight cycle
+
+Step 58:
+Relaxing edge 5 --> 6
+
+Step 59:
+Distance of 6 is updated to -2147483646
+
+Step 60:
+No negative weight cycle detected
+
+1 -->      -2147483642
+2 -->      -2147483648
+3 -->      -2147483643
+6 -->      -2147483646
+5 -->      -2147483647
+
+Execution Time: 0.0045099 sec

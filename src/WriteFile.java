@@ -84,7 +84,7 @@ public class WriteFile {
         try {
             FileWriter fileWriter = new FileWriter("Dijkstra Result.txt");
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-            bufferedWriter.write(Results.dijkstra);
+            bufferedWriter.write(Results.dijkstraTrace+"\n" + Results.dijkstra);
             bufferedWriter.close();
         } catch (IOException e){
             e.printStackTrace();
@@ -95,7 +95,7 @@ public class WriteFile {
         try {
             FileWriter fileWriter = new FileWriter("Bellman Ford Result.txt");
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-            bufferedWriter.write(Results.bellmanFordResult);
+            bufferedWriter.write(Results.bellmanFordTrace+"\n"+Results.bellmanFordResult);
             bufferedWriter.close();
         } catch (IOException e) {
             e.printStackTrace();
@@ -106,7 +106,7 @@ public class WriteFile {
         try {
             FileWriter fileWriter = new FileWriter("Diameter Result.txt");
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-            bufferedWriter.write(Results.diameterResult);
+            bufferedWriter.write(Results.diameterTrace+ "\n" +Results.diameterResult);
             bufferedWriter.close();
         } catch (IOException e) {
             e.printStackTrace();

@@ -12,4 +12,10 @@ public class Results {
     public static String Prims="";
     public static String AverageDegree="";
     public static String PrimsTime = "" ;
+
+    public static String dijkstraTrace = "";
+    public static String bellmanFordTrace = "";
+
+    public static String diameterTrace = "";
+
 }

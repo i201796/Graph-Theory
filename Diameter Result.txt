@@ -1,2 +1,191 @@
-Diameter: 7
-Execution Time: 178100 ns
+Iterate the graph and find the longest path from each node to the rest of the nodes
+
+Step 1:
+Find the longest path from 1 to the rest of the nodes
+
+Step 2:
+Find the shortest path from 1 to 1
+
+Step 3:
+Find the shortest path from 1 to 2
+
+Step 4:
+Run Dijkstra's algorithm to find the shortest path from 1 to 2
+
+Step 5:
+The distance from 1 to 2 is greater than the current maximum distance
+
+Step 6:
+Set the maximum distance to 3
+
+Step 7:
+Find the shortest path from 1 to 3
+
+Step 8:
+Run Dijkstra's algorithm to find the shortest path from 1 to 3
+
+Step 9:
+Find the shortest path from 1 to 6
+
+Step 10:
+Run Dijkstra's algorithm to find the shortest path from 1 to 6
+
+Step 11:
+The distance from 1 to 6 is greater than the current maximum distance
+
+Step 12:
+Set the maximum distance to 4
+
+Step 13:
+Find the shortest path from 1 to 5
+
+Step 14:
+Run Dijkstra's algorithm to find the shortest path from 1 to 5
+
+Step 15:
+The maximum distance from 1 to the rest of the nodes is greater than the current diameter
+
+Step 16:
+Set the diameter to 4
+
+Step 17:
+Find the longest path from 2 to the rest of the nodes
+
+Step 18:
+Find the shortest path from 2 to 1
+
+Step 19:
+Run Dijkstra's algorithm to find the shortest path from 2 to 1
+
+Step 20:
+Find the shortest path from 2 to 2
+
+Step 21:
+Find the shortest path from 2 to 3
+
+Step 22:
+Run Dijkstra's algorithm to find the shortest path from 2 to 3
+
+Step 23:
+The distance from 2 to 3 is greater than the current maximum distance
+
+Step 24:
+Set the maximum distance to 1
+
+Step 25:
+Find the shortest path from 2 to 6
+
+Step 26:
+Run Dijkstra's algorithm to find the shortest path from 2 to 6
+
+Step 27:
+Find the shortest path from 2 to 5
+
+Step 28:
+Run Dijkstra's algorithm to find the shortest path from 2 to 5
+
+Step 29:
+Find the longest path from 3 to the rest of the nodes
+
+Step 30:
+Find the shortest path from 3 to 1
+
+Step 31:
+Run Dijkstra's algorithm to find the shortest path from 3 to 1
+
+Step 32:
+Find the shortest path from 3 to 2
+
+Step 33:
+Run Dijkstra's algorithm to find the shortest path from 3 to 2
+
+Step 34:
+Find the shortest path from 3 to 3
+
+Step 35:
+Find the shortest path from 3 to 6
+
+Step 36:
+Run Dijkstra's algorithm to find the shortest path from 3 to 6
+
+Step 37:
+The distance from 3 to 6 is greater than the current maximum distance
+
+Step 38:
+Set the maximum distance to 1
+
+Step 39:
+Find the shortest path from 3 to 5
+
+Step 40:
+Run Dijkstra's algorithm to find the shortest path from 3 to 5
+
+Step 41:
+Find the longest path from 6 to the rest of the nodes
+
+Step 42:
+Find the shortest path from 6 to 1
+
+Step 43:
+Run Dijkstra's algorithm to find the shortest path from 6 to 1
+
+Step 44:
+Find the shortest path from 6 to 2
+
+Step 45:
+Run Dijkstra's algorithm to find the shortest path from 6 to 2
+
+Step 46:
+Find the shortest path from 6 to 3
+
+Step 47:
+Run Dijkstra's algorithm to find the shortest path from 6 to 3
+
+Step 48:
+Find the shortest path from 6 to 6
+
+Step 49:
+Find the shortest path from 6 to 5
+
+Step 50:
+Run Dijkstra's algorithm to find the shortest path from 6 to 5
+
+Step 51:
+The distance from 6 to 5 is greater than the current maximum distance
+
+Step 52:
+Set the maximum distance to 1
+
+Step 53:
+Find the longest path from 5 to the rest of the nodes
+
+Step 54:
+Find the shortest path from 5 to 1
+
+Step 55:
+Run Dijkstra's algorithm to find the shortest path from 5 to 1
+
+Step 56:
+Find the shortest path from 5 to 2
+
+Step 57:
+Run Dijkstra's algorithm to find the shortest path from 5 to 2
+
+Step 58:
+Find the shortest path from 5 to 3
+
+Step 59:
+Run Dijkstra's algorithm to find the shortest path from 5 to 3
+
+Step 60:
+Find the shortest path from 5 to 6
+
+Step 61:
+Run Dijkstra's algorithm to find the shortest path from 5 to 6
+
+Step 62:
+Find the shortest path from 5 to 5
+
+
+Diameter: 4
+Execution Time: 0.0231371 sec

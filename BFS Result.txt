@@ -1,70 +1,70 @@
-Step 1
+Step 10
 1 Added to Queue 
 Queue: 1 
 
-Step 2
+Step 11
 1 Visited 
 
-Step 3
+Step 12
 -> Queue not empty 
 
-Step 4
+Step 13
 Removed 1 from Queue
 BFS Traversal: 1 
 
-Step 5
+Step 14
 2 Not visited so Added to Queue
-Step 6
+Step 15
 2 Visited
 Queue: 2 
 
-Step 7
+Step 16
 3 Not visited so Added to Queue
-Step 8
+Step 17
 3 Visited
 Queue: 2 3 
 
-Step 9
+Step 18
 -> Queue not empty 
 
-Step 10
+Step 19
 Removed 2 from Queue
 BFS Traversal: 1 2 
 
-Step 11
+Step 20
+6 Not visited so Added to Queue
+Step 21
+6 Visited
+Queue: 3 6 
+
+Step 22
+5 Not visited so Added to Queue
+Step 23
+5 Visited
+Queue: 3 6 5 
+
+Step 24
 -> Queue not empty 
 
-Step 12
+Step 25
 Removed 3 from Queue
 BFS Traversal: 1 2 3 
 
-Step 13
-5 Not visited so Added to Queue
-Step 14
-5 Visited
-Queue: 5 
-
-Step 15
+Step 26
 -> Queue not empty 
 
-Step 16
+Step 27
+Removed 6 from Queue
+BFS Traversal: 1 2 3 6 
+
+Step 28
+-> Queue not empty 
+
+Step 29
 Removed 5 from Queue
-BFS Traversal: 1 2 3 5 
+BFS Traversal: 1 2 3 6 5 
 
-Step 17
-4 Not visited so Added to Queue
-Step 18
-4 Visited
-Queue: 4 
-
-Step 19
--> Queue not empty 
-
-Step 20
-Removed 4 from Queue
-BFS Traversal: 1 2 3 5 4 
-
-Step 21
+Step 30
 -> Queue empty 
 
-Execution Time: 0.0480499 sec
+Execution Time: 0.0055322 sec

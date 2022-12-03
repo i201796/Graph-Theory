@@ -175,9 +175,8 @@ public class Menu {
     public void cycle(){
        Cycle_201796_200760_202308 cycle = new Cycle_201796_200760_202308();
         double startTime = System.nanoTime();
-        boolean result = cycle.hasCycle(directedGraph.get(1));
+        cycle.findCycle(directedGraph.get(1));
         double elapsedTime = System.nanoTime() - startTime;
-        System.out.println("\nCycle: " + result +"\n");
         System.out.println("Execution Time: " + elapsedTime/1000000000 + " sec");
         Results.cycle += "\nExecution Time: " + elapsedTime/1000000000 + " sec";
         dirGraph.makeAllNodesUnvisited();
@@ -213,7 +212,7 @@ public class Menu {
             switch (choice) {
                 case 1 -> {
                     System.out.println("\nGraph:");
-                    udGraph.printGraph();
+                    dirGraph.printGraph();
                     writeFile.writeGraphToFile();
                 }
                 case 2 -> {

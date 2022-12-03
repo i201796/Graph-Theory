@@ -6,6 +6,15 @@ public class Node {
     private ArrayList<Integer> weights;
     private Node previous;
     private boolean visited;
+    private boolean reVisited;
+
+    public boolean isReVisited() {
+        return reVisited;
+    }
+
+    public void setReVisited(boolean reVisited) {
+        this.reVisited = reVisited;
+    }
 
     private int distance;
 
@@ -17,6 +26,7 @@ public class Node {
         this.neighbors = new ArrayList<Node>();
         this.weights = new ArrayList<Integer>();
         this.visited = false;
+        this.reVisited = false;
         this.distance = Integer.MAX_VALUE;
     }
 

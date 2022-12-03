@@ -3,5 +3,6 @@ Node --> Distance from Source
 2 -->      3
 3 -->      4
 4 -->      7
+5 -->      14
 
-Execution Time: 7650200 ns
+Execution Time: 0.0073471 sec

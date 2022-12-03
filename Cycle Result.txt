@@ -1,2 +1,90 @@
-A Cycle was found between Vertex 160 and 1
-Execution Time: 6050300 ns
+Step 1:
+Visited: 1
+
+Step 2
+Checking neighbor: 2
+
+Step 3
+Neighbor 2 is not visited
+
+Step 4
+Previous of 2 is set to 1
+
+Step 5
+Recursively calling findCycle on neighbor 2
+
+Step 6:
+Visited: 2
+
+Step 7
+Checking neighbor: 5
+
+Step 8
+Neighbor 5 is not visited
+
+Step 9
+Previous of 5 is set to 2
+
+Step 10
+Recursively calling findCycle on neighbor 5
+
+Step 11:
+Visited: 5
+
+Step 12
+Checking neighbor: 6
+
+Step 13
+Neighbor 6 is not visited
+
+Step 14
+Previous of 6 is set to 5
+
+Step 15
+Recursively calling findCycle on neighbor 6
+
+Step 16:
+Visited: 6
+
+Step 17
+Checking neighbor: 2
+Neighbor 2 is visited and not reVisited
+Cycle 1: 6 --> 5 --> 2
+
+Step 18:
+ReVisited Ture for node: 6
+
+Step 19:
+ReVisited Ture for node: 5
+
+Step 20
+Checking neighbor: 3
+
+Step 21
+Neighbor 3 is not visited
+
+Step 22
+Previous of 3 is set to 2
+
+Step 23
+Recursively calling findCycle on neighbor 3
+
+Step 24:
+Visited: 3
+
+Step 25
+Checking neighbor: 1
+Neighbor 1 is visited and not reVisited
+Cycle 3: 3 --> 2 --> 1
+
+Step 26:
+ReVisited Ture for node: 3
+
+Step 27:
+ReVisited Ture for node: 2
+
+Step 28:
+ReVisited Ture for node: 1
+
+
+Execution Time: 0.0261231 sec

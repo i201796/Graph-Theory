@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0d720f5-ca65-40a1-b129-27c72db415a3" name="Changes" comment="Problem 1 and 2 Done">
+    <list default="true" id="e0d720f5-ca65-40a1-b129-27c72db415a3" name="Changes" comment="Trace for DFS BFS done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BFS Result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BFS Result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bellman Ford Result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Bellman Ford Result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DFS Result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DFS Result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cycle Result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Cycle Result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dijkstra Result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dijkstra Result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Graph Result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Graph.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Graph.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Cycle_201796_200760_202308.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/Cycle_201796_200760_202308.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Results.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/Results.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cycle_201796_200760_202308.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cycle_201796_200760_202308.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Results.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Results.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +125,9 @@
       <workItem from="1669879060205" duration="14510000" />
       <workItem from="1669928269665" duration="1115000" />
       <workItem from="1669972245463" duration="6973000" />
-      <workItem from="1669984176565" duration="2080000" />
+      <workItem from="1669984176565" duration="2387000" />
+      <workItem from="1669992070338" duration="920000" />
+      <workItem from="1670058379954" duration="9706000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Graph Done with diff label&quot;">
       <created>1669071384498</created>
@@ -234,7 +241,35 @@
       <option name="project" value="LOCAL" />
       <updated>1669978394145</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Execution Time">
+      <created>1669986502083</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1669986502083</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Execution Time">
+      <created>1669986554629</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1669986554629</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Trace for DFS BFS done">
+      <created>1670073416543</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1670073416543</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Trace for DFS BFS done">
+      <created>1670073653790</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1670073653790</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +308,8 @@
     <MESSAGE value="Bellmen in Progress . . ." />
     <MESSAGE value="Bellman Done" />
     <MESSAGE value="Problem 1 and 2 Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Problem 1 and 2 Done" />
+    <MESSAGE value="Execution Time" />
+    <MESSAGE value="Trace for DFS BFS done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trace for DFS BFS done" />
   </component>
 </project>

@@ -1,0 +1,7 @@
+Kruskals Algorithm: 
+ Step 1: Removing Duplicate VerticesEdge: 6 2 Weight: 1 
+Edge: 3 1 Weight: 1 
+Edge: 6 5 Weight: 1 
+Edge: 1 2 Weight: 3 
+
+Execution Time: 8429700 ns

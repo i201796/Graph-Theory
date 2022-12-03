@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0d720f5-ca65-40a1-b129-27c72db415a3" name="Changes" comment="Trace for DFS BFS done">
+    <list default="true" id="e0d720f5-ca65-40a1-b129-27c72db415a3" name="Changes" comment="prim kruskal added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph Result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Graph Result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Results.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/Results.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Results.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Results.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WriteFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WriteFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFS Result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DFS Result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgoProject/WriteFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgoProject/WriteFile.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +120,7 @@
       <workItem from="1669984176565" duration="2387000" />
       <workItem from="1669992070338" duration="920000" />
       <workItem from="1670058379954" duration="9706000" />
-      <workItem from="1670086888743" duration="2201000" />
+      <workItem from="1670086888743" duration="2597000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Graph Done with diff label&quot;">
       <created>1669071384498</created>
@@ -265,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670073653790</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="prim kruskal added">
+      <created>1670090945674</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1670090945674</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +310,7 @@
     <MESSAGE value="Problem 1 and 2 Done" />
     <MESSAGE value="Execution Time" />
     <MESSAGE value="Trace for DFS BFS done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trace for DFS BFS done" />
+    <MESSAGE value="prim kruskal added" />
+    <option name="LAST_COMMIT_MESSAGE" value="prim kruskal added" />
   </component>
 </project>

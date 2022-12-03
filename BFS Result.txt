@@ -1,2 +1,70 @@
-1 2 4 3 
-Execution Time: 2000800 ns
+Step 1
+1 Added to Queue 
+Queue: 1 
+
+Step 2
+1 Visited 
+
+Step 3
+-> Queue not empty 
+
+Step 4
+Removed 1 from Queue
+BFS Traversal: 1 
+
+Step 5
+2 Not visited so Added to Queue
+Step 6
+2 Visited
+Queue: 2 
+
+Step 7
+3 Not visited so Added to Queue
+Step 8
+3 Visited
+Queue: 2 3 
+
+Step 9
+-> Queue not empty 
+
+Step 10
+Removed 2 from Queue
+BFS Traversal: 1 2 
+
+Step 11
+-> Queue not empty 
+
+Step 12
+Removed 3 from Queue
+BFS Traversal: 1 2 3 
+
+Step 13
+5 Not visited so Added to Queue
+Step 14
+5 Visited
+Queue: 5 
+
+Step 15
+-> Queue not empty 
+
+Step 16
+Removed 5 from Queue
+BFS Traversal: 1 2 3 5 
+
+Step 17
+4 Not visited so Added to Queue
+Step 18
+4 Visited
+Queue: 4 
+
+Step 19
+-> Queue not empty 
+
+Step 20
+Removed 4 from Queue
+BFS Traversal: 1 2 3 5 4 
+
+Step 21
+-> Queue empty 
+
+Execution Time: 0.0480499 sec

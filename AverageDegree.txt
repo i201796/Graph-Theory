@@ -1,2 +1,2 @@
-Average Degree: 2.4
-Execution Time: 1014000 ns
+Average Degree: 12.786677240285488
+Execution Time: 128938300 ns

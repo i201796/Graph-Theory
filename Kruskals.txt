@@ -1,7 +1,3781 @@
 Kruskals Algorithm: 
- Step 1: Removing Duplicate VerticesEdge: 6 2 Weight: 1 
-Edge: 3 1 Weight: 1 
-Edge: 6 5 Weight: 1 
-Edge: 1 2 Weight: 3 
+ Step 1: Removing Duplicate VerticesEdge: 7604 249 Weight: -10 
+Edge: 118 7597 Weight: -10 
+Edge: 7537 9 Weight: -10 
+Edge: 7602 26 Weight: -10 
+Edge: 113 15 Weight: -10 
+Edge: 7602 1691 Weight: -10 
+Edge: 7589 159 Weight: -10 
+Edge: 38 7456 Weight: -10 
+Edge: 7573 11 Weight: -10 
+Edge: 7584 244 Weight: -10 
+Edge: 73 7464 Weight: -10 
+Edge: 7432 30 Weight: -10 
+Edge: 113 7580 Weight: -10 
+Edge: 854 7603 Weight: -10 
+Edge: 7571 272 Weight: -10 
+Edge: 102 7564 Weight: -10 
+Edge: 7589 181 Weight: -10 
+Edge: 7526 51 Weight: -10 
+Edge: 7428 7529 Weight: -10 
+Edge: 333 7604 Weight: -10 
+Edge: 442 7402 Weight: -10 
+Edge: 159 7565 Weight: -10 
+Edge: 7566 272 Weight: -10 
+Edge: 179 7334 Weight: -10 
+Edge: 1159 7598 Weight: -10 
+Edge: 163 7560 Weight: -10 
+Edge: 7589 775 Weight: -10 
+Edge: 199 257 Weight: -10 
+Edge: 1153 7411 Weight: -10 
+Edge: 7473 87 Weight: -10 
+Edge: 14 15 Weight: -10 
+Edge: 7604 7 Weight: -10 
+Edge: 7517 166 Weight: -10 
+Edge: 7410 17 Weight: -10 
+Edge: 123 7540 Weight: -10 
+Edge: 7601 177 Weight: -10 
+Edge: 7597 34 Weight: -10 
+Edge: 7484 7 Weight: -10 
+Edge: 5 7457 Weight: -10 
+Edge: 2787 7403 Weight: -10 
+Edge: 7578 375 Weight: -10 
+Edge: 443 7564 Weight: -10 
+Edge: 7517 177 Weight: -10 
+Edge: 185 245 Weight: -10 
+Edge: 30 7421 Weight: -10 
+Edge: 150 7604 Weight: -10 
+Edge: 801 269 Weight: -10 
+Edge: 7513 7 Weight: -10 
+Edge: 68 7602 Weight: -10 
+Edge: 47 7602 Weight: -10 
+Edge: 89 7564 Weight: -10 
+Edge: 7539 111 Weight: -10 
+Edge: 7462 2244 Weight: -10 
+Edge: 3774 92 Weight: -10 
+Edge: 11 26 Weight: -10 
+Edge: 7604 83 Weight: -10 
+Edge: 7517 145 Weight: -10 
+Edge: 5533 13 Weight: -10 
+Edge: 7566 7 Weight: -10 
+Edge: 63 177 Weight: -10 
+Edge: 7419 88 Weight: -10 
+Edge: 7570 65 Weight: -10 
+Edge: 7466 7558 Weight: -10 
+Edge: 7604 68 Weight: -10 
+Edge: 278 7588 Weight: -10 
+Edge: 7597 759 Weight: -10 
+Edge: 95 125 Weight: -10 
+Edge: 177 286 Weight: -10 
+Edge: 645 424 Weight: -10 
+Edge: 183 11 Weight: -10 
+Edge: 214 7513 Weight: -10 
+Edge: 7538 5342 Weight: -10 
+Edge: 7525 11 Weight: -10 
+Edge: 641 762 Weight: -10 
+Edge: 7594 7 Weight: -10 
+Edge: 60 7573 Weight: -10 
+Edge: 125 2225 Weight: -10 
+Edge: 7601 85 Weight: -10 
+Edge: 7531 58 Weight: -10 
+Edge: 7604 301 Weight: -10 
+Edge: 7601 188 Weight: -10 
+Edge: 124 332 Weight: -10 
+Edge: 5 3254 Weight: -10 
+Edge: 184 7604 Weight: -10 
+Edge: 13 7429 Weight: -10 
+Edge: 7564 150 Weight: -10 
+Edge: 177 174 Weight: -10 
+Edge: 83 7603 Weight: -10 
+Edge: 173 7567 Weight: -10 
+Edge: 7524 444 Weight: -10 
+Edge: 7507 7 Weight: -10 
+Edge: 7555 22 Weight: -10 
+Edge: 7 7505 Weight: -10 
+Edge: 708 7490 Weight: -10 
+Edge: 139 7603 Weight: -10 
+Edge: 8 7435 Weight: -10 
+Edge: 36 7597 Weight: -10 
+Edge: 7586 5342 Weight: -10 
+Edge: 7564 7328 Weight: -10 
+Edge: 7595 7556 Weight: -10 
+Edge: 168 7599 Weight: -10 
+Edge: 7595 96 Weight: -10 
+Edge: 206 7514 Weight: -10 
+Edge: 1930 7569 Weight: -10 
+Edge: 179 7602 Weight: -10 
+Edge: 68 7600 Weight: -10 
+Edge: 7604 168 Weight: -10 
+Edge: 7570 385 Weight: -10 
+Edge: 553 7603 Weight: -10 
+Edge: 95 36 Weight: -10 
+Edge: 113 7603 Weight: -10 
+Edge: 7563 19 Weight: -10 
+Edge: 7564 45 Weight: -10 
+Edge: 7569 324 Weight: -10 
+Edge: 7604 143 Weight: -10 
+Edge: 256 30 Weight: -10 
+Edge: 623 30 Weight: -10 
+Edge: 7595 1691 Weight: -10 
+Edge: 5 7510 Weight: -10 
+Edge: 7551 5342 Weight: -10 
+Edge: 1249 7564 Weight: -10 
+Edge: 7471 8 Weight: -10 
+Edge: 1134 7603 Weight: -10 
+Edge: 7604 188 Weight: -10 
+Edge: 7604 43 Weight: -10 
+Edge: 374 126 Weight: -10 
+Edge: 277 7564 Weight: -10 
+Edge: 7565 5342 Weight: -10 
+Edge: 7579 286 Weight: -10 
+Edge: 7599 491 Weight: -10 
+Edge: 1243 7508 Weight: -10 
+Edge: 792 7453 Weight: -10 
+Edge: 16 7587 Weight: -10 
+Edge: 7603 7518 Weight: -10 
+Edge: 42 7582 Weight: -10 
+Edge: 619 7561 Weight: -10 
+Edge: 7562 245 Weight: -10 
+Edge: 2336 222 Weight: -10 
+Edge: 7598 85 Weight: -10 
+Edge: 5533 177 Weight: -10 
+Edge: 49 7563 Weight: -10 
+Edge: 278 7603 Weight: -10 
+Edge: 7603 1221 Weight: -10 
+Edge: 627 7549 Weight: -10 
+Edge: 7496 708 Weight: -10 
+Edge: 7599 80 Weight: -10 
+Edge: 7531 206 Weight: -10 
+Edge: 239 7336 Weight: -10 
+Edge: 1859 518 Weight: -10 
+Edge: 2048 7561 Weight: -10 
+Edge: 7604 95 Weight: -10 
+Edge: 177 53 Weight: -10 
+Edge: 62 7590 Weight: -10 
+Edge: 314 7564 Weight: -10 
+Edge: 2231 7565 Weight: -10 
+Edge: 6 7554 Weight: -10 
+Edge: 7550 188 Weight: -10 
+Edge: 7542 8 Weight: -10 
+Edge: 7576 614 Weight: -10 
+Edge: 7591 375 Weight: -10 
+Edge: 7599 111 Weight: -10 
+Edge: 431 493 Weight: -10 
+Edge: 7597 49 Weight: -10 
+Edge: 7374 7564 Weight: -10 
+Edge: 43 7483 Weight: -10 
+Edge: 7596 7564 Weight: -10 
+Edge: 172 7604 Weight: -10 
+Edge: 7 7586 Weight: -10 
+Edge: 7567 8 Weight: -10 
+Edge: 791 7564 Weight: -10 
+Edge: 7372 7564 Weight: -10 
+Edge: 7604 708 Weight: -10 
+Edge: 4910 11 Weight: -10 
+Edge: 449 7587 Weight: -10 
+Edge: 7413 225 Weight: -10 
+Edge: 754 53 Weight: -10 
+Edge: 876 7476 Weight: -10 
+Edge: 7375 892 Weight: -10 
+Edge: 7550 93 Weight: -10 
+Edge: 988 7596 Weight: -10 
+Edge: 58 7434 Weight: -10 
+Edge: 7380 5 Weight: -10 
+Edge: 5 7423 Weight: -10 
+Edge: 7565 9 Weight: -10 
+Edge: 7577 2 Weight: -10 
+Edge: 30 7536 Weight: -10 
+Edge: 7492 708 Weight: -10 
+Edge: 196 7604 Weight: -10 
+Edge: 7497 245 Weight: -10 
+Edge: 1187 7541 Weight: -10 
+Edge: 19 7446 Weight: -10 
+Edge: 7543 88 Weight: -10 
+Edge: 8 7412 Weight: -10 
+Edge: 3002 7594 Weight: -10 
+Edge: 11 680 Weight: -10 
+Edge: 7395 791 Weight: -10 
+Edge: 7603 134 Weight: -10 
+Edge: 7568 125 Weight: -10 
+Edge: 7565 30 Weight: -10 
+Edge: 603 7552 Weight: -10 
+Edge: 5 7522 Weight: -10 
+Edge: 58 7521 Weight: -10 
+Edge: 7575 1024 Weight: -10 
+Edge: 11 7499 Weight: -10 
+Edge: 7373 5342 Weight: -10 
+Edge: 7592 11 Weight: -10 
+Edge: 7585 5 Weight: -10 
+Edge: 5 11 Weight: -10 
+Edge: 7 7506 Weight: -10 
+Edge: 838 7335 Weight: -10 
+Edge: 7581 95 Weight: -10 
+Edge: 136 7604 Weight: -10 
+Edge: 126 690 Weight: -10 
+Edge: 7509 5342 Weight: -10 
+Edge: 7 7398 Weight: -10 
+Edge: 798 177 Weight: -10 
+Edge: 2396 6369 Weight: -10 
+Edge: 7557 272 Weight: -10 
+Edge: 173 43 Weight: -10 
+Edge: 1134 7562 Weight: -10 
+Edge: 8 7459 Weight: -10 
+Edge: 7604 801 Weight: -10 
+Edge: 7394 7576 Weight: -10 
+Edge: 7482 2 Weight: -10 
+Edge: 7581 815 Weight: -10 
+Edge: 7552 7398 Weight: -10 
+Edge: 95 7584 Weight: -10 
+Edge: 7600 428 Weight: -10 
+Edge: 7604 100 Weight: -10 
+Edge: 173 7559 Weight: -10 
+Edge: 7433 5 Weight: -10 
+Edge: 7 7417 Weight: -10 
+Edge: 26 816 Weight: -10 
+Edge: 7491 708 Weight: -10 
+Edge: 15 469 Weight: -10 
+Edge: 7558 7 Weight: -10 
+Edge: 73 177 Weight: -10 
+Edge: 7587 367 Weight: -10 
+Edge: 272 1292 Weight: -10 
+Edge: 7500 2 Weight: -10 
+Edge: 39 7533 Weight: -10 
+Edge: 748 564 Weight: -10 
+Edge: 620 7596 Weight: -10 
+Edge: 7604 3 Weight: -10 
+Edge: 15 200 Weight: -10 
+Edge: 87 7591 Weight: -10 
+Edge: 7469 93 Weight: -10 
+Edge: 7501 43 Weight: -10 
+Edge: 30 119 Weight: -10 
+Edge: 264 798 Weight: -10 
+Edge: 42 7438 Weight: -10 
+Edge: 7541 433 Weight: -10 
+Edge: 272 142 Weight: -10 
+Edge: 7570 183 Weight: -10 
+Edge: 177 7583 Weight: -10 
+Edge: 7520 45 Weight: -10 
+Edge: 7 7535 Weight: -10 
+Edge: 7540 188 Weight: -10 
+Edge: 145 7440 Weight: -10 
+Edge: 52 798 Weight: -10 
+Edge: 38 7454 Weight: -10 
+Edge: 7519 226 Weight: -10 
+Edge: 1683 7524 Weight: -10 
+Edge: 198 7527 Weight: -10 
+Edge: 7570 425 Weight: -10 
+Edge: 7444 2396 Weight: -10 
+Edge: 3133 5 Weight: -10 
+Edge: 7574 1691 Weight: -10 
+Edge: 7430 5342 Weight: -10 
+Edge: 6 7604 Weight: -10 
+Edge: 46 7586 Weight: -10 
+Edge: 7502 125 Weight: -10 
+Edge: 7564 386 Weight: -10 
+Edge: 183 7587 Weight: -10 
+Edge: 7573 51 Weight: -10 
+Edge: 13 7478 Weight: -10 
+Edge: 7604 360 Weight: -10 
+Edge: 536 7596 Weight: -10 
+Edge: 7604 116 Weight: -10 
+Edge: 1568 7595 Weight: -10 
+Edge: 89 7439 Weight: -10 
+Edge: 7604 259 Weight: -10 
+Edge: 15 10 Weight: -10 
+Edge: 7526 78 Weight: -10 
+Edge: 7604 182 Weight: -10 
+Edge: 255 5 Weight: -10 
+Edge: 7516 5 Weight: -10 
+Edge: 207 7595 Weight: -10 
+Edge: 1811 3079 Weight: -10 
+Edge: 7530 177 Weight: -10 
+Edge: 338 58 Weight: -10 
+Edge: 15 31 Weight: -10 
+Edge: 5 7532 Weight: -10 
+Edge: 384 5 Weight: -10 
+Edge: 1522 7506 Weight: -10 
+Edge: 467 701 Weight: -10 
+Edge: 5 7406 Weight: -10 
+Edge: 90 6 Weight: -10 
+Edge: 7604 329 Weight: -10 
+Edge: 7604 130 Weight: -10 
+Edge: 5837 7465 Weight: -10 
+Edge: 7546 1654 Weight: -10 
+Edge: 5 7521 Weight: -10 
+Edge: 7544 2336 Weight: -10 
+Edge: 2336 5 Weight: -10 
+Edge: 5 416 Weight: -10 
+Edge: 191 11 Weight: -10 
+Edge: 813 7600 Weight: -10 
+Edge: 7461 7595 Weight: -10 
+Edge: 7604 198 Weight: -10 
+Edge: 7603 7553 Weight: -10 
+Edge: 272 7572 Weight: -10 
+Edge: 585 7604 Weight: -10 
+Edge: 82 7568 Weight: -10 
+Edge: 7409 791 Weight: -10 
+Edge: 7498 7564 Weight: -10 
+Edge: 145 381 Weight: -10 
+Edge: 7593 687 Weight: -10 
+Edge: 1134 7400 Weight: -10 
+Edge: 285 30 Weight: -10 
+Edge: 335 7525 Weight: -10 
+Edge: 5342 5389 Weight: -10 
+Edge: 7447 5 Weight: -10 
+Edge: 708 7489 Weight: -10 
+Edge: 3180 7327 Weight: -10 
+Edge: 7503 5 Weight: -10 
+Edge: 11 7445 Weight: -10 
+Edge: 754 417 Weight: -10 
+Edge: 7463 53 Weight: -10 
+Edge: 593 7397 Weight: -10 
+Edge: 417 7512 Weight: -10 
+Edge: 272 7534 Weight: -10 
+Edge: 430 13 Weight: -10 
+Edge: 15 1921 Weight: -10 
+Edge: 7467 289 Weight: -10 
+Edge: 7564 681 Weight: -10 
+Edge: 327 7604 Weight: -10 
+Edge: 7591 5 Weight: -10 
+Edge: 8 7475 Weight: -10 
+Edge: 104 288 Weight: -10 
+Edge: 7523 5 Weight: -10 
+Edge: 487 13 Weight: -10 
+Edge: 647 7545 Weight: -10 
+Edge: 7547 155 Weight: -10 
+Edge: 7533 480 Weight: -10 
+Edge: 157 7600 Weight: -10 
+Edge: 740 7603 Weight: -10 
+Edge: 1524 7590 Weight: -10 
+Edge: 656 249 Weight: -10 
+Edge: 1159 3774 Weight: -10 
+Edge: 11 7593 Weight: -10 
+Edge: 7477 5 Weight: -10 
+Edge: 7565 41 Weight: -10 
+Edge: 190 7562 Weight: -10 
+Edge: 7415 269 Weight: -10 
+Edge: 7582 106 Weight: -10 
+Edge: 7604 312 Weight: -10 
+Edge: 7548 24 Weight: -10 
+Edge: 177 371 Weight: -10 
+Edge: 7515 1036 Weight: -10 
+Edge: 196 176 Weight: -10 
+Edge: 3270 7436 Weight: -10 
+Edge: 270 7455 Weight: -10 
+Edge: 7460 188 Weight: -10 
+Edge: 216 7604 Weight: -10 
+Edge: 39 7604 Weight: -10 
+Edge: 228 7604 Weight: -10 
+Edge: 93 7468 Weight: -10 
+Edge: 1038 7458 Weight: -10 
+Edge: 7604 48 Weight: -10 
+Edge: 1159 863 Weight: -10 
+Edge: 7486 708 Weight: -10 
+Edge: 7546 91 Weight: -10 
+Edge: 86 7552 Weight: -10 
+Edge: 7470 8 Weight: -10 
+Edge: 7548 95 Weight: -10 
+Edge: 69 1569 Weight: -10 
+Edge: 7372 284 Weight: -10 
+Edge: 7494 708 Weight: -10 
+Edge: 442 7511 Weight: -10 
+Edge: 1638 2655 Weight: -10 
+Edge: 7487 708 Weight: -10 
+Edge: 1158 7603 Weight: -10 
+Edge: 7588 694 Weight: -10 
+Edge: 7582 534 Weight: -10 
+Edge: 7431 125 Weight: -10 
+Edge: 7495 708 Weight: -10 
+Edge: 7472 8 Weight: -10 
+Edge: 141 7481 Weight: -10 
+Edge: 775 7449 Weight: -10 
+Edge: 126 7552 Weight: -10 
+Edge: 5 7575 Weight: -10 
+Edge: 43 7426 Weight: -10 
+Edge: 7529 656 Weight: -10 
+Edge: 614 941 Weight: -10 
+Edge: 3097 7389 Weight: -10 
+Edge: 7564 54 Weight: -10 
+Edge: 716 412 Weight: -10 
+Edge: 7582 181 Weight: -10 
+Edge: 7604 369 Weight: -10 
+Edge: 272 55 Weight: -10 
+Edge: 88 185 Weight: -10 
+Edge: 2408 7 Weight: -10 
+Edge: 7604 156 Weight: -10 
+Edge: 105 7585 Weight: -10 
+Edge: 8 7474 Weight: -10 
+Edge: 517 7603 Weight: -10 
+Edge: 7416 1778 Weight: -10 
+Edge: 5342 7427 Weight: -10 
+Edge: 201 145 Weight: -10 
+Edge: 7560 245 Weight: -10 
+Edge: 228 124 Weight: -10 
+Edge: 296 30 Weight: -10 
+Edge: 7396 791 Weight: -10 
+Edge: 937 7594 Weight: -10 
+Edge: 436 7437 Weight: -10 
+Edge: 7566 1760 Weight: -10 
+Edge: 1694 7451 Weight: -10 
+Edge: 7564 5029 Weight: -10 
+Edge: 358 7604 Weight: -10 
+Edge: 7604 170 Weight: -10 
+Edge: 1159 792 Weight: -10 
+Edge: 2 7603 Weight: -10 
+Edge: 37 7448 Weight: -10 
+Edge: 7586 1518 Weight: -10 
+Edge: 7519 541 Weight: -10 
+Edge: 474 7603 Weight: -10 
+Edge: 53 7443 Weight: -10 
+Edge: 7604 252 Weight: -10 
+Edge: 7590 7 Weight: -10 
+Edge: 629 7564 Weight: -10 
+Edge: 15 267 Weight: -10 
+Edge: 7564 37 Weight: -10 
+Edge: 7596 4 Weight: -10 
+Edge: 7604 218 Weight: -10 
+Edge: 2244 7539 Weight: -10 
+Edge: 272 7576 Weight: -10 
+Edge: 7452 2101 Weight: -10 
+Edge: 1935 7569 Weight: -10 
+Edge: 7547 20 Weight: -10 
+Edge: 7414 791 Weight: -10 
+Edge: 145 506 Weight: -10 
+Edge: 140 7498 Weight: -10 
+Edge: 141 7591 Weight: -10 
+Edge: 7561 28 Weight: -10 
+Edge: 7555 330 Weight: -10 
+Edge: 104 7552 Weight: -10 
+Edge: 95 2369 Weight: -10 
+Edge: 43 370 Weight: -10 
+Edge: 6878 11 Weight: -10 
+Edge: 69 7592 Weight: -10 
+Edge: 227 7604 Weight: -10 
+Edge: 7604 260 Weight: -10 
+Edge: 61 7604 Weight: -10 
+Edge: 5 197 Weight: -10 
+Edge: 3516 5 Weight: -10 
+Edge: 1581 7420 Weight: -10 
+Edge: 5679 708 Weight: -10 
+Edge: 7341 30 Weight: -10 
+Edge: 5 946 Weight: -10 
+Edge: 5 7480 Weight: -10 
+Edge: 708 498 Weight: -10 
+Edge: 1159 785 Weight: -10 
+Edge: 591 7528 Weight: -10 
+Edge: 5 7485 Weight: -10 
+Edge: 7590 237 Weight: -10 
+Edge: 1830 7554 Weight: -10 
+Edge: 980 7512 Weight: -10 
+Edge: 5 7479 Weight: -10 
+Edge: 154 7604 Weight: -10 
+Edge: 128 7597 Weight: -10 
+Edge: 30 1103 Weight: -10 
+Edge: 708 7488 Weight: -10 
+Edge: 7390 2391 Weight: -10 
+Edge: 508 7589 Weight: -10 
+Edge: 7401 1227 Weight: -10 
+Edge: 211 7592 Weight: -10 
+Edge: 7424 7603 Weight: -10 
+Edge: 53 7545 Weight: -10 
+Edge: 408 68 Weight: -10 
+Edge: 7549 2380 Weight: -10 
+Edge: 708 7493 Weight: -10 
+Edge: 7593 25 Weight: -10 
+Edge: 7603 148 Weight: -10 
+Edge: 7592 316 Weight: -10 
+Edge: 318 7604 Weight: -10 
+Edge: 2067 7450 Weight: -10 
+Edge: 688 7594 Weight: -10 
+Edge: 7557 253 Weight: -10 
+Edge: 7441 593 Weight: -9 
+Edge: 7 7504 Weight: -9 
+Edge: 7560 114 Weight: -9 
+Edge: 7604 33 Weight: -9 
+Edge: 177 2280 Weight: -9 
+Edge: 7371 37 Weight: -8 
+Edge: 5342 7418 Weight: -8 
+Edge: 5342 777 Weight: -7 
+Edge: 7442 7 Weight: -6 
+Edge: 7589 382 Weight: -6 
+Edge: 7404 88 Weight: -5 
+Edge: 7591 7422 Weight: -5 
+Edge: 2 7508 Weight: -5 
+Edge: 7388 193 Weight: -5 
+Edge: 35 80 Weight: -5 
+Edge: 3172 444 Weight: -5 
+Edge: 577 7576 Weight: -5 
+Edge: 4934 5342 Weight: -5 
+Edge: 491 281 Weight: -5 
+Edge: 5342 7405 Weight: -5 
+Edge: 93 7515 Weight: -5 
+Edge: 7604 330 Weight: -5 
+Edge: 7408 8 Weight: -5 
+Edge: 5342 1611 Weight: -5 
+Edge: 7340 151 Weight: -5 
+Edge: 5342 1328 Weight: -5 
+Edge: 7398 431 Weight: -5 
+Edge: 5342 109 Weight: -5 
+Edge: 639 7593 Weight: -5 
+Edge: 410 282 Weight: -5 
+Edge: 5342 7392 Weight: -5 
+Edge: 926 544 Weight: -5 
+Edge: 7387 9 Weight: -5 
+Edge: 5342 7407 Weight: -5 
+Edge: 2336 2380 Weight: -5 
+Edge: 689 5342 Weight: -5 
+Edge: 7385 2336 Weight: -5 
+Edge: 5342 76 Weight: -5 
+Edge: 447 5342 Weight: -5 
+Edge: 11 70 Weight: -5 
+Edge: 2336 1388 Weight: -5 
+Edge: 7528 7 Weight: -5 
+Edge: 967 7581 Weight: -5 
+Edge: 1235 5342 Weight: -5 
+Edge: 6369 119 Weight: -5 
+Edge: 124 3079 Weight: -5 
+Edge: 2866 7442 Weight: -5 
+Edge: 7425 117 Weight: -5 
+Edge: 5342 1401 Weight: -5 
+Edge: 542 7557 Weight: -5 
+Edge: 7377 24 Weight: -5 
+Edge: 30 7391 Weight: -5 
+Edge: 185 596 Weight: -5 
+Edge: 7577 20 Weight: -5 
+Edge: 748 813 Weight: -4 
+Edge: 29 177 Weight: -4 
+Edge: 7564 354 Weight: -4 
+Edge: 995 1210 Weight: -4 
+Edge: 882 85 Weight: -3 
+Edge: 362 2192 Weight: -3 
+Edge: 5342 226 Weight: -3 
+Edge: 406 5342 Weight: -3 
+Edge: 5342 383 Weight: -3 
+Edge: 48 7511 Weight: -3 
+Edge: 287 1691 Weight: -3 
+Edge: 5342 507 Weight: -3 
+Edge: 5342 294 Weight: -3 
+Edge: 323 5342 Weight: -3 
+Edge: 357 5342 Weight: -3 
+Edge: 7550 979 Weight: -3 
+Edge: 15 7379 Weight: -3 
+Edge: 353 5342 Weight: -3 
+Edge: 85 337 Weight: -3 
+Edge: 72 362 Weight: -3 
+Edge: 43 7378 Weight: -3 
+Edge: 516 5342 Weight: -3 
+Edge: 328 5342 Weight: -3 
+Edge: 84 5342 Weight: -3 
+Edge: 5342 303 Weight: -3 
+Edge: 994 5342 Weight: -3 
+Edge: 26 2358 Weight: -3 
+Edge: 278 1638 Weight: -3 
+Edge: 700 226 Weight: -3 
+Edge: 478 5342 Weight: -3 
+Edge: 1147 491 Weight: -3 
+Edge: 105 613 Weight: -2 
+Edge: 824 801 Weight: -2 
+Edge: 7579 933 Weight: -2 
+Edge: 824 958 Weight: -2 
+Edge: 7399 286 Weight: -2 
+Edge: 1743 9 Weight: -2 
+Edge: 7 321 Weight: -2 
+Edge: 302 824 Weight: -2 
+Edge: 337 7386 Weight: -2 
+Edge: 7425 7 Weight: -2 
+Edge: 7383 179 Weight: -2 
+Edge: 905 2336 Weight: -2 
+Edge: 2336 230 Weight: -2 
+Edge: 7393 2336 Weight: -2 
+Edge: 86 7369 Weight: -2 
+Edge: 8 7381 Weight: -2 
+Edge: 2293 2336 Weight: -2 
+Edge: 484 1322 Weight: -2 
+Edge: 7415 64 Weight: -2 
+Edge: 192 7552 Weight: -2 
+Edge: 7376 7397 Weight: -2 
+Edge: 7504 7397 Weight: -2 
+Edge: 164 11 Weight: -2 
+Edge: 2336 400 Weight: -2 
+Edge: 3428 233 Weight: -2 
+Edge: 66 7603 Weight: -2 
+Edge: 395 8 Weight: -1 
+Edge: 8 304 Weight: -1 
+Edge: 7360 8 Weight: -1 
+Edge: 15 3428 Weight: -1 
+Edge: 206 588 Weight: -1 
+Edge: 4057 193 Weight: -1 
+Edge: 4 7569 Weight: -1 
+Edge: 7331 485 Weight: -1 
+Edge: 188 1762 Weight: -1 
+Edge: 281 3443 Weight: -1 
+Edge: 2336 6921 Weight: -1 
+Edge: 174 7343 Weight: -1 
+Edge: 165 7161 Weight: -1 
+Edge: 1393 164 Weight: -1 
+Edge: 32 798 Weight: -1 
+Edge: 95 424 Weight: -1 
+Edge: 8 401 Weight: -1 
+Edge: 102 7329 Weight: -1 
+Edge: 393 8 Weight: -1 
+Edge: 8 602 Weight: -1 
+Edge: 8 879 Weight: -1 
+Edge: 457 8 Weight: -1 
+Edge: 7337 332 Weight: -1 
+Edge: 8 547 Weight: -1 
+Edge: 969 8 Weight: -1 
+Edge: 702 8 Weight: -1 
+Edge: 780 8 Weight: -1 
+Edge: 7595 433 Weight: -1 
+Edge: 3369 114 Weight: -1 
+Edge: 30 686 Weight: -1 
+Edge: 5 1551 Weight: -1 
+Edge: 125 1032 Weight: -1 
+Edge: 26 59 Weight: -1 
+Edge: 796 117 Weight: -1 
+Edge: 149 2376 Weight: -1 
+Edge: 300 7564 Weight: -1 
+Edge: 2397 5 Weight: -1 
+Edge: 7370 114 Weight: -1 
+Edge: 5 1176 Weight: -1 
+Edge: 8 649 Weight: -1 
+Edge: 8 2031 Weight: -1 
+Edge: 8 758 Weight: -1 
+Edge: 8 696 Weight: -1 
+Edge: 8 2354 Weight: -1 
+Edge: 8 1856 Weight: -1 
+Edge: 8 7354 Weight: -1 
+Edge: 7362 8 Weight: -1 
+Edge: 8 4017 Weight: -1 
+Edge: 1322 8 Weight: -1 
+Edge: 8 147 Weight: -1 
+Edge: 739 8 Weight: -1 
+Edge: 8 519 Weight: -1 
+Edge: 8 707 Weight: -1 
+Edge: 2395 8 Weight: -1 
+Edge: 641 99 Weight: -1 
+Edge: 7451 97 Weight: -1 
+Edge: 452 8 Weight: -1 
+Edge: 7589 1 Weight: -1 
+Edge: 7349 58 Weight: -1 
+Edge: 7552 2331 Weight: -1 
+Edge: 95 3134 Weight: -1 
+Edge: 292 2336 Weight: -1 
+Edge: 1159 973 Weight: -1 
+Edge: 12 826 Weight: -1 
+Edge: 2634 176 Weight: -1 
+Edge: 498 7384 Weight: -1 
+Edge: 177 279 Weight: -1 
+Edge: 766 281 Weight: -1 
+Edge: 7363 7502 Weight: -1 
+Edge: 1388 7273 Weight: -1 
+Edge: 393 7410 Weight: -1 
+Edge: 3286 2336 Weight: -1 
+Edge: 393 7333 Weight: -1 
+Edge: 229 69 Weight: -1 
+Edge: 194 798 Weight: -1 
+Edge: 36 840 Weight: -1 
+Edge: 403 1159 Weight: -1 
+Edge: 7398 258 Weight: -1 
+Edge: 7368 15 Weight: -1 
+Edge: 7578 208 Weight: -1 
+Edge: 7335 15 Weight: -1 
+Edge: 7312 15 Weight: -1 
+Edge: 7330 15 Weight: -1 
+Edge: 7552 454 Weight: -1 
+Edge: 244 2318 Weight: -1 
+Edge: 949 798 Weight: -1 
+Edge: 1336 248 Weight: -1 
+Edge: 469 906 Weight: -1 
+Edge: 217 1292 Weight: -1 
+Edge: 95 103 Weight: -1 
+Edge: 8 189 Weight: -1 
+Edge: 1043 8 Weight: -1 
+Edge: 317 8 Weight: -1 
+Edge: 8 319 Weight: -1 
+Edge: 8 7359 Weight: -1 
+Edge: 7350 8 Weight: -1 
+Edge: 8 107 Weight: -1 
+Edge: 617 8 Weight: -1 
+Edge: 1502 8 Weight: -1 
+Edge: 3129 8 Weight: -1 
+Edge: 7589 2487 Weight: -1 
+Edge: 1517 30 Weight: -1 
+Edge: 8 7345 Weight: -1 
+Edge: 8 597 Weight: -1 
+Edge: 85 703 Weight: -1 
+Edge: 427 8 Weight: -1 
+Edge: 64 7365 Weight: -1 
+Edge: 7332 193 Weight: -1 
+Edge: 7355 8 Weight: -1 
+Edge: 7344 2155 Weight: -1 
+Edge: 544 7547 Weight: -1 
+Edge: 592 8 Weight: -1 
+Edge: 268 8 Weight: -1 
+Edge: 8 883 Weight: -1 
+Edge: 599 8 Weight: -1 
+Edge: 8 2821 Weight: -1 
+Edge: 331 8 Weight: -1 
+Edge: 1104 8 Weight: -1 
+Edge: 8 1162 Weight: -1 
+Edge: 199 85 Weight: -1 
+Edge: 897 145 Weight: -1 
+Edge: 3362 125 Weight: -1 
+Edge: 1292 2139 Weight: -1 
+Edge: 708 7382 Weight: -1 
+Edge: 8 265 Weight: -1 
+Edge: 8 6792 Weight: -1 
+Edge: 8 527 Weight: -1 
+Edge: 492 8 Weight: -1 
+Edge: 7361 8 Weight: -1 
+Edge: 1579 8 Weight: -1 
+Edge: 8 1794 Weight: -1 
+Edge: 8 812 Weight: -1 
+Edge: 8 7358 Weight: -1 
+Edge: 8 1068 Weight: -1 
+Edge: 650 8 Weight: -1 
+Edge: 7546 720 Weight: -1 
+Edge: 133 87 Weight: -1 
+Edge: 4311 729 Weight: -1 
+Edge: 281 3445 Weight: -1 
+Edge: 7558 496 Weight: -1 
+Edge: 647 204 Weight: -1 
+Edge: 632 206 Weight: -1 
+Edge: 15 7321 Weight: -1 
+Edge: 430 247 Weight: -1 
+Edge: 890 243 Weight: -1 
+Edge: 95 2257 Weight: -1 
+Edge: 1179 8 Weight: -1 
+Edge: 8 7347 Weight: -1 
+Edge: 373 7338 Weight: -1 
+Edge: 7386 902 Weight: -1 
+Edge: 7342 93 Weight: -1 
+Edge: 225 8 Weight: -1 
+Edge: 242 8 Weight: -1 
+Edge: 8 5446 Weight: -1 
+Edge: 7356 8 Weight: -1 
+Edge: 114 165 Weight: -1 
+Edge: 1826 526 Weight: -1 
+Edge: 7577 135 Weight: -1 
+Edge: 1472 9 Weight: -1 
+Edge: 409 9 Weight: -1 
+Edge: 7367 125 Weight: -1 
+Edge: 1584 8 Weight: -1 
+Edge: 7348 1 Weight: -1 
+Edge: 8 665 Weight: -1 
+Edge: 8 1346 Weight: -1 
+Edge: 752 8 Weight: -1 
+Edge: 8 309 Weight: -1 
+Edge: 95 7339 Weight: -1 
+Edge: 86 3383 Weight: -1 
+Edge: 7364 2336 Weight: -1 
+Edge: 5140 438 Weight: -1 
+Edge: 7352 8 Weight: -1 
+Edge: 7353 8 Weight: -1 
+Edge: 8 209 Weight: -1 
+Edge: 1482 60 Weight: -1 
+Edge: 15 7366 Weight: -1 
+Edge: 7325 906 Weight: -1 
+Edge: 15 3372 Weight: -1 
+Edge: 2828 824 Weight: -1 
+Edge: 7579 38 Weight: -1 
+Edge: 214 530 Weight: -1 
+Edge: 1456 7603 Weight: -1 
+Edge: 231 4 Weight: -1 
+Edge: 587 7603 Weight: -1 
+Edge: 43 5392 Weight: -1 
+Edge: 1883 8 Weight: -1 
+Edge: 7351 8 Weight: -1 
+Edge: 7388 70 Weight: -1 
+Edge: 1646 7592 Weight: -1 
+Edge: 1380 7346 Weight: -1 
+Edge: 1171 7595 Weight: -1 
+Edge: 555 762 Weight: -1 
+Edge: 1020 7583 Weight: -1 
+Edge: 161 798 Weight: -1 
+Edge: 8 372 Weight: -1 
+Edge: 347 8 Weight: -1 
+Edge: 7357 8 Weight: -1 
+Edge: 4721 8 Weight: -1 
+Edge: 1195 8 Weight: -1 
+Edge: 885 8 Weight: -1 
+Edge: 17 1497 Weight: -1 
+Edge: 114 7310 Weight: -1 
+Edge: 398 118 Weight: -1 
+Edge: 122 7565 Weight: -1 
+Edge: 129 7595 Weight: -1 
+Edge: 945 301 Weight: 1 
+Edge: 301 1365 Weight: 1 
+Edge: 301 3106 Weight: 1 
+Edge: 394 4 Weight: 1 
+Edge: 56 10 Weight: 1 
+Edge: 132 315 Weight: 1 
+Edge: 132 255 Weight: 1 
+Edge: 132 2631 Weight: 1 
+Edge: 1001 132 Weight: 1 
+Edge: 28 132 Weight: 1 
+Edge: 2701 132 Weight: 1 
+Edge: 45 1634 Weight: 1 
+Edge: 303 2680 Weight: 1 
+Edge: 132 1427 Weight: 1 
+Edge: 1708 132 Weight: 1 
+Edge: 132 251 Weight: 1 
+Edge: 132 1132 Weight: 1 
+Edge: 1021 132 Weight: 1 
+Edge: 143 2237 Weight: 1 
+Edge: 2604 28 Weight: 1 
+Edge: 45 569 Weight: 1 
+Edge: 28 1237 Weight: 1 
+Edge: 28 50 Weight: 1 
+Edge: 133 799 Weight: 1 
+Edge: 266 133 Weight: 1 
+Edge: 1221 529 Weight: 1 
+Edge: 453 315 Weight: 1 
+Edge: 2 1127 Weight: 1 
+Edge: 304 2799 Weight: 1 
+Edge: 964 46 Weight: 1 
+Edge: 31 2977 Weight: 1 
+Edge: 2 2698 Weight: 1 
+Edge: 314 355 Weight: 1 
+Edge: 134 2993 Weight: 1 
+Edge: 2361 1592 Weight: 1 
+Edge: 45 1623 Weight: 1 
+Edge: 134 743 Weight: 1 
+Edge: 695 315 Weight: 1 
+Edge: 545 135 Weight: 1 
+Edge: 2895 135 Weight: 1 
+Edge: 505 438 Weight: 1 
+Edge: 1140 7603 Weight: 1 
+Edge: 28 857 Weight: 1 
+Edge: 45 768 Weight: 1 
+Edge: 931 28 Weight: 1 
+Edge: 2529 529 Weight: 1 
+Edge: 135 2127 Weight: 1 
+Edge: 680 2112 Weight: 1 
+Edge: 2973 520 Weight: 1 
+Edge: 3341 1 Weight: 1 
+Edge: 1686 678 Weight: 1 
+Edge: 3267 135 Weight: 1 
+Edge: 1367 305 Weight: 1 
+Edge: 883 522 Weight: 1 
+Edge: 1695 1273 Weight: 1 
+Edge: 675 28 Weight: 1 
+Edge: 4 1737 Weight: 1 
+Edge: 580 28 Weight: 1 
+Edge: 667 2649 Weight: 1 
+Edge: 312 574 Weight: 1 
+Edge: 28 514 Weight: 1 
+Edge: 1 1525 Weight: 1 
+Edge: 4 1139 Weight: 1 
+Edge: 1732 135 Weight: 1 
+Edge: 1007 28 Weight: 1 
+Edge: 2406 136 Weight: 1 
+Edge: 136 1459 Weight: 1 
+Edge: 203 136 Weight: 1 
+Edge: 1796 1 Weight: 1 
+Edge: 1 3010 Weight: 1 
+Edge: 1022 305 Weight: 1 
+Edge: 329 137 Weight: 1 
+Edge: 727 4 Weight: 1 
+Edge: 307 3190 Weight: 1 
+Edge: 307 557 Weight: 1 
+Edge: 137 2717 Weight: 1 
+Edge: 312 784 Weight: 1 
+Edge: 994 1251 Weight: 1 
+Edge: 4 1209 Weight: 1 
+Edge: 709 1 Weight: 1 
+Edge: 137 844 Weight: 1 
+Edge: 137 2245 Weight: 1 
+Edge: 673 740 Weight: 1 
+Edge: 4 1087 Weight: 1 
+Edge: 697 137 Weight: 1 
+Edge: 137 2527 Weight: 1 
+Edge: 46 2718 Weight: 1 
+Edge: 138 3229 Weight: 1 
+Edge: 4 1642 Weight: 1 
+Edge: 138 1830 Weight: 1 
+Edge: 3274 309 Weight: 1 
+Edge: 1089 311 Weight: 1 
+Edge: 311 1615 Weight: 1 
+Edge: 138 642 Weight: 1 
+Edge: 1709 7603 Weight: 1 
+Edge: 373 46 Weight: 1 
+Edge: 4 918 Weight: 1 
+Edge: 1704 2692 Weight: 1 
+Edge: 139 2522 Weight: 1 
+Edge: 2518 139 Weight: 1 
+Edge: 341 139 Weight: 1 
+Edge: 663 139 Weight: 1 
+Edge: 167 139 Weight: 1 
+Edge: 713 139 Weight: 1 
+Edge: 139 2515 Weight: 1 
+Edge: 2511 4 Weight: 1 
+Edge: 46 3102 Weight: 1 
+Edge: 137 1781 Weight: 1 
+Edge: 1649 140 Weight: 1 
+Edge: 140 660 Weight: 1 
+Edge: 29 1149 Weight: 1 
+Edge: 2568 140 Weight: 1 
+Edge: 2325 141 Weight: 1 
+Edge: 1180 141 Weight: 1 
+Edge: 685 140 Weight: 1 
+Edge: 141 1353 Weight: 1 
+Edge: 994 1261 Weight: 1 
+Edge: 2272 46 Weight: 1 
+Edge: 4 535 Weight: 1 
+Edge: 280 142 Weight: 1 
+Edge: 142 1186 Weight: 1 
+Edge: 2316 529 Weight: 1 
+Edge: 1285 142 Weight: 1 
+Edge: 6 149 Weight: 1 
+Edge: 142 1770 Weight: 1 
+Edge: 1018 680 Weight: 1 
+Edge: 678 2050 Weight: 1 
+Edge: 142 1779 Weight: 1 
+Edge: 1 3414 Weight: 1 
+Edge: 142 550 Weight: 1 
+Edge: 2427 1 Weight: 1 
+Edge: 1536 10 Weight: 1 
+Edge: 1 1382 Weight: 1 
+Edge: 787 29 Weight: 1 
+Edge: 143 1500 Weight: 1 
+Edge: 315 1298 Weight: 1 
+Edge: 143 1357 Weight: 1 
+Edge: 915 142 Weight: 1 
+Edge: 2905 143 Weight: 1 
+Edge: 3418 1 Weight: 1 
+Edge: 681 2719 Weight: 1 
+Edge: 4 2442 Weight: 1 
+Edge: 2336 3377 Weight: 1 
+Edge: 144 1189 Weight: 1 
+Edge: 309 1885 Weight: 1 
+Edge: 1691 144 Weight: 1 
+Edge: 376 308 Weight: 1 
+Edge: 13 3050 Weight: 1 
+Edge: 682 2715 Weight: 1 
+Edge: 412 144 Weight: 1 
+Edge: 17 1489 Weight: 1 
+Edge: 1703 2088 Weight: 1 
+Edge: 317 2925 Weight: 1 
+Edge: 1137 10 Weight: 1 
+Edge: 283 144 Weight: 1 
+Edge: 1701 7373 Weight: 1 
+Edge: 644 525 Weight: 1 
+Edge: 2082 1698 Weight: 1 
+Edge: 2469 145 Weight: 1 
+Edge: 2215 10 Weight: 1 
+Edge: 145 483 Weight: 1 
+Edge: 145 1998 Weight: 1 
+Edge: 1761 145 Weight: 1 
+Edge: 4 532 Weight: 1 
+Edge: 3262 144 Weight: 1 
+Edge: 7327 145 Weight: 1 
+Edge: 223 145 Weight: 1 
+Edge: 1442 1 Weight: 1 
+Edge: 1009 125 Weight: 1 
+Edge: 1148 1760 Weight: 1 
+Edge: 1501 26 Weight: 1 
+Edge: 3 3275 Weight: 1 
+Edge: 528 321 Weight: 1 
+Edge: 322 657 Weight: 1 
+Edge: 2970 30 Weight: 1 
+Edge: 2188 10 Weight: 1 
+Edge: 30 1336 Weight: 1 
+Edge: 1015 323 Weight: 1 
+Edge: 694 2173 Weight: 1 
+Edge: 146 1501 Weight: 1 
+Edge: 322 2013 Weight: 1 
+Edge: 2297 68 Weight: 1 
+Edge: 146 2197 Weight: 1 
+Edge: 2456 145 Weight: 1 
+Edge: 951 142 Weight: 1 
+Edge: 2168 146 Weight: 1 
+Edge: 146 2219 Weight: 1 
+Edge: 10 2778 Weight: 1 
+Edge: 2894 146 Weight: 1 
+Edge: 1921 1270 Weight: 1 
+Edge: 2336 1598 Weight: 1 
+Edge: 324 612 Weight: 1 
+Edge: 670 7564 Weight: 1 
+Edge: 1507 146 Weight: 1 
+Edge: 146 346 Weight: 1 
+Edge: 3032 46 Weight: 1 
+Edge: 3115 147 Weight: 1 
+Edge: 710 10 Weight: 1 
+Edge: 1326 1308 Weight: 1 
+Edge: 1012 1689 Weight: 1 
+Edge: 435 2368 Weight: 1 
+Edge: 148 1409 Weight: 1 
+Edge: 57 10 Weight: 1 
+Edge: 148 1099 Weight: 1 
+Edge: 313 148 Weight: 1 
+Edge: 1527 700 Weight: 1 
+Edge: 148 439 Weight: 1 
+Edge: 986 540 Weight: 1 
+Edge: 270 148 Weight: 1 
+Edge: 757 30 Weight: 1 
+Edge: 30 1063 Weight: 1 
+Edge: 974 149 Weight: 1 
+Edge: 149 640 Weight: 1 
+Edge: 30 3191 Weight: 1 
+Edge: 1320 1760 Weight: 1 
+Edge: 149 485 Weight: 1 
+Edge: 2558 10 Weight: 1 
+Edge: 466 148 Weight: 1 
+Edge: 1951 149 Weight: 1 
+Edge: 149 293 Weight: 1 
+Edge: 149 169 Weight: 1 
+Edge: 510 10 Weight: 1 
+Edge: 711 149 Weight: 1 
+Edge: 643 30 Weight: 1 
+Edge: 150 515 Weight: 1 
+Edge: 150 2564 Weight: 1 
+Edge: 1647 150 Weight: 1 
+Edge: 876 30 Weight: 1 
+Edge: 328 2601 Weight: 1 
+Edge: 2761 72 Weight: 1 
+Edge: 1964 328 Weight: 1 
+Edge: 1697 7564 Weight: 1 
+Edge: 150 2822 Weight: 1 
+Edge: 328 1450 Weight: 1 
+Edge: 911 328 Weight: 1 
+Edge: 150 2545 Weight: 1 
+Edge: 803 695 Weight: 1 
+Edge: 1556 701 Weight: 1 
+Edge: 150 511 Weight: 1 
+Edge: 150 473 Weight: 1 
+Edge: 69 1780 Weight: 1 
+Edge: 854 1652 Weight: 1 
+Edge: 839 151 Weight: 1 
+Edge: 2971 151 Weight: 1 
+Edge: 1822 1 Weight: 1 
+Edge: 194 151 Weight: 1 
+Edge: 1884 151 Weight: 1 
+Edge: 2712 1261 Weight: 1 
+Edge: 114 246 Weight: 1 
+Edge: 1012 1257 Weight: 1 
+Edge: 1804 3030 Weight: 1 
+Edge: 1342 25 Weight: 1 
+Edge: 708 1890 Weight: 1 
+Edge: 62 205 Weight: 1 
+Edge: 2090 1804 Weight: 1 
+Edge: 1971 661 Weight: 1 
+Edge: 2 1929 Weight: 1 
+Edge: 328 1101 Weight: 1 
+Edge: 328 661 Weight: 1 
+Edge: 328 342 Weight: 1 
+Edge: 705 3204 Weight: 1 
+Edge: 1792 7595 Weight: 1 
+Edge: 1 3118 Weight: 1 
+Edge: 812 705 Weight: 1 
+Edge: 1999 150 Weight: 1 
+Edge: 149 419 Weight: 1 
+Edge: 149 2451 Weight: 1 
+Edge: 531 149 Weight: 1 
+Edge: 1094 149 Weight: 1 
+Edge: 720 323 Weight: 1 
+Edge: 732 541 Weight: 1 
+Edge: 1031 149 Weight: 1 
+Edge: 73 262 Weight: 1 
+Edge: 9 1048 Weight: 1 
+Edge: 667 780 Weight: 1 
+Edge: 1783 1322 Weight: 1 
+Edge: 1 810 Weight: 1 
+Edge: 540 1659 Weight: 1 
+Edge: 9 1487 Weight: 1 
+Edge: 863 540 Weight: 1 
+Edge: 2888 1314 Weight: 1 
+Edge: 539 854 Weight: 1 
+Edge: 30 1421 Weight: 1 
+Edge: 305 587 Weight: 1 
+Edge: 540 2591 Weight: 1 
+Edge: 1157 7527 Weight: 1 
+Edge: 1 3103 Weight: 1 
+Edge: 121 2684 Weight: 1 
+Edge: 1154 3008 Weight: 1 
+Edge: 1615 1918 Weight: 1 
+Edge: 9 467 Weight: 1 
+Edge: 3006 1 Weight: 1 
+Edge: 46 1513 Weight: 1 
+Edge: 9 1284 Weight: 1 
+Edge: 46 1803 Weight: 1 
+Edge: 1528 46 Weight: 1 
+Edge: 1931 324 Weight: 1 
+Edge: 1078 10 Weight: 1 
+Edge: 2674 1269 Weight: 1 
+Edge: 2267 46 Weight: 1 
+Edge: 7600 1153 Weight: 1 
+Edge: 323 2581 Weight: 1 
+Edge: 538 536 Weight: 1 
+Edge: 146 2934 Weight: 1 
+Edge: 391 26 Weight: 1 
+Edge: 46 3063 Weight: 1 
+Edge: 992 536 Weight: 1 
+Edge: 322 478 Weight: 1 
+Edge: 3104 61 Weight: 1 
+Edge: 804 26 Weight: 1 
+Edge: 1812 46 Weight: 1 
+Edge: 125 3396 Weight: 1 
+Edge: 943 26 Weight: 1 
+Edge: 68 1051 Weight: 1 
+Edge: 153 145 Weight: 1 
+Edge: 145 298 Weight: 1 
+Edge: 320 2833 Weight: 1 
+Edge: 737 145 Weight: 1 
+Edge: 396 145 Weight: 1 
+Edge: 145 3152 Weight: 1 
+Edge: 2952 1 Weight: 1 
+Edge: 3041 13 Weight: 1 
+Edge: 5 2363 Weight: 1 
+Edge: 2614 536 Weight: 1 
+Edge: 807 145 Weight: 1 
+Edge: 993 1420 Weight: 1 
+Edge: 1327 10 Weight: 1 
+Edge: 744 1 Weight: 1 
+Edge: 1 625 Weight: 1 
+Edge: 683 798 Weight: 1 
+Edge: 456 13 Weight: 1 
+Edge: 682 2108 Weight: 1 
+Edge: 938 682 Weight: 1 
+Edge: 4 379 Weight: 1 
+Edge: 1419 436 Weight: 1 
+Edge: 1335 13 Weight: 1 
+Edge: 4 2439 Weight: 1 
+Edge: 61 3093 Weight: 1 
+Edge: 2536 7373 Weight: 1 
+Edge: 3085 61 Weight: 1 
+Edge: 2268 61 Weight: 1 
+Edge: 1287 9 Weight: 1 
+Edge: 681 2776 Weight: 1 
+Edge: 2592 676 Weight: 1 
+Edge: 1 3402 Weight: 1 
+Edge: 2769 1726 Weight: 1 
+Edge: 2897 1761 Weight: 1 
+Edge: 530 1798 Weight: 1 
+Edge: 143 3094 Weight: 1 
+Edge: 2271 315 Weight: 1 
+Edge: 1340 143 Weight: 1 
+Edge: 411 4 Weight: 1 
+Edge: 1054 4 Weight: 1 
+Edge: 178 4 Weight: 1 
+Edge: 529 1210 Weight: 1 
+Edge: 1716 2735 Weight: 1 
+Edge: 1432 514 Weight: 1 
+Edge: 904 526 Weight: 1 
+Edge: 2664 314 Weight: 1 
+Edge: 679 863 Weight: 1 
+Edge: 678 7327 Weight: 1 
+Edge: 3355 1 Weight: 1 
+Edge: 2229 142 Weight: 1 
+Edge: 619 1660 Weight: 1 
+Edge: 2411 7087 Weight: 1 
+Edge: 175 2 Weight: 1 
+Edge: 4 2467 Weight: 1 
+Edge: 7391 310 Weight: 1 
+Edge: 1370 141 Weight: 1 
+Edge: 677 1008 Weight: 1 
+Edge: 140 2584 Weight: 1 
+Edge: 13 2278 Weight: 1 
+Edge: 1615 4 Weight: 1 
+Edge: 1086 4 Weight: 1 
+Edge: 4 718 Weight: 1 
+Edge: 1854 5 Weight: 1 
+Edge: 139 2510 Weight: 1 
+Edge: 139 2509 Weight: 1 
+Edge: 348 307 Weight: 1 
+Edge: 2468 4 Weight: 1 
+Edge: 2465 4 Weight: 1 
+Edge: 309 894 Weight: 1 
+Edge: 772 4 Weight: 1 
+Edge: 2454 4 Weight: 1 
+Edge: 1 1886 Weight: 1 
+Edge: 792 2728 Weight: 1 
+Edge: 138 3112 Weight: 1 
+Edge: 1546 138 Weight: 1 
+Edge: 1560 138 Weight: 1 
+Edge: 138 2371 Weight: 1 
+Edge: 735 137 Weight: 1 
+Edge: 1909 4 Weight: 1 
+Edge: 446 4 Weight: 1 
+Edge: 2276 1 Weight: 1 
+Edge: 10 1324 Weight: 1 
+Edge: 1 3349 Weight: 1 
+Edge: 2671 1700 Weight: 1 
+Edge: 10 2787 Weight: 1 
+Edge: 10 1307 Weight: 1 
+Edge: 2422 2336 Weight: 1 
+Edge: 3172 309 Weight: 1 
+Edge: 61 3126 Weight: 1 
+Edge: 522 1337 Weight: 1 
+Edge: 452 306 Weight: 1 
+Edge: 798 1491 Weight: 1 
+Edge: 305 2785 Weight: 1 
+Edge: 136 158 Weight: 1 
+Edge: 563 313 Weight: 1 
+Edge: 46 1807 Weight: 1 
+Edge: 10 2582 Weight: 1 
+Edge: 305 944 Weight: 1 
+Edge: 7373 668 Weight: 1 
+Edge: 10 725 Weight: 1 
+Edge: 1269 2085 Weight: 1 
+Edge: 1 1198 Weight: 1 
+Edge: 10 1430 Weight: 1 
+Edge: 28 2585 Weight: 1 
+Edge: 61 3186 Weight: 1 
+Edge: 10 1636 Weight: 1 
+Edge: 1 1589 Weight: 1 
+Edge: 1 2235 Weight: 1 
+Edge: 1241 663 Weight: 1 
+Edge: 1264 7603 Weight: 1 
+Edge: 2972 30 Weight: 1 
+Edge: 953 61 Weight: 1 
+Edge: 7564 2607 Weight: 1 
+Edge: 1295 4 Weight: 1 
+Edge: 1276 664 Weight: 1 
+Edge: 519 2899 Weight: 1 
+Edge: 518 2191 Weight: 1 
+Edge: 1164 519 Weight: 1 
+Edge: 135 219 Weight: 1 
+Edge: 993 45 Weight: 1 
+Edge: 28 489 Weight: 1 
+Edge: 392 304 Weight: 1 
+Edge: 548 304 Weight: 1 
+Edge: 2666 1698 Weight: 1 
+Edge: 31 1146 Weight: 1 
+Edge: 7 497 Weight: 1 
+Edge: 3335 1 Weight: 1 
+Edge: 2333 5 Weight: 1 
+Edge: 133 1272 Weight: 1 
+Edge: 2216 133 Weight: 1 
+Edge: 622 303 Weight: 1 
+Edge: 1705 132 Weight: 1 
+Edge: 3184 1135 Weight: 1 
+Edge: 3332 1 Weight: 1 
+Edge: 132 841 Weight: 1 
+Edge: 747 529 Weight: 1 
+Edge: 413 10 Weight: 1 
+Edge: 45 719 Weight: 1 
+Edge: 1562 10 Weight: 1 
+Edge: 45 1107 Weight: 1 
+Edge: 2508 57 Weight: 1 
+Edge: 2077 515 Weight: 1 
+Edge: 1 1197 Weight: 1 
+Edge: 4 2405 Weight: 1 
+Edge: 1820 2336 Weight: 1 
+Edge: 1496 330 Weight: 1 
+Edge: 330 2054 Weight: 1 
+Edge: 2248 1332 Weight: 1 
+Edge: 1170 330 Weight: 1 
+Edge: 2071 541 Weight: 1 
+Edge: 77 47 Weight: 1 
+Edge: 151 1867 Weight: 1 
+Edge: 151 3277 Weight: 1 
+Edge: 331 1029 Weight: 1 
+Edge: 626 152 Weight: 1 
+Edge: 1710 1261 Weight: 1 
+Edge: 152 1691 Weight: 1 
+Edge: 1043 112 Weight: 1 
+Edge: 112 3031 Weight: 1 
+Edge: 25 187 Weight: 1 
+Edge: 672 152 Weight: 1 
+Edge: 3265 1864 Weight: 1 
+Edge: 3242 1857 Weight: 1 
+Edge: 1016 1366 Weight: 1 
+Edge: 152 512 Weight: 1 
+Edge: 1628 152 Weight: 1 
+Edge: 152 236 Weight: 1 
+Edge: 1868 1869 Weight: 1 
+Edge: 1868 3195 Weight: 1 
+Edge: 3049 3 Weight: 1 
+Edge: 2704 664 Weight: 1 
+Edge: 908 152 Weight: 1 
+Edge: 769 152 Weight: 1 
+Edge: 1 2401 Weight: 1 
+Edge: 922 109 Weight: 1 
+Edge: 109 722 Weight: 1 
+Edge: 1431 109 Weight: 1 
+Edge: 1465 153 Weight: 1 
+Edge: 295 153 Weight: 1 
+Edge: 1692 153 Weight: 1 
+Edge: 153 2574 Weight: 1 
+Edge: 153 2248 Weight: 1 
+Edge: 1603 153 Weight: 1 
+Edge: 153 1665 Weight: 1 
+Edge: 533 45 Weight: 1 
+Edge: 250 31 Weight: 1 
+Edge: 332 3325 Weight: 1 
+Edge: 1161 2230 Weight: 1 
+Edge: 2448 1 Weight: 1 
+Edge: 153 864 Weight: 1 
+Edge: 2639 153 Weight: 1 
+Edge: 503 1 Weight: 1 
+Edge: 153 842 Weight: 1 
+Edge: 3 75 Weight: 1 
+Edge: 1274 3 Weight: 1 
+Edge: 3087 3 Weight: 1 
+Edge: 1 3143 Weight: 1 
+Edge: 2298 3 Weight: 1 
+Edge: 1232 1 Weight: 1 
+Edge: 896 154 Weight: 1 
+Edge: 154 441 Weight: 1 
+Edge: 3196 61 Weight: 1 
+Edge: 340 154 Weight: 1 
+Edge: 3169 155 Weight: 1 
+Edge: 7564 853 Weight: 1 
+Edge: 821 334 Weight: 1 
+Edge: 542 1276 Weight: 1 
+Edge: 727 712 Weight: 1 
+Edge: 712 1676 Weight: 1 
+Edge: 2714 155 Weight: 1 
+Edge: 715 1921 Weight: 1 
+Edge: 1673 853 Weight: 1 
+Edge: 2311 3 Weight: 1 
+Edge: 3105 3 Weight: 1 
+Edge: 1 1248 Weight: 1 
+Edge: 155 1453 Weight: 1 
+Edge: 1117 1 Weight: 1 
+Edge: 1386 2 Weight: 1 
+Edge: 1836 3 Weight: 1 
+Edge: 7525 336 Weight: 1 
+Edge: 162 156 Weight: 1 
+Edge: 1495 156 Weight: 1 
+Edge: 156 289 Weight: 1 
+Edge: 2156 156 Weight: 1 
+Edge: 156 2824 Weight: 1 
+Edge: 753 1 Weight: 1 
+Edge: 2065 1 Weight: 1 
+Edge: 337 1202 Weight: 1 
+Edge: 433 890 Weight: 1 
+Edge: 1445 1 Weight: 1 
+Edge: 566 31 Weight: 1 
+Edge: 156 692 Weight: 1 
+Edge: 1687 716 Weight: 1 
+Edge: 1021 2027 Weight: 1 
+Edge: 1590 58 Weight: 1 
+Edge: 1136 516 Weight: 1 
+Edge: 2315 3 Weight: 1 
+Edge: 1 2695 Weight: 1 
+Edge: 435 157 Weight: 1 
+Edge: 1878 1880 Weight: 1 
+Edge: 1413 1 Weight: 1 
+Edge: 1561 157 Weight: 1 
+Edge: 589 157 Weight: 1 
+Edge: 10 1573 Weight: 1 
+Edge: 157 2815 Weight: 1 
+Edge: 1 3330 Weight: 1 
+Edge: 158 3386 Weight: 1 
+Edge: 158 397 Weight: 1 
+Edge: 2484 339 Weight: 1 
+Edge: 339 671 Weight: 1 
+Edge: 1630 716 Weight: 1 
+Edge: 339 914 Weight: 1 
+Edge: 1606 716 Weight: 1 
+Edge: 1234 159 Weight: 1 
+Edge: 3 3132 Weight: 1 
+Edge: 774 3 Weight: 1 
+Edge: 1 2102 Weight: 1 
+Edge: 543 1 Weight: 1 
+Edge: 1166 1795 Weight: 1 
+Edge: 2336 98 Weight: 1 
+Edge: 2921 8 Weight: 1 
+Edge: 63 845 Weight: 1 
+Edge: 320 10 Weight: 1 
+Edge: 160 945 Weight: 1 
+Edge: 850 1960 Weight: 1 
+Edge: 572 433 Weight: 1 
+Edge: 161 1039 Weight: 1 
+Edge: 1893 58 Weight: 1 
+Edge: 549 1579 Weight: 1 
+Edge: 1889 2387 Weight: 1 
+Edge: 2463 340 Weight: 1 
+Edge: 3370 13 Weight: 1 
+Edge: 158 904 Weight: 1 
+Edge: 1612 717 Weight: 1 
+Edge: 1 2731 Weight: 1 
+Edge: 1413 717 Weight: 1 
+Edge: 717 2478 Weight: 1 
+Edge: 161 1765 Weight: 1 
+Edge: 161 2209 Weight: 1 
+Edge: 1625 340 Weight: 1 
+Edge: 362 8 Weight: 1 
+Edge: 1 1457 Weight: 1 
+Edge: 2707 1 Weight: 1 
+Edge: 520 161 Weight: 1 
+Edge: 976 3 Weight: 1 
+Edge: 1494 161 Weight: 1 
+Edge: 2117 1 Weight: 1 
+Edge: 1358 3 Weight: 1 
+Edge: 1774 32 Weight: 1 
+Edge: 161 1313 Weight: 1 
+Edge: 341 850 Weight: 1 
+Edge: 3 3221 Weight: 1 
+Edge: 1184 3 Weight: 1 
+Edge: 1720 1 Weight: 1 
+Edge: 613 738 Weight: 1 
+Edge: 1853 3 Weight: 1 
+Edge: 12 3 Weight: 1 
+Edge: 7390 3 Weight: 1 
+Edge: 2743 1 Weight: 1 
+Edge: 1 3167 Weight: 1 
+Edge: 2903 3 Weight: 1 
+Edge: 97 3 Weight: 1 
+Edge: 1923 1 Weight: 1 
+Edge: 1375 3 Weight: 1 
+Edge: 2108 1 Weight: 1 
+Edge: 2045 514 Weight: 1 
+Edge: 162 1167 Weight: 1 
+Edge: 3319 1 Weight: 1 
+Edge: 162 1523 Weight: 1 
+Edge: 2461 341 Weight: 1 
+Edge: 7603 851 Weight: 1 
+Edge: 945 513 Weight: 1 
+Edge: 2747 1 Weight: 1 
+Edge: 58 3361 Weight: 1 
+Edge: 2910 550 Weight: 1 
+Edge: 32 307 Weight: 1 
+Edge: 163 1586 Weight: 1 
+Edge: 162 2258 Weight: 1 
+Edge: 161 2213 Weight: 1 
+Edge: 553 3153 Weight: 1 
+Edge: 72 1475 Weight: 1 
+Edge: 2320 13 Weight: 1 
+Edge: 376 164 Weight: 1 
+Edge: 76 1941 Weight: 1 
+Edge: 164 1387 Weight: 1 
+Edge: 13 2290 Weight: 1 
+Edge: 553 693 Weight: 1 
+Edge: 1 2746 Weight: 1 
+Edge: 1822 432 Weight: 1 
+Edge: 2750 1 Weight: 1 
+Edge: 164 761 Weight: 1 
+Edge: 1 2752 Weight: 1 
+Edge: 1282 1 Weight: 1 
+Edge: 13 1828 Weight: 1 
+Edge: 32 2134 Weight: 1 
+Edge: 720 343 Weight: 1 
+Edge: 8 1038 Weight: 1 
+Edge: 8 1788 Weight: 1 
+Edge: 166 1154 Weight: 1 
+Edge: 2995 166 Weight: 1 
+Edge: 3243 553 Weight: 1 
+Edge: 1777 166 Weight: 1 
+Edge: 298 887 Weight: 1 
+Edge: 2458 990 Weight: 1 
+Edge: 298 1123 Weight: 1 
+Edge: 10 914 Weight: 1 
+Edge: 846 166 Weight: 1 
+Edge: 1979 720 Weight: 1 
+Edge: 1749 347 Weight: 1 
+Edge: 297 1938 Weight: 1 
+Edge: 1488 347 Weight: 1 
+Edge: 1661 725 Weight: 1 
+Edge: 725 2007 Weight: 1 
+Edge: 2965 166 Weight: 1 
+Edge: 58 3226 Weight: 1 
+Edge: 585 21 Weight: 1 
+Edge: 3090 553 Weight: 1 
+Edge: 63 1095 Weight: 1 
+Edge: 1152 295 Weight: 1 
+Edge: 167 2659 Weight: 1 
+Edge: 2968 33 Weight: 1 
+Edge: 1188 984 Weight: 1 
+Edge: 274 167 Weight: 1 
+Edge: 167 263 Weight: 1 
+Edge: 1191 33 Weight: 1 
+Edge: 33 1882 Weight: 1 
+Edge: 294 2829 Weight: 1 
+Edge: 1655 167 Weight: 1 
+Edge: 71 33 Weight: 1 
+Edge: 1833 33 Weight: 1 
+Edge: 347 1458 Weight: 1 
+Edge: 33 971 Weight: 1 
+Edge: 2252 33 Weight: 1 
+Edge: 58 3218 Weight: 1 
+Edge: 10 1988 Weight: 1 
+Edge: 48 1920 Weight: 1 
+Edge: 1252 2074 Weight: 1 
+Edge: 240 169 Weight: 1 
+Edge: 202 169 Weight: 1 
+Edge: 3075 13 Weight: 1 
+Edge: 48 2677 Weight: 1 
+Edge: 609 507 Weight: 1 
+Edge: 365 169 Weight: 1 
+Edge: 801 350 Weight: 1 
+Edge: 635 350 Weight: 1 
+Edge: 350 3007 Weight: 1 
+Edge: 10 2519 Weight: 1 
+Edge: 350 1740 Weight: 1 
+Edge: 507 1985 Weight: 1 
+Edge: 507 583 Weight: 1 
+Edge: 1 2352 Weight: 1 
+Edge: 21 878 Weight: 1 
+Edge: 7560 351 Weight: 1 
+Edge: 2179 170 Weight: 1 
+Edge: 170 2224 Weight: 1 
+Edge: 170 482 Weight: 1 
+Edge: 351 1594 Weight: 1 
+Edge: 170 1805 Weight: 1 
+Edge: 7386 352 Weight: 1 
+Edge: 351 1924 Weight: 1 
+Edge: 1466 562 Weight: 1 
+Edge: 729 2087 Weight: 1 
+Edge: 625 74 Weight: 1 
+Edge: 353 438 Weight: 1 
+Edge: 1550 3 Weight: 1 
+Edge: 3133 1954 Weight: 1 
+Edge: 925 568 Weight: 1 
+Edge: 1339 1 Weight: 1 
+Edge: 1537 1182 Weight: 1 
+Edge: 1976 2578 Weight: 1 
+Edge: 472 353 Weight: 1 
+Edge: 3313 1 Weight: 1 
+Edge: 1 3189 Weight: 1 
+Edge: 3248 171 Weight: 1 
+Edge: 1738 171 Weight: 1 
+Edge: 1476 33 Weight: 1 
+Edge: 171 1035 Weight: 1 
+Edge: 290 1191 Weight: 1 
+Edge: 1402 354 Weight: 1 
+Edge: 326 172 Weight: 1 
+Edge: 1173 172 Weight: 1 
+Edge: 641 172 Weight: 1 
+Edge: 356 7372 Weight: 1 
+Edge: 939 568 Weight: 1 
+Edge: 863 570 Weight: 1 
+Edge: 568 1633 Weight: 1 
+Edge: 468 356 Weight: 1 
+Edge: 16 1326 Weight: 1 
+Edge: 356 1415 Weight: 1 
+Edge: 735 2079 Weight: 1 
+Edge: 2876 1 Weight: 1 
+Edge: 2349 1367 Weight: 1 
+Edge: 2596 33 Weight: 1 
+Edge: 172 1190 Weight: 1 
+Edge: 1257 2032 Weight: 1 
+Edge: 289 1888 Weight: 1 
+Edge: 357 445 Weight: 1 
+Edge: 2982 1040 Weight: 1 
+Edge: 1370 2390 Weight: 1 
+Edge: 1837 173 Weight: 1 
+Edge: 173 2373 Weight: 1 
+Edge: 173 1841 Weight: 1 
+Edge: 3029 68 Weight: 1 
+Edge: 637 7 Weight: 1 
+Edge: 871 2 Weight: 1 
+Edge: 1074 1904 Weight: 1 
+Edge: 1 2801 Weight: 1 
+Edge: 3434 15 Weight: 1 
+Edge: 1 1942 Weight: 1 
+Edge: 2923 7 Weight: 1 
+Edge: 1128 1 Weight: 1 
+Edge: 573 1001 Weight: 1 
+Edge: 739 1314 Weight: 1 
+Edge: 2144 1 Weight: 1 
+Edge: 3337 173 Weight: 1 
+Edge: 822 174 Weight: 1 
+Edge: 1372 1575 Weight: 1 
+Edge: 1784 7 Weight: 1 
+Edge: 2149 1 Weight: 1 
+Edge: 2877 739 Weight: 1 
+Edge: 2987 7 Weight: 1 
+Edge: 3365 6 Weight: 1 
+Edge: 1516 7 Weight: 1 
+Edge: 1438 358 Weight: 1 
+Edge: 3289 49 Weight: 1 
+Edge: 175 210 Weight: 1 
+Edge: 739 1331 Weight: 1 
+Edge: 1144 739 Weight: 1 
+Edge: 1 3211 Weight: 1 
+Edge: 1041 3157 Weight: 1 
+Edge: 221 7 Weight: 1 
+Edge: 1380 7435 Weight: 1 
+Edge: 2912 741 Weight: 1 
+Edge: 1 1025 Weight: 1 
+Edge: 876 741 Weight: 1 
+Edge: 1831 1383 Weight: 1 
+Edge: 175 1965 Weight: 1 
+Edge: 1046 7426 Weight: 1 
+Edge: 2302 7 Weight: 1 
+Edge: 1224 514 Weight: 1 
+Edge: 621 7 Weight: 1 
+Edge: 1 2814 Weight: 1 
+Edge: 2820 1 Weight: 1 
+Edge: 1530 1335 Weight: 1 
+Edge: 1176 6166 Weight: 1 
+Edge: 2632 1 Weight: 1 
+Edge: 1949 1629 Weight: 1 
+Edge: 175 404 Weight: 1 
+Edge: 2336 1905 Weight: 1 
+Edge: 1349 33 Weight: 1 
+Edge: 3205 342 Weight: 1 
+Edge: 79 384 Weight: 1 
+Edge: 1574 7 Weight: 1 
+Edge: 1 1129 Weight: 1 
+Edge: 1164 1040 Weight: 1 
+Edge: 2410 330 Weight: 1 
+Edge: 2617 359 Weight: 1 
+Edge: 995 504 Weight: 1 
+Edge: 360 2189 Weight: 1 
+Edge: 79 2678 Weight: 1 
+Edge: 345 7 Weight: 1 
+Edge: 1742 1 Weight: 1 
+Edge: 1049 1052 Weight: 1 
+Edge: 1166 33 Weight: 1 
+Edge: 2292 962 Weight: 1 
+Edge: 1 891 Weight: 1 
+Edge: 3 1816 Weight: 1 
+Edge: 68 1537 Weight: 1 
+Edge: 2857 176 Weight: 1 
+Edge: 2191 176 Weight: 1 
+Edge: 1753 798 Weight: 1 
+Edge: 966 3055 Weight: 1 
+Edge: 94 15 Weight: 1 
+Edge: 3121 68 Weight: 1 
+Edge: 7375 501 Weight: 1 
+Edge: 3 2285 Weight: 1 
+Edge: 33 1766 Weight: 1 
+Edge: 500 1425 Weight: 1 
+Edge: 499 605 Weight: 1 
+Edge: 1360 56 Weight: 1 
+Edge: 475 2 Weight: 1 
+Edge: 2128 284 Weight: 1 
+Edge: 12 3234 Weight: 1 
+Edge: 5 460 Weight: 1 
+Edge: 284 2153 Weight: 1 
+Edge: 2844 1 Weight: 1 
+Edge: 906 499 Weight: 1 
+Edge: 361 3012 Weight: 1 
+Edge: 177 1835 Weight: 1 
+Edge: 362 490 Weight: 1 
+Edge: 2304 177 Weight: 1 
+Edge: 13 3038 Weight: 1 
+Edge: 2286 177 Weight: 1 
+Edge: 379 44 Weight: 1 
+Edge: 7372 2014 Weight: 1 
+Edge: 1767 13 Weight: 1 
+Edge: 234 15 Weight: 1 
+Edge: 177 2299 Weight: 1 
+Edge: 177 1053 Weight: 1 
+Edge: 362 2852 Weight: 1 
+Edge: 7603 2145 Weight: 1 
+Edge: 1196 2391 Weight: 1 
+Edge: 576 7550 Weight: 1 
+Edge: 365 2096 Weight: 1 
+Edge: 499 2433 Weight: 1 
+Edge: 2205 7565 Weight: 1 
+Edge: 860 578 Weight: 1 
+Edge: 177 2254 Weight: 1 
+Edge: 3016 177 Weight: 1 
+Edge: 578 2027 Weight: 1 
+Edge: 3003 177 Weight: 1 
+Edge: 177 2988 Weight: 1 
+Edge: 1757 177 Weight: 1 
+Edge: 2958 177 Weight: 1 
+Edge: 579 671 Weight: 1 
+Edge: 580 2705 Weight: 1 
+Edge: 366 655 Weight: 1 
+Edge: 3255 1189 Weight: 1 
+Edge: 3 3127 Weight: 1 
+Edge: 1 2177 Weight: 1 
+Edge: 494 73 Weight: 1 
+Edge: 7373 2004 Weight: 1 
+Edge: 1 2858 Weight: 1 
+Edge: 7327 1914 Weight: 1 
+Edge: 2738 17 Weight: 1 
+Edge: 580 2681 Weight: 1 
+Edge: 2147 1 Weight: 1 
+Edge: 1 1309 Weight: 1 
+Edge: 3 1359 Weight: 1 
+Edge: 2046 76 Weight: 1 
+Edge: 3162 958 Weight: 1 
+Edge: 1957 2 Weight: 1 
+Edge: 1 2742 Weight: 1 
+Edge: 49 1558 Weight: 1 
+Edge: 496 3320 Weight: 1 
+Edge: 2 1635 Weight: 1 
+Edge: 131 34 Weight: 1 
+Edge: 1381 34 Weight: 1 
+Edge: 3345 11 Weight: 1 
+Edge: 67 34 Weight: 1 
+Edge: 3117 177 Weight: 1 
+Edge: 3125 177 Weight: 1 
+Edge: 3 2263 Weight: 1 
+Edge: 177 1553 Weight: 1 
+Edge: 1 2281 Weight: 1 
+Edge: 1538 177 Weight: 1 
+Edge: 595 177 Weight: 1 
+Edge: 177 1347 Weight: 1 
+Edge: 1053 1815 Weight: 1 
+Edge: 177 3022 Weight: 1 
+Edge: 177 1310 Weight: 1 
+Edge: 372 1376 Weight: 1 
+Edge: 177 1041 Weight: 1 
+Edge: 1060 373 Weight: 1 
+Edge: 1283 586 Weight: 1 
+Edge: 1 636 Weight: 1 
+Edge: 3146 373 Weight: 1 
+Edge: 1160 759 Weight: 1 
+Edge: 3 1064 Weight: 1 
+Edge: 2178 1 Weight: 1 
+Edge: 3257 372 Weight: 1 
+Edge: 177 1304 Weight: 1 
+Edge: 177 7389 Weight: 1 
+Edge: 2679 177 Weight: 1 
+Edge: 1752 69 Weight: 1 
+Edge: 7371 1098 Weight: 1 
+Edge: 1696 177 Weight: 1 
+Edge: 2488 2 Weight: 1 
+Edge: 2198 1 Weight: 1 
+Edge: 3333 178 Weight: 1 
+Edge: 178 2355 Weight: 1 
+Edge: 2301 178 Weight: 1 
+Edge: 178 1354 Weight: 1 
+Edge: 2 1936 Weight: 1 
+Edge: 178 1813 Weight: 1 
+Edge: 375 651 Weight: 1 
+Edge: 2152 178 Weight: 1 
+Edge: 7 3378 Weight: 1 
+Edge: 375 900 Weight: 1 
+Edge: 488 11 Weight: 1 
+Edge: 464 376 Weight: 1 
+Edge: 3357 587 Weight: 1 
+Edge: 1001 368 Weight: 1 
+Edge: 15 2426 Weight: 1 
+Edge: 3 1379 Weight: 1 
+Edge: 3017 179 Weight: 1 
+Edge: 3 3328 Weight: 1 
+Edge: 1917 16 Weight: 1 
+Edge: 7 699 Weight: 1 
+Edge: 1222 2 Weight: 1 
+Edge: 1258 76 Weight: 1 
+Edge: 2 1090 Weight: 1 
+Edge: 1622 491 Weight: 1 
+Edge: 498 180 Weight: 1 
+Edge: 1508 11 Weight: 1 
+Edge: 1153 1059 Weight: 1 
+Edge: 3413 377 Weight: 1 
+Edge: 275 1121 Weight: 1 
+Edge: 11 1512 Weight: 1 
+Edge: 1218 4 Weight: 1 
+Edge: 43 2936 Weight: 1 
+Edge: 181 2618 Weight: 1 
+Edge: 181 2000 Weight: 1 
+Edge: 181 999 Weight: 1 
+Edge: 2907 1 Weight: 1 
+Edge: 987 2 Weight: 1 
+Edge: 181 2012 Weight: 1 
+Edge: 405 181 Weight: 1 
+Edge: 2611 181 Weight: 1 
+Edge: 182 1437 Weight: 1 
+Edge: 182 920 Weight: 1 
+Edge: 2223 35 Weight: 1 
+Edge: 366 182 Weight: 1 
+Edge: 212 35 Weight: 1 
+Edge: 2269 2274 Weight: 1 
+Edge: 382 1004 Weight: 1 
+Edge: 224 4 Weight: 1 
+Edge: 1658 35 Weight: 1 
+Edge: 866 384 Weight: 1 
+Edge: 272 1003 Weight: 1 
+Edge: 65 1651 Weight: 1 
+Edge: 50 2880 Weight: 1 
+Edge: 2883 50 Weight: 1 
+Edge: 2550 183 Weight: 1 
+Edge: 35 558 Weight: 1 
+Edge: 3441 35 Weight: 1 
+Edge: 3034 184 Weight: 1 
+Edge: 184 3239 Weight: 1 
+Edge: 2416 64 Weight: 1 
+Edge: 386 462 Weight: 1 
+Edge: 380 668 Weight: 1 
+Edge: 592 1150 Weight: 1 
+Edge: 184 1333 Weight: 1 
+Edge: 591 1802 Weight: 1 
+Edge: 50 1755 Weight: 1 
+Edge: 589 1736 Weight: 1 
+Edge: 58 120 Weight: 1 
+Edge: 272 2647 Weight: 1 
+Edge: 2068 614 Weight: 1 
+Edge: 65 2682 Weight: 1 
+Edge: 2481 384 Weight: 1 
+Edge: 7375 384 Weight: 1 
+Edge: 1108 614 Weight: 1 
+Edge: 383 2547 Weight: 1 
+Edge: 2084 1462 Weight: 1 
+Edge: 649 1192 Weight: 1 
+Edge: 998 775 Weight: 1 
+Edge: 778 182 Weight: 1 
+Edge: 182 568 Weight: 1 
+Edge: 11 2167 Weight: 1 
+Edge: 379 1230 Weight: 1 
+Edge: 2566 181 Weight: 1 
+Edge: 2494 775 Weight: 1 
+Edge: 180 1207 Weight: 1 
+Edge: 50 195 Weight: 1 
+Edge: 11 1775 Weight: 1 
+Edge: 1 3292 Weight: 1 
+Edge: 1610 16 Weight: 1 
+Edge: 1212 16 Weight: 1 
+Edge: 179 1111 Weight: 1 
+Edge: 1194 7531 Weight: 1 
+Edge: 3291 982 Weight: 1 
+Edge: 1059 2357 Weight: 1 
+Edge: 2361 7 Weight: 1 
+Edge: 874 1 Weight: 1 
+Edge: 1531 68 Weight: 1 
+Edge: 1 2898 Weight: 1 
+Edge: 3399 375 Weight: 1 
+Edge: 830 2336 Weight: 1 
+Edge: 3424 375 Weight: 1 
+Edge: 1821 178 Weight: 1 
+Edge: 604 375 Weight: 1 
+Edge: 178 434 Weight: 1 
+Edge: 881 178 Weight: 1 
+Edge: 7444 3227 Weight: 1 
+Edge: 7 115 Weight: 1 
+Edge: 1318 69 Weight: 1 
+Edge: 7550 1462 Weight: 1 
+Edge: 177 2924 Weight: 1 
+Edge: 3288 762 Weight: 1 
+Edge: 1588 762 Weight: 1 
+Edge: 17 1490 Weight: 1 
+Edge: 7 1348 Weight: 1 
+Edge: 762 3358 Weight: 1 
+Edge: 1715 1 Weight: 1 
+Edge: 2892 1 Weight: 1 
+Edge: 584 1716 Weight: 1 
+Edge: 2100 762 Weight: 1 
+Edge: 734 1 Weight: 1 
+Edge: 3019 7 Weight: 1 
+Edge: 1192 1878 Weight: 1 
+Edge: 16 1093 Weight: 1 
+Edge: 586 2753 Weight: 1 
+Edge: 177 877 Weight: 1 
+Edge: 1463 2083 Weight: 1 
+Edge: 2597 1409 Weight: 1 
+Edge: 3 1363 Weight: 1 
+Edge: 3 1843 Weight: 1 
+Edge: 2378 34 Weight: 1 
+Edge: 81 34 Weight: 1 
+Edge: 691 3 Weight: 1 
+Edge: 2668 368 Weight: 1 
+Edge: 580 865 Weight: 1 
+Edge: 1989 2697 Weight: 1 
+Edge: 956 2218 Weight: 1 
+Edge: 521 4 Weight: 1 
+Edge: 2142 7 Weight: 1 
+Edge: 1731 7 Weight: 1 
+Edge: 1471 17 Weight: 1 
+Edge: 73 728 Weight: 1 
+Edge: 698 64 Weight: 1 
+Edge: 2627 1653 Weight: 1 
+Edge: 3 2332 Weight: 1 
+Edge: 7603 2172 Weight: 1 
+Edge: 7588 2222 Weight: 1 
+Edge: 2935 177 Weight: 1 
+Edge: 40 3 Weight: 1 
+Edge: 49 7436 Weight: 1 
+Edge: 2308 3 Weight: 1 
+Edge: 1293 177 Weight: 1 
+Edge: 3 27 Weight: 1 
+Edge: 755 3 Weight: 1 
+Edge: 18 79 Weight: 1 
+Edge: 7577 2174 Weight: 1 
+Edge: 7397 2182 Weight: 1 
+Edge: 1436 1 Weight: 1 
+Edge: 7443 1049 Weight: 1 
+Edge: 2151 2577 Weight: 1 
+Edge: 1969 365 Weight: 1 
+Edge: 1693 577 Weight: 1 
+Edge: 2964 1649 Weight: 1 
+Edge: 2 2459 Weight: 1 
+Edge: 1 2848 Weight: 1 
+Edge: 2555 2067 Weight: 1 
+Edge: 7570 2008 Weight: 1 
+Edge: 749 813 Weight: 1 
+Edge: 3067 748 Weight: 1 
+Edge: 361 371 Weight: 1 
+Edge: 1834 12 Weight: 1 
+Edge: 3 2295 Weight: 1 
+Edge: 1 3295 Weight: 1 
+Edge: 2878 33 Weight: 1 
+Edge: 33 1034 Weight: 1 
+Edge: 1 2837 Weight: 1 
+Edge: 2803 18 Weight: 1 
+Edge: 121 18 Weight: 1 
+Edge: 1 2826 Weight: 1 
+Edge: 176 1771 Weight: 1 
+Edge: 1 2166 Weight: 1 
+Edge: 2106 18 Weight: 1 
+Edge: 2710 18 Weight: 1 
+Edge: 437 18 Weight: 1 
+Edge: 1 2687 Weight: 1 
+Edge: 1187 3199 Weight: 1 
+Edge: 33 960 Weight: 1 
+Edge: 2672 79 Weight: 1 
+Edge: 6 1374 Weight: 1 
+Edge: 1 2830 Weight: 1 
+Edge: 359 2616 Weight: 1 
+Edge: 1468 79 Weight: 1 
+Edge: 2429 1590 Weight: 1 
+Edge: 13 1535 Weight: 1 
+Edge: 7 3177 Weight: 1 
+Edge: 7 3145 Weight: 1 
+Edge: 553 3252 Weight: 1 
+Edge: 19 1581 Weight: 1 
+Edge: 7 523 Weight: 1 
+Edge: 7 3052 Weight: 1 
+Edge: 7 684 Weight: 1 
+Edge: 3005 740 Weight: 1 
+Edge: 7498 359 Weight: 1 
+Edge: 33 459 Weight: 1 
+Edge: 1103 571 Weight: 1 
+Edge: 1 2810 Weight: 1 
+Edge: 1 2808 Weight: 1 
+Edge: 3350 288 Weight: 1 
+Edge: 7 407 Weight: 1 
+Edge: 15 3433 Weight: 1 
+Edge: 2806 1 Weight: 1 
+Edge: 7 2210 Weight: 1 
+Edge: 2765 735 Weight: 1 
+Edge: 7 2869 Weight: 1 
+Edge: 2889 7 Weight: 1 
+Edge: 1993 1982 Weight: 1 
+Edge: 1985 1984 Weight: 1 
+Edge: 7413 1950 Weight: 1 
+Edge: 1629 7371 Weight: 1 
+Edge: 1614 1176 Weight: 1 
+Edge: 84 1619 Weight: 1 
+Edge: 738 2860 Weight: 1 
+Edge: 1133 357 Weight: 1 
+Edge: 1100 84 Weight: 1 
+Edge: 85 601 Weight: 1 
+Edge: 2175 70 Weight: 1 
+Edge: 1557 1364 Weight: 1 
+Edge: 2942 1 Weight: 1 
+Edge: 731 1131 Weight: 1 
+Edge: 734 1280 Weight: 1 
+Edge: 7564 1105 Weight: 1 
+Edge: 13 3061 Weight: 1 
+Edge: 2512 355 Weight: 1 
+Edge: 3415 85 Weight: 1 
+Edge: 1750 1 Weight: 1 
+Edge: 1 3300 Weight: 1 
+Edge: 1269 20 Weight: 1 
+Edge: 1145 20 Weight: 1 
+Edge: 1 2783 Weight: 1 
+Edge: 3193 1 Weight: 1 
+Edge: 1582 594 Weight: 1 
+Edge: 1 2780 Weight: 1 
+Edge: 1955 1956 Weight: 1 
+Edge: 291 1900 Weight: 1 
+Edge: 3144 13 Weight: 1 
+Edge: 1088 565 Weight: 1 
+Edge: 1895 352 Weight: 1 
+Edge: 2599 786 Weight: 1 
+Edge: 2150 33 Weight: 1 
+Edge: 3444 86 Weight: 1 
+Edge: 1906 86 Weight: 1 
+Edge: 2779 1 Weight: 1 
+Edge: 1 2775 Weight: 1 
+Edge: 729 1656 Weight: 1 
+Edge: 21 961 Weight: 1 
+Edge: 21 956 Weight: 1 
+Edge: 982 2398 Weight: 1 
+Edge: 350 1321 Weight: 1 
+Edge: 2772 1 Weight: 1 
+Edge: 1 2129 Weight: 1 
+Edge: 1159 349 Weight: 1 
+Edge: 561 2590 Weight: 1 
+Edge: 21 235 Weight: 1 
+Edge: 1716 48 Weight: 1 
+Edge: 561 1087 Weight: 1 
+Edge: 729 1711 Weight: 1 
+Edge: 48 1473 Weight: 1 
+Edge: 1721 1476 Weight: 1 
+Edge: 389 293 Weight: 1 
+Edge: 348 2407 Weight: 1 
+Edge: 1283 1 Weight: 1 
+Edge: 1 2767 Weight: 1 
+Edge: 1 2764 Weight: 1 
+Edge: 555 1058 Weight: 1 
+Edge: 1 2763 Weight: 1 
+Edge: 553 3249 Weight: 1 
+Edge: 1523 554 Weight: 1 
+Edge: 2093 1 Weight: 1 
+Edge: 1974 718 Weight: 1 
+Edge: 981 8 Weight: 1 
+Edge: 69 1758 Weight: 1 
+Edge: 3089 13 Weight: 1 
+Edge: 8 458 Weight: 1 
+Edge: 166 1797 Weight: 1 
+Edge: 942 346 Weight: 1 
+Edge: 346 2816 Weight: 1 
+Edge: 553 1543 Weight: 1 
+Edge: 344 1106 Weight: 1 
+Edge: 297 7437 Weight: 1 
+Edge: 344 677 Weight: 1 
+Edge: 2579 725 Weight: 1 
+Edge: 2132 32 Weight: 1 
+Edge: 344 480 Weight: 1 
+Edge: 2955 8 Weight: 1 
+Edge: 22 2817 Weight: 1 
+Edge: 1 2181 Weight: 1 
+Edge: 785 299 Weight: 1 
+Edge: 22 869 Weight: 1 
+Edge: 110 8 Weight: 1 
+Edge: 3171 93 Weight: 1 
+Edge: 1487 1035 Weight: 1 
+Edge: 1831 13 Weight: 1 
+Edge: 1938 341 Weight: 1 
+Edge: 162 3025 Weight: 1 
+Edge: 2990 162 Weight: 1 
+Edge: 2470 1090 Weight: 1 
+Edge: 3260 3 Weight: 1 
+Edge: 8 1865 Weight: 1 
+Edge: 8 2389 Weight: 1 
+Edge: 8 983 Weight: 1 
+Edge: 8 2384 Weight: 1 
+Edge: 8 1571 Weight: 1 
+Edge: 8 3159 Weight: 1 
+Edge: 3088 1 Weight: 1 
+Edge: 8 1361 Weight: 1 
+Edge: 8 2330 Weight: 1 
+Edge: 8 3131 Weight: 1 
+Edge: 648 96 Weight: 1 
+Edge: 1026 2158 Weight: 1 
+Edge: 58 1582 Weight: 1 
+Edge: 48 2734 Weight: 1 
+Edge: 2725 1 Weight: 1 
+Edge: 340 729 Weight: 1 
+Edge: 1 2713 Weight: 1 
+Edge: 916 339 Weight: 1 
+Edge: 8 1254 Weight: 1 
+Edge: 23 935 Weight: 1 
+Edge: 3271 1870 Weight: 1 
+Edge: 800 69 Weight: 1 
+Edge: 1220 716 Weight: 1 
+Edge: 547 1484 Weight: 1 
+Edge: 1626 339 Weight: 1 
+Edge: 1 3083 Weight: 1 
+Edge: 2700 1 Weight: 1 
+Edge: 2495 716 Weight: 1 
+Edge: 138 23 Weight: 1 
+Edge: 1080 23 Weight: 1 
+Edge: 2441 23 Weight: 1 
+Edge: 1398 23 Weight: 1 
+Edge: 1166 2251 Weight: 1 
+Edge: 156 2377 Weight: 1 
+Edge: 2430 337 Weight: 1 
+Edge: 2619 1 Weight: 1 
+Edge: 156 1027 Weight: 1 
+Edge: 1869 3315 Weight: 1 
+Edge: 1 1839 Weight: 1 
+Edge: 24 6014 Weight: 1 
+Edge: 24 3147 Weight: 1 
+Edge: 24 1351 Weight: 1 
+Edge: 2324 1 Weight: 1 
+Edge: 1808 1335 Weight: 1 
+Edge: 1045 105 Weight: 1 
+Edge: 1017 1448 Weight: 1 
+Edge: 2559 1 Weight: 1 
+Edge: 106 2041 Weight: 1 
+Edge: 106 422 Weight: 1 
+Edge: 241 24 Weight: 1 
+Edge: 3480 712 Weight: 1 
+Edge: 1662 153 Weight: 1 
+Edge: 130 108 Weight: 1 
+Edge: 2842 108 Weight: 1 
+Edge: 3040 332 Weight: 1 
+Edge: 109 1428 Weight: 1 
+Edge: 542 2755 Weight: 1 
+Edge: 2419 110 Weight: 1 
+Edge: 25 3043 Weight: 1 
+Edge: 440 110 Weight: 1 
+Edge: 25 2135 Weight: 1 
+Edge: 1866 2360 Weight: 1 
+Edge: 1864 7341 Weight: 1 
+Edge: 7525 1846 Weight: 1 
+Edge: 25 2196 Weight: 1 
+Edge: 3209 1838 Weight: 1 
+Edge: 1831 3140 Weight: 1 
+Edge: 2067 1625 Weight: 1 
+Edge: 966 70 Weight: 1 
+Edge: 1790 5342 Weight: 1 
+Edge: 1597 114 Weight: 1 
+Edge: 114 7087 Weight: 1 
+Edge: 1615 996 Weight: 1 
+Edge: 150 1081 Weight: 1 
+Edge: 1012 2600 Weight: 1 
+Edge: 1155 25 Weight: 1 
+Edge: 706 765 Weight: 1 
+Edge: 1016 705 Weight: 1 
+Edge: 328 2661 Weight: 1 
+Edge: 327 1240 Weight: 1 
+Edge: 1764 25 Weight: 1 
+Edge: 1012 2098 Weight: 1 
+Edge: 479 25 Weight: 1 
+Edge: 1165 62 Weight: 1 
+Edge: 1694 2101 Weight: 1 
+Edge: 1012 2730 Weight: 1 
+Edge: 2193 1624 Weight: 1 
+Edge: 2199 117 Weight: 1 
+Edge: 2540 1622 Weight: 1 
+Edge: 2487 1621 Weight: 1 
+Edge: 2336 3436 Weight: 1 
+Edge: 9 2479 Weight: 1 
+Edge: 598 121 Weight: 1 
+Edge: 2770 9 Weight: 1 
+Edge: 2838 121 Weight: 1 
+Edge: 2917 798 Weight: 1 
+Edge: 2265 700 Weight: 1 
+Edge: 324 2583 Weight: 1 
+Edge: 9 2760 Weight: 1 
+Edge: 61 3130 Weight: 1 
+Edge: 3068 1 Weight: 1 
+Edge: 146 2939 Weight: 1 
+Edge: 1 1580 Weight: 1 
+Edge: 3304 26 Weight: 1 
+Edge: 62 886 Weight: 1 
+Edge: 1 3042 Weight: 1 
+Edge: 238 125 Weight: 1 
+Edge: 13 3037 Weight: 1 
+Edge: 127 2398 Weight: 1 
+Edge: 127 1532 Weight: 1 
+Edge: 127 3102 Weight: 1 
+Edge: 1769 7553 Weight: 1 
+Edge: 1915 145 Weight: 1 
+Edge: 145 1378 Weight: 1 
+Edge: 3263 1066 Weight: 1 
+Edge: 1008 1297 Weight: 1 
+Edge: 1908 4 Weight: 1 
+Edge: 1004 2010 Weight: 1 
+Edge: 682 2722 Weight: 1 
+Edge: 682 2109 Weight: 1 
+Edge: 57 2552 Weight: 1 
+Edge: 912 535 Weight: 1 
+Edge: 535 654 Weight: 1 
+Edge: 2474 534 Weight: 1 
+Edge: 1119 532 Weight: 1 
+Edge: 10 2986 Weight: 1 
+Edge: 316 2834 Weight: 1 
+Edge: 5 3236 Weight: 1 
+Edge: 3334 309 Weight: 1 
+Edge: 9 2777 Weight: 1 
+Edge: 9 2124 Weight: 1 
+Edge: 1764 2940 Weight: 1 
+Edge: 1786 1741 Weight: 1 
+Edge: 28 955 Weight: 1 
+Edge: 28 2064 Weight: 1 
+Edge: 28 1120 Weight: 1 
+Edge: 28 2620 Weight: 1 
+Edge: 28 1449 Weight: 1 
+Edge: 28 2029 Weight: 1 
+Edge: 2201 4 Weight: 1 
+Edge: 678 2612 Weight: 1 
+Edge: 1710 2716 Weight: 1 
+Edge: 46 2270 Weight: 1 
+Edge: 7372 2493 Weight: 1 
+Edge: 2001 4 Weight: 1 
+Edge: 311 2202 Weight: 1 
+Edge: 309 1372 Weight: 1 
+Edge: 1444 311 Weight: 1 
+Edge: 141 3389 Weight: 1 
+Edge: 141 751 Weight: 1 
+Edge: 4 2485 Weight: 1 
+Edge: 3076 13 Weight: 1 
+Edge: 1 377 Weight: 1 
+Edge: 526 3216 Weight: 1 
+Edge: 139 1083 Weight: 1 
+Edge: 139 2514 Weight: 1 
+Edge: 4 773 Weight: 1 
+Edge: 61 3077 Weight: 1 
+Edge: 1 3385 Weight: 1 
+Edge: 3122 10 Weight: 1 
+Edge: 1 3057 Weight: 1 
+Edge: 676 925 Weight: 1 
+Edge: 61 3098 Weight: 1 
+Edge: 137 2526 Weight: 1 
+Edge: 2094 137 Weight: 1 
+Edge: 870 137 Weight: 1 
+Edge: 2957 10 Weight: 1 
+Edge: 1288 10 Weight: 1 
+Edge: 30 1540 Weight: 1 
+Edge: 2908 10 Weight: 1 
+Edge: 1 3290 Weight: 1 
+Edge: 522 1156 Weight: 1 
+Edge: 3123 61 Weight: 1 
+Edge: 2305 1 Weight: 1 
+Edge: 1981 10 Weight: 1 
+Edge: 669 2534 Weight: 1 
+Edge: 962 136 Weight: 1 
+Edge: 1992 10 Weight: 1 
+Edge: 3100 30 Weight: 1 
+Edge: 1967 10 Weight: 1 
+Edge: 704 666 Weight: 1 
+Edge: 3027 1 Weight: 1 
+Edge: 884 61 Weight: 1 
+Edge: 28 2602 Weight: 1 
+Edge: 3339 1 Weight: 1 
+Edge: 2399 151 Weight: 1 
+Edge: 664 1279 Weight: 1 
+Edge: 2090 1 Weight: 1 
+Edge: 1680 2045 Weight: 1 
+Edge: 1705 2089 Weight: 1 
+Edge: 57 2637 Weight: 1 
+Edge: 2595 57 Weight: 1 
+Edge: 663 2335 Weight: 1 
+Edge: 825 5 Weight: 1 
+Edge: 1943 45 Weight: 1 
+Edge: 1 3329 Weight: 1 
+Edge: 6 3096 Weight: 1 
+Edge: 132 1703 Weight: 1 
+Edge: 455 156 Weight: 1 
+Edge: 3023 1 Weight: 1 
+Edge: 2653 132 Weight: 1 
+Edge: 1267 28 Weight: 1 
+Edge: 10 975 Weight: 1 
+Edge: 302 3223 Weight: 1 
+Edge: 2571 661 Weight: 1 
+Edge: 16 1922 Weight: 1 
+Edge: 2926 1 Weight: 1 
+Edge: 3406 64 Weight: 1 
+Edge: 1451 784 Weight: 1 
+Edge: 2599 387 Weight: 1 
+Edge: 1871 759 Weight: 1 
+Edge: 16 537 Weight: 1 
+Edge: 1402 2635 Weight: 1 
+Edge: 1509 1 Weight: 1 
+Edge: 2123 389 Weight: 1 
+Edge: 69 2241 Weight: 1 
+Edge: 2254 3035 Weight: 1 
+Edge: 1077 389 Weight: 1 
+Edge: 630 389 Weight: 1 
+Edge: 16 2930 Weight: 1 
+Edge: 16 2954 Weight: 1 
+Edge: 423 185 Weight: 1 
+Edge: 185 582 Weight: 1 
+Edge: 786 1450 Weight: 1 
+Edge: 1541 490 Weight: 1 
+Edge: 1423 1981 Weight: 1 
+Edge: 2336 3391 Weight: 1 
+Edge: 1910 16 Weight: 1 
+Edge: 58 3348 Weight: 1 
+Edge: 1549 3266 Weight: 1 
+Edge: 2336 186 Weight: 1 
+Edge: 2336 3449 Weight: 1 
+Edge: 1129 2351 Weight: 1 
+Edge: 50 1975 Weight: 1 
+Edge: 69 2169 Weight: 1 
+Edge: 2726 940 Weight: 1 
+Edge: 1133 940 Weight: 1 
+Edge: 1785 62 Weight: 1 
+Edge: 2890 393 Weight: 1 
+Edge: 1776 6 Weight: 1 
+Edge: 393 2929 Weight: 1 
+Edge: 15 764 Weight: 1 
+Edge: 3344 58 Weight: 1 
+Edge: 14 2825 Weight: 1 
+Edge: 1195 1071 Weight: 1 
+Edge: 1814 61 Weight: 1 
+Edge: 597 1533 Weight: 1 
+Edge: 965 597 Weight: 1 
+Edge: 393 2212 Weight: 1 
+Edge: 395 2310 Weight: 1 
+Edge: 76 1011 Weight: 1 
+Edge: 2962 1 Weight: 1 
+Edge: 2428 2336 Weight: 1 
+Edge: 1686 2621 Weight: 1 
+Edge: 14 2818 Weight: 1 
+Edge: 6 3066 Weight: 1 
+Edge: 2966 1 Weight: 1 
+Edge: 397 666 Weight: 1 
+Edge: 397 1877 Weight: 1 
+Edge: 1 3316 Weight: 1 
+Edge: 76 2696 Weight: 1 
+Edge: 645 2343 Weight: 1 
+Edge: 3110 643 Weight: 1 
+Edge: 398 3359 Weight: 1 
+Edge: 2974 401 Weight: 1 
+Edge: 398 706 Weight: 1 
+Edge: 401 1666 Weight: 1 
+Edge: 2724 792 Weight: 1 
+Edge: 2358 2356 Weight: 1 
+Edge: 2861 69 Weight: 1 
+Edge: 3155 6 Weight: 1 
+Edge: 1066 1 Weight: 1 
+Edge: 1483 14 Weight: 1 
+Edge: 744 402 Weight: 1 
+Edge: 51 2879 Weight: 1 
+Edge: 1385 15 Weight: 1 
+Edge: 1352 937 Weight: 1 
+Edge: 1 1520 Weight: 1 
+Edge: 610 402 Weight: 1 
+Edge: 3176 6 Weight: 1 
+Edge: 3368 36 Weight: 1 
+Edge: 832 15 Weight: 1 
+Edge: 1074 3445 Weight: 1 
+Edge: 2662 1686 Weight: 1 
+Edge: 1 3253 Weight: 1 
+Edge: 403 1695 Weight: 1 
+Edge: 1657 2011 Weight: 1 
+Edge: 1 2996 Weight: 1 
+Edge: 192 2417 Weight: 1 
+Edge: 3091 15 Weight: 1 
+Edge: 2361 2412 Weight: 1 
+Edge: 7550 1130 Weight: 1 
+Edge: 2038 480 Weight: 1 
+Edge: 3427 15 Weight: 1 
+Edge: 3299 2390 Weight: 1 
+Edge: 3431 15 Weight: 1 
+Edge: 403 2699 Weight: 1 
+Edge: 6 3305 Weight: 1 
+Edge: 1 2999 Weight: 1 
+Edge: 2415 192 Weight: 1 
+Edge: 1428 2528 Weight: 1 
+Edge: 36 2374 Weight: 1 
+Edge: 404 2648 Weight: 1 
+Edge: 1544 1856 Weight: 1 
+Edge: 194 2983 Weight: 1 
+Edge: 3258 598 Weight: 1 
+Edge: 36 1067 Weight: 1 
+Edge: 194 1955 Weight: 1 
+Edge: 2432 15 Weight: 1 
+Edge: 2978 194 Weight: 1 
+Edge: 3439 15 Weight: 1 
+Edge: 3382 15 Weight: 1 
+Edge: 1 3247 Weight: 1 
+Edge: 2287 15 Weight: 1 
+Edge: 65 1404 Weight: 1 
+Edge: 2069 195 Weight: 1 
+Edge: 2606 195 Weight: 1 
+Edge: 1 2795 Weight: 1 
+Edge: 714 403 Weight: 1 
+Edge: 388 184 Weight: 1 
+Edge: 1129 1440 Weight: 1 
+Edge: 198 2187 Weight: 1 
+Edge: 1627 475 Weight: 1 
+Edge: 2622 406 Weight: 1 
+Edge: 2394 934 Weight: 1 
+Edge: 6123 199 Weight: 1 
+Edge: 451 199 Weight: 1 
+Edge: 1926 37 Weight: 1 
+Edge: 1887 11 Weight: 1 
+Edge: 51 2887 Weight: 1 
+Edge: 984 15 Weight: 1 
+Edge: 1 3245 Weight: 1 
+Edge: 2450 200 Weight: 1 
+Edge: 605 3410 Weight: 1 
+Edge: 51 638 Weight: 1 
+Edge: 1970 409 Weight: 1 
+Edge: 847 200 Weight: 1 
+Edge: 3114 196 Weight: 1 
+Edge: 2835 409 Weight: 1 
+Edge: 1860 259 Weight: 1 
+Edge: 6 3222 Weight: 1 
+Edge: 1079 1405 Weight: 1 
+Edge: 1212 2444 Weight: 1 
+Edge: 15 2434 Weight: 1 
+Edge: 1205 3369 Weight: 1 
+Edge: 202 2598 Weight: 1 
+Edge: 1433 202 Weight: 1 
+Edge: 11 3269 Weight: 1 
+Edge: 1399 37 Weight: 1 
+Edge: 1433 1657 Weight: 1 
+Edge: 409 2138 Weight: 1 
+Edge: 2636 202 Weight: 1 
+Edge: 2157 410 Weight: 1 
+Edge: 926 1244 Weight: 1 
+Edge: 2956 411 Weight: 1 
+Edge: 2938 410 Weight: 1 
+Edge: 3224 11 Weight: 1 
+Edge: 2207 798 Weight: 1 
+Edge: 51 2798 Weight: 1 
+Edge: 55 1946 Weight: 1 
+Edge: 205 2976 Weight: 1 
+Edge: 2517 611 Weight: 1 
+Edge: 915 611 Weight: 1 
+Edge: 2875 798 Weight: 1 
+Edge: 2208 410 Weight: 1 
+Edge: 2867 798 Weight: 1 
+Edge: 1030 798 Weight: 1 
+Edge: 1927 1083 Weight: 1 
+Edge: 415 3324 Weight: 1 
+Edge: 2273 1 Weight: 1 
+Edge: 1570 1 Weight: 1 
+Edge: 232 205 Weight: 1 
+Edge: 1559 206 Weight: 1 
+Edge: 3175 206 Weight: 1 
+Edge: 206 1855 Weight: 1 
+Edge: 206 1557 Weight: 1 
+Edge: 1 1072 Weight: 1 
+Edge: 2613 1989 Weight: 1 
+Edge: 6 1055 Weight: 1 
+Edge: 3138 7595 Weight: 1 
+Edge: 2804 14 Weight: 1 
+Edge: 1062 206 Weight: 1 
+Edge: 818 6 Weight: 1 
+Edge: 771 419 Weight: 1 
+Edge: 2162 38 Weight: 1 
+Edge: 1084 2489 Weight: 1 
+Edge: 611 2505 Weight: 1 
+Edge: 2971 2975 Weight: 1 
+Edge: 6 1578 Weight: 1 
+Edge: 990 419 Weight: 1 
+Edge: 2657 206 Weight: 1 
+Edge: 921 1210 Weight: 1 
+Edge: 3238 815 Weight: 1 
+Edge: 476 1660 Weight: 1 
+Edge: 2466 209 Weight: 1 
+Edge: 419 1214 Weight: 1 
+Edge: 209 325 Weight: 1 
+Edge: 1928 209 Weight: 1 
+Edge: 476 2567 Weight: 1 
+Edge: 2732 210 Weight: 1 
+Edge: 211 1143 Weight: 1 
+Edge: 11 552 Weight: 1 
+Edge: 606 419 Weight: 1 
+Edge: 11 2217 Weight: 1 
+Edge: 631 211 Weight: 1 
+Edge: 1186 817 Weight: 1 
+Edge: 1286 211 Weight: 1 
+Edge: 1869 1194 Weight: 1 
+Edge: 38 3044 Weight: 1 
+Edge: 1065 1 Weight: 1 
+Edge: 2608 1218 Weight: 1 
+Edge: 669 474 Weight: 1 
+Edge: 1268 212 Weight: 1 
+Edge: 38 2577 Weight: 1 
+Edge: 212 581 Weight: 1 
+Edge: 404 909 Weight: 1 
+Edge: 1277 196 Weight: 1 
+Edge: 1033 52 Weight: 1 
+Edge: 52 2180 Weight: 1 
+Edge: 14 1256 Weight: 1 
+Edge: 14 1734 Weight: 1 
+Edge: 1327 213 Weight: 1 
+Edge: 2914 38 Weight: 1 
+Edge: 276 11 Weight: 1 
+Edge: 38 2906 Weight: 1 
+Edge: 52 2195 Weight: 1 
+Edge: 3059 1 Weight: 1 
+Edge: 1 3215 Weight: 1 
+Edge: 38 2853 Weight: 1 
+Edge: 2840 38 Weight: 1 
+Edge: 214 1793 Weight: 1 
+Edge: 1493 38 Weight: 1 
+Edge: 38 1289 Weight: 1 
+Edge: 323 215 Weight: 1 
+Edge: 6336 3228 Weight: 1 
+Edge: 7374 426 Weight: 1 
+Edge: 1405 215 Weight: 1 
+Edge: 11 1754 Weight: 1 
+Edge: 7401 2 Weight: 1 
+Edge: 2836 793 Weight: 1 
+Edge: 1311 11 Weight: 1 
+Edge: 11 2865 Weight: 1 
+Edge: 431 3201 Weight: 1 
+Edge: 615 2554 Weight: 1 
+Edge: 2711 844 Weight: 1 
+Edge: 2340 431 Weight: 1 
+Edge: 845 991 Weight: 1 
+Edge: 1441 615 Weight: 1 
+Edge: 3394 7591 Weight: 1 
+Edge: 1464 2676 Weight: 1 
+Edge: 1104 2516 Weight: 1 
+Edge: 2546 470 Weight: 1 
+Edge: 472 2480 Weight: 1 
+Edge: 1648 367 Weight: 1 
+Edge: 11 1748 Weight: 1 
+Edge: 217 2561 Weight: 1 
+Edge: 1994 217 Weight: 1 
+Edge: 217 1973 Weight: 1 
+Edge: 217 2525 Weight: 1 
+Edge: 3197 7390 Weight: 1 
+Edge: 3046 13 Weight: 1 
+Edge: 2791 11 Weight: 1 
+Edge: 3054 13 Weight: 1 
+Edge: 3056 13 Weight: 1 
+Edge: 1257 218 Weight: 1 
+Edge: 1125 39 Weight: 1 
+Edge: 3073 13 Weight: 1 
+Edge: 3331 219 Weight: 1 
+Edge: 802 219 Weight: 1 
+Edge: 3084 1 Weight: 1 
+Edge: 3210 1 Weight: 1 
+Edge: 219 1478 Weight: 1 
+Edge: 824 220 Weight: 1 
+Edge: 220 1177 Weight: 1 
+Edge: 1675 2032 Weight: 1 
+Edge: 3109 221 Weight: 1 
+Edge: 2418 222 Weight: 1 
+Edge: 432 3301 Weight: 1 
+Edge: 52 2893 Weight: 1 
+Edge: 1088 252 Weight: 1 
+Edge: 5 7126 Weight: 1 
+Edge: 222 2402 Weight: 1 
+Edge: 222 3380 Weight: 1 
+Edge: 1577 336 Weight: 1 
+Edge: 222 898 Weight: 1 
+Edge: 223 910 Weight: 1 
+Edge: 52 2886 Weight: 1 
+Edge: 2370 433 Weight: 1 
+Edge: 3336 5 Weight: 1 
+Edge: 634 52 Weight: 1 
+Edge: 435 2261 Weight: 1 
+Edge: 223 624 Weight: 1 
+Edge: 616 1008 Weight: 1 
+Edge: 1997 223 Weight: 1 
+Edge: 856 2543 Weight: 1 
+Edge: 2362 59 Weight: 1 
+Edge: 1 1847 Weight: 1 
+Edge: 1008 858 Weight: 1 
+Edge: 632 3151 Weight: 1 
+Edge: 906 3446 Weight: 1 
+Edge: 224 2464 Weight: 1 
+Edge: 224 2570 Weight: 1 
+Edge: 224 2471 Weight: 1 
+Edge: 224 2462 Weight: 1 
+Edge: 2482 251 Weight: 1 
+Edge: 2279 46 Weight: 1 
+Edge: 40 2103 Weight: 1 
+Edge: 13 3039 Weight: 1 
+Edge: 1 3202 Weight: 1 
+Edge: 225 2503 Weight: 1 
+Edge: 3033 40 Weight: 1 
+Edge: 862 619 Weight: 1 
+Edge: 5 1832 Weight: 1 
+Edge: 13 952 Weight: 1 
+Edge: 1 3113 Weight: 1 
+Edge: 1250 1248 Weight: 1 
+Edge: 2 2839 Weight: 1 
+Edge: 1618 1226 Weight: 1 
+Edge: 15 767 Weight: 1 
+Edge: 226 2553 Weight: 1 
+Edge: 226 615 Weight: 1 
+Edge: 252 2733 Weight: 1 
+Edge: 1 3422 Weight: 1 
+Edge: 2757 1477 Weight: 1 
+Edge: 1252 226 Weight: 1 
+Edge: 2099 859 Weight: 1 
+Edge: 13 3072 Weight: 1 
+Edge: 1810 13 Weight: 1 
+Edge: 435 1825 Weight: 1 
+Edge: 3111 1 Weight: 1 
+Edge: 859 2703 Weight: 1 
+Edge: 3013 1 Weight: 1 
+Edge: 2266 13 Weight: 1 
+Edge: 3174 46 Weight: 1 
+Edge: 3231 5 Weight: 1 
+Edge: 3036 13 Weight: 1 
+Edge: 1 1302 Weight: 1 
+Edge: 2472 224 Weight: 1 
+Edge: 2 1977 Weight: 1 
+Edge: 1 3101 Weight: 1 
+Edge: 2691 1235 Weight: 1 
+Edge: 7411 2900 Weight: 1 
+Edge: 2870 1 Weight: 1 
+Edge: 1232 2504 Weight: 1 
+Edge: 2 2499 Weight: 1 
+Edge: 1116 11 Weight: 1 
+Edge: 1733 220 Weight: 1 
+Edge: 2537 467 Weight: 1 
+Edge: 432 1772 Weight: 1 
+Edge: 2686 219 Weight: 1 
+Edge: 2741 48 Weight: 1 
+Edge: 2 1225 Weight: 1 
+Edge: 1239 48 Weight: 1 
+Edge: 353 1916 Weight: 1 
+Edge: 954 71 Weight: 1 
+Edge: 3047 13 Weight: 1 
+Edge: 3051 13 Weight: 1 
+Edge: 14 2157 Weight: 1 
+Edge: 3314 7412 Weight: 1 
+Edge: 7552 848 Weight: 1 
+Edge: 420 2 Weight: 1 
+Edge: 2372 49 Weight: 1 
+Edge: 254 677 Weight: 1 
+Edge: 2513 1104 Weight: 1 
+Edge: 2081 1103 Weight: 1 
+Edge: 1552 431 Weight: 1 
+Edge: 7415 3120 Weight: 1 
+Edge: 825 3268 Weight: 1 
+Edge: 1 3064 Weight: 1 
+Edge: 3188 825 Weight: 1 
+Edge: 2 2446 Weight: 1 
+Edge: 381 551 Weight: 1 
+Edge: 50 1236 Weight: 1 
+Edge: 50 1932 Weight: 1 
+Edge: 3299 3296 Weight: 1 
+Edge: 1900 1 Weight: 1 
+Edge: 66 2856 Weight: 1 
+Edge: 1751 50 Weight: 1 
+Edge: 3240 824 Weight: 1 
+Edge: 3062 1 Weight: 1 
+Edge: 1667 50 Weight: 1 
+Edge: 59 2364 Weight: 1 
+Edge: 824 3323 Weight: 1 
+Edge: 1417 50 Weight: 1 
+Edge: 2148 14 Weight: 1 
+Edge: 1 2846 Weight: 1 
+Edge: 1724 14 Weight: 1 
+Edge: 2802 51 Weight: 1 
+Edge: 2146 14 Weight: 1 
+Edge: 1669 612 Weight: 1 
+Edge: 14 2136 Weight: 1 
+Edge: 14 2796 Weight: 1 
+Edge: 2286 3287 Weight: 1 
+Edge: 474 2937 Weight: 1 
+Edge: 529 421 Weight: 1 
+Edge: 3048 1 Weight: 1 
+Edge: 641 2255 Weight: 1 
+Edge: 917 1115 Weight: 1 
+Edge: 1477 1457 Weight: 1 
+Edge: 7551 3095 Weight: 1 
+Edge: 1458 2141 Weight: 1 
+Edge: 1226 2477 Weight: 1 
+Edge: 3074 7595 Weight: 1 
+Edge: 1986 52 Weight: 1 
+Edge: 1086 2689 Weight: 1 
+Edge: 2896 52 Weight: 1 
+Edge: 14 2813 Weight: 1 
+Edge: 2823 1 Weight: 1 
+Edge: 226 730 Weight: 1 
+Edge: 1 3298 Weight: 1 
+Edge: 2544 65 Weight: 1 
+Edge: 415 7558 Weight: 1 
+Edge: 1455 7564 Weight: 1 
+Edge: 1451 1963 Weight: 1 
+Edge: 7595 3136 Weight: 1 
+Edge: 2967 38 Weight: 1 
+Edge: 2811 4934 Weight: 1 
+Edge: 798 1741 Weight: 1 
+Edge: 798 1486 Weight: 1 
+Edge: 1605 1448 Weight: 1 
+Edge: 798 2884 Weight: 1 
+Edge: 2789 7603 Weight: 1 
+Edge: 55 2943 Weight: 1 
+Edge: 2234 71 Weight: 1 
+Edge: 486 410 Weight: 1 
+Edge: 742 410 Weight: 1 
+Edge: 2748 7603 Weight: 1 
+Edge: 409 2832 Weight: 1 
+Edge: 2573 923 Weight: 1 
+Edge: 798 2871 Weight: 1 
+Edge: 1601 606 Weight: 1 
+Edge: 1 2784 Weight: 1 
+Edge: 607 769 Weight: 1 
+Edge: 57 2656 Weight: 1 
+Edge: 2652 7375 Weight: 1 
+Edge: 2183 798 Weight: 1 
+Edge: 199 6786 Weight: 1 
+Edge: 2415 3409 Weight: 1 
+Edge: 2766 57 Weight: 1 
+Edge: 645 1838 Weight: 1 
+Edge: 260 1135 Weight: 1 
+Edge: 15 3451 Weight: 1 
+Edge: 2437 15 Weight: 1 
+Edge: 15 3448 Weight: 1 
+Edge: 792 934 Weight: 1 
+Edge: 1396 15 Weight: 1 
+Edge: 58 3392 Weight: 1 
+Edge: 58 3352 Weight: 1 
+Edge: 3442 15 Weight: 1 
+Edge: 15 1075 Weight: 1 
+Edge: 1 1290 Weight: 1 
+Edge: 2397 3327 Weight: 1 
+Edge: 15 3438 Weight: 1 
+Edge: 2506 404 Weight: 1 
+Edge: 598 3219 Weight: 1 
+Edge: 2431 15 Weight: 1 
+Edge: 2398 3183 Weight: 1 
+Edge: 1851 597 Weight: 1 
+Edge: 404 1959 Weight: 1 
+Edge: 2502 45 Weight: 1 
+Edge: 1460 65 Weight: 1 
+Edge: 3187 36 Weight: 1 
+Edge: 76 1684 Weight: 1 
+Edge: 628 583 Weight: 1 
+Edge: 15 3430 Weight: 1 
+Edge: 1903 15 Weight: 1 
+Edge: 1 2498 Weight: 1 
+Edge: 2312 15 Weight: 1 
+Edge: 1 2989 Weight: 1 
+Edge: 1519 191 Weight: 1 
+Edge: 191 3384 Weight: 1 
+Edge: 3192 6 Weight: 1 
+Edge: 1070 15 Weight: 1 
+Edge: 1564 58 Weight: 1 
+Edge: 3158 6 Weight: 1 
+Edge: 1713 792 Weight: 1 
+Edge: 2831 640 Weight: 1 
+Edge: 2238 1 Weight: 1 
+Edge: 899 398 Weight: 1 
+Edge: 495 386 Weight: 1 
+Edge: 3160 645 Weight: 1 
+Edge: 189 1424 Weight: 1 
+Edge: 61 2366 Weight: 1 
+Edge: 1881 1066 Weight: 1 
+Edge: 61 3150 Weight: 1 
+Edge: 6 1056 Weight: 1 
+Edge: 924 657 Weight: 1 
+Edge: 6 3092 Weight: 1 
+Edge: 1066 2393 Weight: 1 
+Edge: 1073 2413 Weight: 1 
+Edge: 62 2314 Weight: 1 
+Edge: 2336 3432 Weight: 1 
+Edge: 393 2949 Weight: 1 
+Edge: 1425 1596 Weight: 1 
+Edge: 188 334 Weight: 1 
+Edge: 3435 2336 Weight: 1 
+Edge: 863 2629 Weight: 1 
+Edge: 941 2948 Weight: 1 
+Edge: 1 2947 Weight: 1 
+Edge: 63 2483 Weight: 1 
+Edge: 63 2453 Weight: 1 
+Edge: 1624 1419 Weight: 1 
+Edge: 67 2800 Weight: 1 
+Edge: 16 3194 Weight: 1 
+Edge: 1 3256 Weight: 1 
+Edge: 2206 16 Weight: 1 
+Edge: 2998 389 Weight: 1 
+Edge: 16 1010 Weight: 1 
+Edge: 2565 16 Weight: 1 
+Edge: 1554 64 Weight: 1 
+Edge: 614 590 Weight: 1 
+Edge: 1 1510 Weight: 1 
+Edge: 1 1505 Weight: 1 
+Edge: 2176 1 Weight: 1 
+Edge: 1688 384 Weight: 1 
+Edge: 1989 226 Weight: 1 
+Edge: 2927 1 Weight: 1 
+Edge: 382 1002 Weight: 1 
+Edge: 66 2594 Weight: 1 
+Edge: 2375 1 Weight: 1 
+Edge: 35 4888 Weight: 1 
+Edge: 66 2851 Weight: 1 
+Edge: 1873 35 Weight: 1 
+Edge: 16 2950 Weight: 1 
+Edge: 16 2944 Weight: 1 
+Edge: 16 2556 Weight: 1 
+Edge: 2915 11 Weight: 1 
+Edge: 451 275 Weight: 1 
+Edge: 3311 1194 Weight: 1 
+Edge: 863 1124 Weight: 1 
+Edge: 64 1200 Weight: 1 
+Edge: 2475 774 Weight: 1 
+Edge: 376 3128 Weight: 1 
+Edge: 2445 16 Weight: 1 
+Edge: 68 1168 Weight: 1 
+Edge: 66 1300 Weight: 1 
+Edge: 34 2350 Weight: 1 
+Edge: 375 1390 Weight: 1 
+Edge: 3276 766 Weight: 1 
+Edge: 5 2360 Weight: 1 
+Edge: 69 2874 Weight: 1 
+Edge: 69 2863 Weight: 1 
+Edge: 3070 1 Weight: 1 
+Edge: 3069 373 Weight: 1 
+Edge: 1714 177 Weight: 1 
+Edge: 17 1305 Weight: 1 
+Edge: 177 2963 Weight: 1 
+Edge: 177 2946 Weight: 1 
+Edge: 2105 17 Weight: 1 
+Edge: 7 3011 Weight: 1 
+Edge: 3203 3 Weight: 1 
+Edge: 1844 3 Weight: 1 
+Edge: 2053 3 Weight: 1 
+Edge: 7552 1400 Weight: 1 
+Edge: 2338 49 Weight: 1 
+Edge: 72 3347 Weight: 1 
+Edge: 17 2143 Weight: 1 
+Edge: 17 2797 Weight: 1 
+Edge: 3397 1879 Weight: 1 
+Edge: 3346 73 Weight: 1 
+Edge: 3342 73 Weight: 1 
+Edge: 2084 2675 Weight: 1 
+Edge: 1 3000 Weight: 1 
+Edge: 18 1271 Weight: 1 
+Edge: 2693 18 Weight: 1 
+Edge: 2086 18 Weight: 1 
+Edge: 2885 2189 Weight: 1 
+Edge: 2758 18 Weight: 1 
+Edge: 18 2097 Weight: 1 
+Edge: 2121 7550 Weight: 1 
+Edge: 2117 2737 Weight: 1 
+Edge: 3363 2090 Weight: 1 
+Edge: 2078 6157 Weight: 1 
+Edge: 2660 2065 Weight: 1 
+Edge: 3021 839 Weight: 1 
+Edge: 2589 283 Weight: 1 
+Edge: 18 2091 Weight: 1 
+Edge: 1 3233 Weight: 1 
+Edge: 18 1526 Weight: 1 
+Edge: 18 3053 Weight: 1 
+Edge: 18 2247 Weight: 1 
+Edge: 18 2961 Weight: 1 
+Edge: 78 2051 Weight: 1 
+Edge: 18 2690 Weight: 1 
+Edge: 2118 18 Weight: 1 
+Edge: 1 2163 Weight: 1 
+Edge: 79 2683 Weight: 1 
+Edge: 7 3351 Weight: 1 
+Edge: 1169 3 Weight: 1 
+Edge: 7 1057 Weight: 1 
+Edge: 7 2381 Weight: 1 
+Edge: 7 1185 Weight: 1 
+Edge: 1987 2194 Weight: 1 
+Edge: 2066 300 Weight: 1 
+Edge: 2688 79 Weight: 1 
+Edge: 1392 19 Weight: 1 
+Edge: 1199 19 Weight: 1 
+Edge: 80 2991 Weight: 1 
+Edge: 783 19 Weight: 1 
+Edge: 19 2388 Weight: 1 
+Edge: 3185 19 Weight: 1 
+Edge: 1175 45 Weight: 1 
+Edge: 68 3099 Weight: 1 
+Edge: 3250 81 Weight: 1 
+Edge: 81 3244 Weight: 1 
+Edge: 15 2289 Weight: 1 
+Edge: 2981 7 Weight: 1 
+Edge: 1278 288 Weight: 1 
+Edge: 173 363 Weight: 1 
+Edge: 1 736 Weight: 1 
+Edge: 84 500 Weight: 1 
+Edge: 84 1616 Weight: 1 
+Edge: 1978 1977 Weight: 1 
+Edge: 2793 1 Weight: 1 
+Edge: 172 2342 Weight: 1 
+Edge: 85 2951 Weight: 1 
+Edge: 13 3060 Weight: 1 
+Edge: 399 85 Weight: 1 
+Edge: 1613 441 Weight: 1 
+Edge: 441 721 Weight: 1 
+Edge: 2501 441 Weight: 1 
+Edge: 1726 733 Weight: 1 
+Edge: 1204 86 Weight: 1 
+Edge: 3393 86 Weight: 1 
+Edge: 564 1618 Weight: 1 
+Edge: 509 21 Weight: 1 
+Edge: 87 1863 Weight: 1 
+Edge: 2759 21 Weight: 1 
+Edge: 2520 21 Weight: 1 
+Edge: 2486 21 Weight: 1 
+Edge: 1175 3168 Weight: 1 
+Edge: 1 2771 Weight: 1 
+Edge: 728 2615 Weight: 1 
+Edge: 6 1461 Weight: 1 
+Edge: 88 3235 Weight: 1 
+Edge: 1599 15 Weight: 1 
+Edge: 1 3173 Weight: 1 
+Edge: 2945 1 Weight: 1 
+Edge: 725 1113 Weight: 1 
+Edge: 1 2754 Weight: 1 
+Edge: 3119 13 Weight: 1 
+Edge: 1 2756 Weight: 1 
+Edge: 1947 442 Weight: 1 
+Edge: 2171 22 Weight: 1 
+Edge: 2159 22 Weight: 1 
+Edge: 2 2497 Weight: 1 
+Edge: 2638 22 Weight: 1 
+Edge: 2119 22 Weight: 1 
+Edge: 3139 1 Weight: 1 
+Edge: 1918 2751 Weight: 1 
+Edge: 6014 1341 Weight: 1 
+Edge: 1976 1929 Weight: 1 
+Edge: 94 1891 Weight: 1 
+Edge: 95 3403 Weight: 1 
+Edge: 95 1889 Weight: 1 
+Edge: 3241 13 Weight: 1 
+Edge: 3400 8 Weight: 1 
+Edge: 22 2651 Weight: 1 
+Edge: 22 1744 Weight: 1 
+Edge: 22 1301 Weight: 1 
+Edge: 22 2745 Weight: 1 
+Edge: 1566 8 Weight: 1 
+Edge: 10 3014 Weight: 1 
+Edge: 1115 2020 Weight: 1 
+Edge: 22 1138 Weight: 1 
+Edge: 22 2773 Weight: 1 
+Edge: 3 3198 Weight: 1 
+Edge: 3387 96 Weight: 1 
+Edge: 3379 96 Weight: 1 
+Edge: 96 525 Weight: 1 
+Edge: 1895 3390 Weight: 1 
+Edge: 3116 8 Weight: 1 
+Edge: 3 3200 Weight: 1 
+Edge: 8 1178 Weight: 1 
+Edge: 8 1343 Weight: 1 
+Edge: 1895 3401 Weight: 1 
+Edge: 716 913 Weight: 1 
+Edge: 2019 716 Weight: 1 
+Edge: 3 3181 Weight: 1 
+Edge: 8 3028 Weight: 1 
+Edge: 8 3018 Weight: 1 
+Edge: 1 3156 Weight: 1 
+Edge: 23 658 Weight: 1 
+Edge: 23 2443 Weight: 1 
+Edge: 2447 23 Weight: 1 
+Edge: 2438 23 Weight: 1 
+Edge: 99 2473 Weight: 1 
+Edge: 3141 1 Weight: 1 
+Edge: 3 2334 Weight: 1 
+Edge: 3154 3 Weight: 1 
+Edge: 2328 3 Weight: 1 
+Edge: 101 304 Weight: 1 
+Edge: 1873 3214 Weight: 1 
+Edge: 1840 1 Weight: 1 
+Edge: 442 2500 Weight: 1 
+Edge: 7375 546 Weight: 1 
+Edge: 6644 103 Weight: 1 
+Edge: 1356 1 Weight: 1 
+Edge: 653 337 Weight: 1 
+Edge: 2605 1 Weight: 1 
+Edge: 104 378 Weight: 1 
+Edge: 2586 1 Weight: 1 
+Edge: 1397 104 Weight: 1 
+Edge: 3353 104 Weight: 1 
+Edge: 779 31 Weight: 1 
+Edge: 1542 107 Weight: 1 
+Edge: 24 562 Weight: 1 
+Edge: 108 2005 Weight: 1 
+Edge: 153 2609 Weight: 1 
+Edge: 108 2663 Weight: 1 
+Edge: 69 1759 Weight: 1 
+Edge: 2610 108 Weight: 1 
+Edge: 621 2843 Weight: 1 
+Edge: 110 2309 Weight: 1 
+Edge: 3082 25 Weight: 1 
+Edge: 2274 110 Weight: 1 
+Edge: 1868 3272 Weight: 1 
+Edge: 2980 25 Weight: 1 
+Edge: 1492 25 Weight: 1 
+Edge: 151 2383 Weight: 1 
+Edge: 3309 5 Weight: 1 
+Edge: 3338 151 Weight: 1 
+Edge: 53 429 Weight: 1 
+Edge: 114 3429 Weight: 1 
+Edge: 2413 114 Weight: 1 
+Edge: 1879 114 Weight: 1 
+Edge: 7336 68 Weight: 1 
+Edge: 3071 25 Weight: 1 
+Edge: 3220 115 Weight: 1 
+Edge: 5342 1789 Weight: 1 
+Edge: 116 3137 Weight: 1 
+Edge: 1607 1916 Weight: 1 
+Edge: 957 116 Weight: 1 
+Edge: 117 2805 Weight: 1 
+Edge: 2933 117 Weight: 1 
+Edge: 1876 26 Weight: 1 
+Edge: 2650 26 Weight: 1 
+Edge: 2992 9 Weight: 1 
+Edge: 1479 7603 Weight: 1 
+Edge: 1679 1978 Weight: 1 
+Edge: 3015 46 Weight: 1 
+Edge: 3225 1302 Weight: 1 
+Edge: 2774 122 Weight: 1 
+Edge: 7419 859 Weight: 1 
+Edge: 3081 61 Weight: 1 
+Edge: 26 760 Weight: 1 
+Edge: 125 3408 Weight: 1 
+Edge: 536 2643 Weight: 1 
+Edge: 46 3308 Weight: 1 
+Edge: 40 989 Weight: 1 
+Edge: 3303 46 Weight: 1 
+Edge: 127 1827 Weight: 1 
+Edge: 1467 866 Weight: 1 
+Edge: 3405 1009 Weight: 1 
+Edge: 9 1163 Weight: 1 
+Edge: 27 6667 Weight: 1 
+Edge: 27 6290 Weight: 1 
+Edge: 3166 27 Weight: 1 
+Edge: 682 2721 Weight: 1 
+Edge: 2859 534 Weight: 1 
+Edge: 2460 534 Weight: 1 
+Edge: 2665 532 Weight: 1 
+Edge: 675 1674 Weight: 1 
+Edge: 1023 9 Weight: 1 
+Edge: 9 2781 Weight: 1 
+Edge: 130 849 Weight: 1 
+Edge: 27 1362 Weight: 1 
+Edge: 9 1726 Weight: 1 
+Edge: 1740 1778 Weight: 1 
+Edge: 9 2122 Weight: 1 
+Edge: 673 3058 Weight: 1 
+Edge: 13 2243 Weight: 1 
+Edge: 28 726 Weight: 1 
+Edge: 311 1096 Weight: 1 
+Edge: 1109 4 Weight: 1 
+Edge: 46 3178 Weight: 1 
+Edge: 3264 29 Weight: 1 
+Edge: 2507 139 Weight: 1 
+Edge: 1641 139 Weight: 1 
+Edge: 1 3375 Weight: 1 
+Edge: 1 3367 Weight: 1 
+Edge: 3164 30 Weight: 1 
+Edge: 3080 30 Weight: 1 
+Edge: 750 30 Weight: 1 
+Edge: 2640 622 Weight: 1 
+Edge: 5 3307 Weight: 1 
+Edge: 663 2533 Weight: 1 
+Edge: 893 12 Weight: 1 
+Edge: 443 2491 Weight: 1 
+Edge: 443 2496 Weight: 1 
+Edge: 1 3317 Weight: 1 
+Edge: 2092 866 Weight: 1 
+Edge: 622 2645 Weight: 1 
+Edge: 917 40 Weight: 1 
+Edge: 284 2768 Weight: 1 
+Edge: 229 2253 Weight: 1 
+Edge: 10 1702 Weight: 1 
+Edge: 867 4311 Weight: 1 
+Edge: 2365 32 Weight: 1 
+Edge: 10 3135 Weight: 1 
+Edge: 3312 32 Weight: 1 
+Edge: 870 2111 Weight: 1 
+Edge: 3420 249 Weight: 1 
+Edge: 1061 12 Weight: 1 
+Edge: 40 2891 Weight: 1 
+Edge: 3009 5 Weight: 1 
+Edge: 53 3417 Weight: 1 
+Edge: 12 3281 Weight: 1 
+Edge: 3142 1 Weight: 1 
+Edge: 3293 12 Weight: 1 
+Edge: 3297 12 Weight: 1 
+Edge: 2850 69 Weight: 1 
+Edge: 1 3148 Weight: 1 
+Edge: 2386 5 Weight: 1 
+Edge: 40 2919 Weight: 1 
+Edge: 1760 1498 Weight: 1 
+Edge: 40 2140 Weight: 1 
+Edge: 1962 448 Weight: 1 
+Edge: 3149 1 Weight: 1 
+Edge: 1235 2588 Weight: 1 
+Edge: 40 2531 Weight: 1 
+Edge: 1717 40 Weight: 1 
+Edge: 1521 1 Weight: 1 
+Edge: 1469 625 Weight: 1 
+Edge: 624 2646 Weight: 1 
+Edge: 236 2532 Weight: 1 
+Edge: 1219 237 Weight: 1 
+Edge: 40 1919 Weight: 1 
+Edge: 238 3261 Weight: 1 
+Edge: 239 2562 Weight: 1 
+Edge: 2535 239 Weight: 1 
+Edge: 239 448 Weight: 1 
+Edge: 69 2847 Weight: 1 
+Edge: 2009 254 Weight: 1 
+Edge: 239 2642 Weight: 1 
+Edge: 12 3232 Weight: 1 
+Edge: 3237 887 Weight: 1 
+Edge: 1241 2563 Weight: 1 
+Edge: 3278 1490 Weight: 1 
+Edge: 240 2524 Weight: 1 
+Edge: 888 1886 Weight: 1 
+Edge: 801 2230 Weight: 1 
+Edge: 241 895 Weight: 1 
+Edge: 2979 456 Weight: 1 
+Edge: 12 3366 Weight: 1 
+Edge: 12 3354 Weight: 1 
+Edge: 1368 245 Weight: 1 
+Edge: 54 2557 Weight: 1 
+Edge: 1600 40 Weight: 1 
+Edge: 42 2155 Weight: 1 
+Edge: 247 3230 Weight: 1 
+Edge: 3280 248 Weight: 1 
+Edge: 1451 2644 Weight: 1 
+Edge: 3026 1 Weight: 1 
+Edge: 3273 248 Weight: 1 
+Edge: 798 2849 Weight: 1 
+Edge: 40 770 Weight: 1 
+Edge: 2523 250 Weight: 1 
+Edge: 5 1819 Weight: 1 
+Edge: 2909 1 Weight: 1 
+Edge: 3326 462 Weight: 1 
+Edge: 463 666 Weight: 1 
+Edge: 905 3419 Weight: 1 
+Edge: 2630 39 Weight: 1 
+Edge: 2641 792 Weight: 1 
+Edge: 723 252 Weight: 1 
+Edge: 467 2538 Weight: 1 
+Edge: 252 1084 Weight: 1 
+Edge: 635 2882 Weight: 1 
+Edge: 253 2736 Weight: 1 
+Edge: 2729 253 Weight: 1 
+Edge: 254 1690 Weight: 1 
+Edge: 255 1727 Weight: 1 
+Edge: 255 1685 Weight: 1 
+Edge: 2901 474 Weight: 1 
+Edge: 2918 11 Weight: 1 
+Edge: 256 947 Weight: 1 
+Edge: 2792 256 Weight: 1 
+Edge: 2082 476 Weight: 1 
+Edge: 476 2569 Weight: 1 
+Edge: 475 1980 Weight: 1 
+Edge: 256 2790 Weight: 1 
+Edge: 920 2542 Weight: 1 
+Edge: 1640 477 Weight: 1 
+Edge: 1662 477 Weight: 1 
+Edge: 2916 257 Weight: 1 
+Edge: 38 3108 Weight: 1 
+Edge: 7230 881 Weight: 1 
+Edge: 1123 2095 Weight: 1 
+Edge: 3207 644 Weight: 1 
+Edge: 2063 1123 Weight: 1 
+Edge: 1141 38 Weight: 1 
+Edge: 793 38 Weight: 1 
+Edge: 2841 38 Weight: 1 
+Edge: 477 608 Weight: 1 
+Edge: 724 475 Weight: 1 
+Edge: 38 3310 Weight: 1 
+Edge: 38 1728 Weight: 1 
+Edge: 38 2807 Weight: 1 
+Edge: 636 2913 Weight: 1 
+Edge: 39 2873 Weight: 1 
+Edge: 2185 798 Weight: 1 
+Edge: 1861 12 Weight: 1 
+Edge: 2126 40 Weight: 1 
+Edge: 1718 40 Weight: 1 
+Edge: 478 2603 Weight: 1 
+Edge: 1 3163 Weight: 1 
+Edge: 3376 824 Weight: 1 
+Edge: 1632 37 Weight: 1 
+Edge: 1787 258 Weight: 1 
+Edge: 1 1842 Weight: 1 
+Edge: 1791 43 Weight: 1 
+Edge: 1076 37 Weight: 1 
+Edge: 746 67 Weight: 1 
+Edge: 2078 43 Weight: 1 
+Edge: 478 2560 Weight: 1 
+Edge: 275 2669 Weight: 1 
+Edge: 1262 275 Weight: 1 
+Edge: 277 2194 Weight: 1 
+Edge: 1142 277 Weight: 1 
+Edge: 874 2204 Weight: 1 
+Edge: 1131 44 Weight: 1 
+Edge: 285 2984 Weight: 1 
+Edge: 259 1317 Weight: 1 
+Edge: 5 3206 Weight: 1 
+Edge: 1 3124 Weight: 1 
+Edge: 2306 3 Weight: 1 
+Edge: 45 2541 Weight: 1 
+Edge: 45 1933 Weight: 1 
+Edge: 3045 13 Weight: 1 
+Edge: 2284 46 Weight: 1 
+Edge: 2303 46 Weight: 1 
+Edge: 14 2812 Weight: 1 
+Edge: 46 3065 Weight: 1 
+Edge: 1407 915 Weight: 1 
+Edge: 260 2959 Weight: 1 
+Edge: 1 3078 Weight: 1 
+Edge: 1511 260 Weight: 1 
+Edge: 55 2854 Weight: 1 
+Edge: 50 875 Weight: 1 
+Edge: 1809 51 Weight: 1 
+Edge: 2932 51 Weight: 1 
+Edge: 2339 817 Weight: 1 
+Edge: 2902 52 Weight: 1 
+Edge: 1555 6 Weight: 1 
+Edge: 3088 2794 Weight: 1 
+Edge: 3186 3217 Weight: 1 
+Edge: 3165 645 Weight: 1 
+Edge: 2872 55 Weight: 1 
+Edge: 55 390 Weight: 1 
+Edge: 55 1454 Weight: 1 
+Edge: 2790 2788 Weight: 1 
+Edge: 1 3020 Weight: 1 
+Edge: 2633 15 Weight: 1 
+Edge: 1201 1586 Weight: 1 
+Edge: 7063 15 Weight: 1 
+Edge: 1 3004 Weight: 1 
+Edge: 509 1000 Weight: 1 
+Edge: 2137 57 Weight: 1 
+Edge: 2548 509 Weight: 1 
+Edge: 872 57 Weight: 1 
+Edge: 2107 57 Weight: 1 
+Edge: 2576 57 Weight: 1 
+Edge: 7552 2440 Weight: 1 
+Edge: 2580 263 Weight: 1 
+Edge: 2685 76 Weight: 1 
+Edge: 15 3447 Weight: 1 
+Edge: 58 3411 Weight: 1 
+Edge: 15 1208 Weight: 1 
+Edge: 597 1848 Weight: 1 
+Edge: 15 3407 Weight: 1 
+Edge: 483 2994 Weight: 1 
+Edge: 189 1506 Weight: 1 
+Edge: 3170 648 Weight: 1 
+Edge: 3161 61 Weight: 1 
+Edge: 61 1050 Weight: 1 
+Edge: 657 2452 Weight: 1 
+Edge: 657 1644 Weight: 1 
+Edge: 646 1844 Weight: 1 
+Edge: 1 2941 Weight: 1 
+Edge: 3259 1 Weight: 1 
+Edge: 2762 72 Weight: 1 
+Edge: 1549 1556 Weight: 1 
+Edge: 1389 3388 Weight: 1 
+Edge: 1 2920 Weight: 1 
+Edge: 1 2782 Weight: 1 
+Edge: 1931 273 Weight: 1 
+Edge: 67 1730 Weight: 1 
+Edge: 488 972 Weight: 1 
+Edge: 1 2904 Weight: 1 
+Edge: 68 3024 Weight: 1 
+Edge: 1565 178 Weight: 1 
+Edge: 271 471 Weight: 1 
+Edge: 1485 69 Weight: 1 
+Edge: 1875 1 Weight: 1 
+Edge: 2476 272 Weight: 1 
+Edge: 1 2881 Weight: 1 
+Edge: 71 2969 Weight: 1 
+Edge: 35 3999 Weight: 1 
+Edge: 35 2727 Weight: 1 
+Edge: 72 2449 Weight: 1 
+Edge: 1388 7198 Weight: 1 
+Edge: 35 6434 Weight: 1 
+Edge: 1746 946 Weight: 1 
+Edge: 1 2845 Weight: 1 
+Edge: 2626 76 Weight: 1 
+Edge: 2043 7564 Weight: 1 
+Edge: 2667 77 Weight: 1 
+Edge: 2928 274 Weight: 1 
+Edge: 77 1118 Weight: 1 
+Edge: 2739 78 Weight: 1 
+Edge: 2083 78 Weight: 1 
+Edge: 2492 4 Weight: 1 
+Edge: 1704 79 Weight: 1 
+Edge: 2654 79 Weight: 1 
+Edge: 1700 79 Weight: 1 
+Edge: 2670 79 Weight: 1 
+Edge: 2749 79 Weight: 1 
+Edge: 2104 79 Weight: 1 
+Edge: 2706 79 Weight: 1 
+Edge: 2708 79 Weight: 1 
+Edge: 2530 79 Weight: 1 
+Edge: 2694 79 Weight: 1 
+Edge: 79 2723 Weight: 1 
+Edge: 849 575 Weight: 1 
+Edge: 3416 82 Weight: 1 
+Edge: 3360 82 Weight: 1 
+Edge: 3343 82 Weight: 1 
+Edge: 19 3373 Weight: 1 
+Edge: 19 3364 Weight: 1 
+Edge: 7 1325 Weight: 1 
+Edge: 2960 83 Weight: 1 
+Edge: 7 2922 Weight: 1 
+Edge: 3279 1 Weight: 1 
+Edge: 2709 4 Weight: 1 
+Edge: 1 2786 Weight: 1 
+Edge: 3437 15 Weight: 1 
+Edge: 2740 4 Weight: 1 
+Edge: 3283 1 Weight: 1 
+Edge: 86 3440 Weight: 1 
+Edge: 86 3395 Weight: 1 
+Edge: 86 1593 Weight: 1 
+Edge: 3318 87 Weight: 1 
+Edge: 3306 87 Weight: 1 
+Edge: 2080 87 Weight: 1 
+Edge: 2868 4 Weight: 1 
+Edge: 495 1377 Weight: 1 
+Edge: 496 3340 Weight: 1 
+Edge: 1193 89 Weight: 1 
+Edge: 2628 89 Weight: 1 
+Edge: 2625 89 Weight: 1 
+Edge: 2623 89 Weight: 1 
+Edge: 2033 89 Weight: 1 
+Edge: 1257 2587 Weight: 1 
+Edge: 1255 1638 Weight: 1 
+Edge: 281 3450 Weight: 1 
+Edge: 2997 4 Weight: 1 
+Edge: 1323 92 Weight: 1 
+Edge: 2985 92 Weight: 1 
+Edge: 990 2457 Weight: 1 
+Edge: 92 3208 Weight: 1 
+Edge: 92 1620 Weight: 1 
+Edge: 93 3412 Weight: 1 
+Edge: 93 3284 Weight: 1 
+Edge: 3246 95 Weight: 1 
+Edge: 1 2744 Weight: 1 
+Edge: 2658 514 Weight: 1 
+Edge: 662 44 Weight: 1 
+Edge: 8 2344 Weight: 1 
+Edge: 95 2953 Weight: 1 
+Edge: 95 3302 Weight: 1 
+Edge: 95 1874 Weight: 1 
+Edge: 3356 4 Weight: 1 
+Edge: 95 3179 Weight: 1 
+Edge: 2809 33 Weight: 1 
+Edge: 12 1350 Weight: 1 
+Edge: 3404 96 Weight: 1 
+Edge: 96 3425 Weight: 1 
+Edge: 481 284 Weight: 1 
+Edge: 1355 1 Weight: 1 
+Edge: 3001 285 Weight: 1 
+Edge: 97 919 Weight: 1 
+Edge: 1259 99 Weight: 1 
+Edge: 659 99 Weight: 1 
+Edge: 99 2624 Weight: 1 
+Edge: 99 1993 Weight: 1 
+Edge: 99 2455 Weight: 1 
+Edge: 2720 100 Weight: 1 
+Edge: 2490 100 Weight: 1 
+Edge: 56 3107 Weight: 1 
+Edge: 504 2593 Weight: 1 
+Edge: 102 856 Weight: 1 
+Edge: 3322 33 Weight: 1 
+Edge: 288 2347 Weight: 1 
+Edge: 76 2037 Weight: 1 
+Edge: 3086 332 Weight: 1 
+Edge: 2827 294 Weight: 1 
+Edge: 2345 509 Weight: 1 
+Edge: 114 3398 Weight: 1 
+Edge: 114 3426 Weight: 1 
+Edge: 114 3423 Weight: 1 
+Edge: 114 1896 Weight: 1 
+Edge: 114 3374 Weight: 1 
+Edge: 3251 115 Weight: 1 
+Edge: 115 3213 Weight: 1 
+Edge: 3285 116 Weight: 1 
+Edge: 2911 117 Weight: 1 
+Edge: 2702 117 Weight: 1 
+Edge: 117 2931 Weight: 1 
+Edge: 2250 26 Weight: 1 
+Edge: 2521 119 Weight: 1 
+Edge: 2864 121 Weight: 1 
+Edge: 2862 121 Weight: 1 
+Edge: 2855 121 Weight: 1 
+Edge: 1862 1 Weight: 1 
+Edge: 123 1671 Weight: 1 
+Edge: 513 2539 Weight: 1 
+Edge: 3381 126 Weight: 1 
+Edge: 126 3371 Weight: 1 
+Edge: 126 2673 Weight: 1 
+Edge: 3321 128 Weight: 1 
+Edge: 3294 128 Weight: 1 
+Edge: 3282 128 Weight: 1 
+Edge: 6317 27 Weight: 1 
+Edge: 9 2819 Weight: 1 
+Edge: 6131 27 Weight: 1 
+Edge: 1 3421 Weight: 1 
+Edge: 3182 130 Weight: 1 
+Edge: 1439 130 Weight: 1 
+Edge: 2575 130 Weight: 1 
+Edge: 2572 130 Weight: 1 
+Edge: 2549 130 Weight: 1 
+Edge: 130 2551 Weight: 1 
+Edge: 3212 131 Weight: 1 
+Edge: 2190 10 Weight: 2 
+Edge: 2294 149 Weight: 2 
+Edge: 1913 148 Weight: 2 
+Edge: 1995 148 Weight: 2 
+Edge: 2256 30 Weight: 2 
+Edge: 1539 147 Weight: 2 
+Edge: 2226 146 Weight: 2 
+Edge: 763 146 Weight: 2 
+Edge: 2348 145 Weight: 2 
+Edge: 2236 142 Weight: 2 
+Edge: 2385 29 Weight: 2 
+Edge: 930 678 Weight: 2 
+Edge: 137 852 Weight: 2 
+Edge: 2242 136 Weight: 2 
+Edge: 2022 28 Weight: 2 
+Edge: 2028 28 Weight: 2 
+Edge: 134 2317 Weight: 2 
+Edge: 4 1602 Weight: 2 
+Edge: 4 1233 Weight: 2 
+Edge: 1006 1011 Weight: 2 
+Edge: 4 2002 Weight: 2 
+Edge: 4 2017 Weight: 2 
+Edge: 4 781 Weight: 2 
+Edge: 1470 9 Weight: 2 
+Edge: 2110 1010 Weight: 2 
+Edge: 4 1678 Weight: 2 
+Edge: 1952 1 Weight: 2 
+Edge: 1294 26 Weight: 2 
+Edge: 324 2023 Weight: 2 
+Edge: 1940 324 Weight: 2 
+Edge: 2165 121 Weight: 2 
+Edge: 2170 121 Weight: 2 
+Edge: 324 1102 Weight: 2 
+Edge: 541 1260 Weight: 2 
+Edge: 2026 541 Weight: 2 
+Edge: 541 1122 Weight: 2 
+Edge: 1 2260 Weight: 2 
+Edge: 1315 1 Weight: 2 
+Edge: 2227 1 Weight: 2 
+Edge: 2249 1 Weight: 2 
+Edge: 1 2113 Weight: 2 
+Edge: 959 110 Weight: 2 
+Edge: 1014 1259 Weight: 2 
+Edge: 2282 1 Weight: 2 
+Edge: 2296 1 Weight: 2 
+Edge: 1990 102 Weight: 2 
+Edge: 1013 102 Weight: 2 
+Edge: 2367 1 Weight: 2 
+Edge: 101 567 Weight: 2 
+Edge: 1911 23 Weight: 2 
+Edge: 1082 23 Weight: 2 
+Edge: 1944 340 Weight: 2 
+Edge: 340 1937 Weight: 2 
+Edge: 2239 22 Weight: 2 
+Edge: 2291 3 Weight: 2 
+Edge: 1576 92 Weight: 2 
+Edge: 2300 3 Weight: 2 
+Edge: 1548 3 Weight: 2 
+Edge: 2321 3 Weight: 2 
+Edge: 2346 3 Weight: 2 
+Edge: 1174 3 Weight: 2 
+Edge: 2353 3 Weight: 2 
+Edge: 1037 7416 Weight: 2 
+Edge: 571 1474 Weight: 2 
+Edge: 575 2040 Weight: 2 
+Edge: 575 1435 Weight: 2 
+Edge: 2058 359 Weight: 2 
+Edge: 2039 575 Weight: 2 
+Edge: 1504 80 Weight: 2 
+Edge: 359 2059 Weight: 2 
+Edge: 359 2055 Weight: 2 
+Edge: 2211 7 Weight: 2 
+Edge: 2307 7 Weight: 2 
+Edge: 2200 18 Weight: 2 
+Edge: 2228 18 Weight: 2 
+Edge: 7380 2382 Weight: 2 
+Edge: 1605 74 Weight: 2 
+Edge: 2327 7595 Weight: 2 
+Edge: 7595 2322 Weight: 2 
+Edge: 7595 2319 Weight: 2 
+Edge: 2221 7416 Weight: 2 
+Edge: 7564 2049 Weight: 2 
+Edge: 2203 1769 Weight: 2 
+Edge: 2125 17 Weight: 2 
+Edge: 2131 1479 Weight: 2 
+Edge: 2073 1461 Weight: 2 
+Edge: 1388 1902 Weight: 2 
+Edge: 1247 3774 Weight: 2 
+Edge: 1443 1084 Weight: 2 
+Edge: 7388 1026 Weight: 2 
+Edge: 2115 1010 Weight: 2 
+Edge: 2262 68 Weight: 2 
+Edge: 2359 979 Weight: 2 
+Edge: 2214 969 Weight: 2 
+Edge: 2161 947 Weight: 2 
+Edge: 2075 932 Weight: 2 
+Edge: 7564 927 Weight: 2 
+Edge: 2021 927 Weight: 2 
+Edge: 7590 2259 Weight: 2 
+Edge: 1925 16 Weight: 2 
+Edge: 1983 16 Weight: 2 
+Edge: 2003 16 Weight: 2 
+Edge: 832 2420 Weight: 2 
+Edge: 2186 798 Weight: 2 
+Edge: 65 2018 Weight: 2 
+Edge: 1939 65 Weight: 2 
+Edge: 2072 785 Weight: 2 
+Edge: 923 665 Weight: 2 
+Edge: 2423 651 Weight: 2 
+Edge: 2425 647 Weight: 2 
+Edge: 2341 641 Weight: 2 
+Edge: 2184 60 Weight: 2 
+Edge: 627 5660 Weight: 2 
+Edge: 1446 616 Weight: 2 
+Edge: 2154 589 Weight: 2 
+Edge: 2403 58 Weight: 2 
+Edge: 2326 6 Weight: 2 
+Edge: 539 1639 Weight: 2 
+Edge: 2436 15 Weight: 2 
+Edge: 2120 57 Weight: 2 
+Edge: 2160 57 Weight: 2 
+Edge: 745 519 Weight: 2 
+Edge: 2030 514 Weight: 2 
+Edge: 57 1719 Weight: 2 
+Edge: 2130 409 Weight: 2 
+Edge: 502 716 Weight: 2 
+Edge: 2337 56 Weight: 2 
+Edge: 2233 491 Weight: 2 
+Edge: 1514 491 Weight: 2 
+Edge: 2220 55 Weight: 2 
+Edge: 1912 474 Weight: 2 
+Edge: 439 1044 Weight: 2 
+Edge: 2421 434 Weight: 2 
+Edge: 1481 14 Weight: 2 
+Edge: 1857 413 Weight: 2 
+Edge: 2164 409 Weight: 2 
+Edge: 2036 406 Weight: 2 
+Edge: 2133 51 Weight: 2 
+Edge: 1948 50 Weight: 2 
+Edge: 2409 376 Weight: 2 
+Edge: 2042 369 Weight: 2 
+Edge: 2034 369 Weight: 2 
+Edge: 2056 359 Weight: 2 
+Edge: 2057 359 Weight: 2 
+Edge: 2060 359 Weight: 2 
+Edge: 2061 359 Weight: 2 
+Edge: 2062 359 Weight: 2 
+Edge: 2015 358 Weight: 2 
+Edge: 2114 48 Weight: 2 
+Edge: 2116 48 Weight: 2 
+Edge: 1991 343 Weight: 2 
+Edge: 2044 342 Weight: 2 
+Edge: 1945 340 Weight: 2 
+Edge: 2275 13 Weight: 2 
+Edge: 2283 13 Weight: 2 
+Edge: 2277 13 Weight: 2 
+Edge: 2288 13 Weight: 2 
+Edge: 1953 324 Weight: 2 
+Edge: 1934 324 Weight: 2 
+Edge: 2035 324 Weight: 2 
+Edge: 317 809 Weight: 2 
+Edge: 2047 300 Weight: 2 
+Edge: 2025 283 Weight: 2 
+Edge: 2052 283 Weight: 2 
+Edge: 1373 5 Weight: 2 
+Edge: 281 2435 Weight: 2 
+Edge: 44 1429 Weight: 2 
+Edge: 2006 2 Weight: 2 
+Edge: 261 888 Weight: 2 
+Edge: 260 1369 Weight: 2 
+Edge: 2329 244 Weight: 2 
+Edge: 2400 241 Weight: 2 
+Edge: 1972 239 Weight: 2 
+Edge: 1958 239 Weight: 2 
+Edge: 1110 239 Weight: 2 
+Edge: 2076 239 Weight: 2 
+Edge: 41 5415 Weight: 2 
+Edge: 2404 2 Weight: 2 
+Edge: 1996 224 Weight: 2 
+Edge: 1653 224 Weight: 2 
+Edge: 2016 39 Weight: 2 
+Edge: 2070 39 Weight: 2 
+Edge: 2232 38 Weight: 2 
+Edge: 1047 38 Weight: 2 
+Edge: 2313 38 Weight: 2 
+Edge: 1968 202 Weight: 2 
+Edge: 2379 36 Weight: 2 
+Edge: 2424 190 Weight: 2 
+Edge: 1966 181 Weight: 2 
+Edge: 35 1894 Weight: 2 
+Edge: 2323 178 Weight: 2 
+Edge: 2414 34 Weight: 2 
+Edge: 524 177 Weight: 2 
+Edge: 1085 4 Weight: 2 
+Edge: 2392 173 Weight: 2 
+Edge: 2264 170 Weight: 2 
+Edge: 1961 170 Weight: 2 
+Edge: 169 1668 Weight: 2 
+Edge: 2024 4 Weight: 2 
+Edge: 2240 166 Weight: 2 
+Edge: 2246 166 Weight: 2 
+Edge: 1091 4 Weight: 3 
+Edge: 1845 160 Weight: 3 
+Edge: 1852 146 Weight: 3 
+Edge: 2 471 Weight: 3 
+Edge: 1850 134 Weight: 3 
+Edge: 1608 129 Weight: 3 
+Edge: 1609 129 Weight: 3 
+Edge: 27 6736 Weight: 3 
+Edge: 1725 9 Weight: 3 
+Edge: 633 121 Weight: 3 
+Edge: 1706 97 Weight: 3 
+Edge: 1829 95 Weight: 3 
+Edge: 1901 1 Weight: 3 
+Edge: 1818 3 Weight: 3 
+Edge: 1824 3 Weight: 3 
+Edge: 1181 738 Weight: 3 
+Edge: 1849 3 Weight: 3 
+Edge: 1800 18 Weight: 3 
+Edge: 1768 7 Weight: 3 
+Edge: 1782 7 Weight: 3 
+Edge: 1723 7603 Weight: 3 
+Edge: 1681 7564 Weight: 3 
+Edge: 7564 1672 Weight: 3 
+Edge: 7564 1670 Weight: 3 
+Edge: 7564 1663 Weight: 3 
+Edge: 7564 1650 Weight: 3 
+Edge: 1631 1486 Weight: 3 
+Edge: 1735 17 Weight: 3 
+Edge: 1745 1293 Weight: 3 
+Edge: 1643 1232 Weight: 3 
+Edge: 7564 1114 Weight: 3 
+Edge: 7564 1112 Weight: 3 
+Edge: 975 1563 Weight: 3 
+Edge: 952 1799 Weight: 3 
+Edge: 1466 936 Weight: 3 
+Edge: 997 848 Weight: 3 
+Edge: 470 16 Weight: 3 
+Edge: 1664 16 Weight: 3 
+Edge: 1897 761 Weight: 3 
+Edge: 1543 756 Weight: 3 
+Edge: 1823 754 Weight: 3 
+Edge: 1677 676 Weight: 3 
+Edge: 7564 674 Weight: 3 
+Edge: 1773 60 Weight: 3 
+Edge: 1747 634 Weight: 3 
+Edge: 1907 499 Weight: 3 
+Edge: 1763 55 Weight: 3 
+Edge: 1699 479 Weight: 3 
+Edge: 1898 464 Weight: 3 
+Edge: 7564 450 Weight: 3 
+Edge: 1637 442 Weight: 3 
+Edge: 1756 50 Weight: 3 
+Edge: 1707 348 Weight: 3 
+Edge: 1172 13 Weight: 3 
+Edge: 1817 13 Weight: 3 
+Edge: 1801 46 Weight: 3 
+Edge: 1729 44 Weight: 3 
+Edge: 1872 5 Weight: 3 
+Edge: 1899 43 Weight: 3 
+Edge: 1739 256 Weight: 3 
+Edge: 1858 246 Weight: 3 
+Edge: 1645 239 Weight: 3 
+Edge: 1464 239 Weight: 3 
+Edge: 1892 218 Weight: 3 
+Edge: 1712 212 Weight: 3 
+Edge: 1617 212 Weight: 3 
+Edge: 1722 212 Weight: 3 
+Edge: 618 38 Weight: 3 
+Edge: 1604 179 Weight: 3 
+Edge: 1806 177 Weight: 3 
+Edge: 1682 169 Weight: 3 
+Edge: 1406 129 Weight: 4 
+Edge: 1403 129 Weight: 4 
+Edge: 1410 129 Weight: 4 
+Edge: 1411 129 Weight: 4 
+Edge: 1412 129 Weight: 4 
+Edge: 1408 129 Weight: 4 
+Edge: 1414 129 Weight: 4 
+Edge: 1416 129 Weight: 4 
+Edge: 1418 129 Weight: 4 
+Edge: 1422 129 Weight: 4 
+Edge: 129 1216 Weight: 4 
+Edge: 1591 127 Weight: 4 
+Edge: 26 6257 Weight: 4 
+Edge: 1434 102 Weight: 4 
+Edge: 843 23 Weight: 4 
+Edge: 23 932 Weight: 4 
+Edge: 600 8 Weight: 4 
+Edge: 1583 1 Weight: 4 
+Edge: 1545 3 Weight: 4 
+Edge: 1547 3 Weight: 4 
+Edge: 1499 7 Weight: 4 
+Edge: 6369 1572 Weight: 4 
+Edge: 7570 1452 Weight: 4 
+Edge: 1585 868 Weight: 4 
+Edge: 1503 798 Weight: 4 
+Edge: 929 677 Weight: 4 
+Edge: 1480 57 Weight: 4 
+Edge: 1567 56 Weight: 4 
+Edge: 1529 13 Weight: 4 
+Edge: 1534 13 Weight: 4 
+Edge: 1426 311 Weight: 4 
+Edge: 1595 279 Weight: 4 
+Edge: 1587 199 Weight: 4 
+Edge: 1447 183 Weight: 4 
+Edge: 1515 177 Weight: 4 
+Edge: 147 963 Weight: 5 
+Edge: 1213 129 Weight: 5 
+Edge: 1211 129 Weight: 5 
+Edge: 1215 129 Weight: 5 
+Edge: 1217 129 Weight: 5 
+Edge: 1228 129 Weight: 5 
+Edge: 1223 129 Weight: 5 
+Edge: 1231 129 Weight: 5 
+Edge: 1316 1 Weight: 5 
+Edge: 1338 3 Weight: 5 
+Edge: 868 18 Weight: 5 
+Edge: 1306 18 Weight: 5 
+Edge: 1263 74 Weight: 5 
+Edge: 1384 1691 Weight: 5 
+Edge: 1345 3041 Weight: 5 
+Edge: 1329 7416 Weight: 5 
+Edge: 7564 1246 Weight: 5 
+Edge: 1204 7163 Weight: 5 
+Edge: 1275 936 Weight: 5 
+Edge: 1242 66 Weight: 5 
+Edge: 1312 798 Weight: 5 
+Edge: 1253 778 Weight: 5 
+Edge: 1281 571 Weight: 5 
+Edge: 560 559 Weight: 5 
+Edge: 652 559 Weight: 5 
+Edge: 1291 516 Weight: 5 
+Edge: 1371 6 Weight: 5 
+Edge: 1395 6 Weight: 5 
+Edge: 1319 55 Weight: 5 
+Edge: 559 465 Weight: 5 
+Edge: 1265 448 Weight: 5 
+Edge: 1238 441 Weight: 5 
+Edge: 559 374 Weight: 5 
+Edge: 559 364 Weight: 5 
+Edge: 1394 13 Weight: 5 
+Edge: 1296 316 Weight: 5 
+Edge: 1303 316 Weight: 5 
+Edge: 1266 282 Weight: 5 
+Edge: 556 276 Weight: 5 
+Edge: 1229 252 Weight: 5 
+Edge: 1334 225 Weight: 5 
+Edge: 1344 221 Weight: 5 
+Edge: 1391 190 Weight: 5 
+Edge: 1330 189 Weight: 5 
+Edge: 184 1299 Weight: 5 
+Edge: 1245 169 Weight: 5 
+Edge: 1092 129 Weight: 6 
+Edge: 1097 129 Weight: 6 
+Edge: 1151 7 Weight: 6 
+Edge: 1126 930 Weight: 6 
+Edge: 1183 756 Weight: 6 
+Edge: 431 861 Weight: 6 
+Edge: 1203 279 Weight: 6 
+Edge: 1206 279 Weight: 6 
+Edge: 138 1069 Weight: 7 
+Edge: 1005 102 Weight: 7 
+Edge: 1028 1 Weight: 7 
+Edge: 1042 20 Weight: 7 
+Edge: 1019 37 Weight: 7 
+Edge: 970 10 Weight: 8 
+Edge: 977 9 Weight: 8 
+Edge: 968 71 Weight: 8 
+Edge: 928 781 Weight: 8 
+Edge: 978 760 Weight: 8 
+Edge: 948 685 Weight: 8 
+Edge: 985 464 Weight: 8 
+Edge: 461 7419 Weight: 8 
+Edge: 950 453 Weight: 8 
+Edge: 415 829 Weight: 8 
+Edge: 907 2336 Weight: 9 
+Edge: 873 1256 Weight: 9 
+Edge: 880 595 Weight: 9 
+Edge: 901 417 Weight: 9 
+Edge: 855 343 Weight: 9 
+Edge: 889 190 Weight: 9 
+Edge: 903 190 Weight: 9 
+Edge: 808 151 Weight: 10 
+Edge: 104 6958 Weight: 10 
+Edge: 827 100 Weight: 10 
+Edge: 814 68 Weight: 10 
+Edge: 836 3179 Weight: 10 
+Edge: 5533 811 Weight: 10 
+Edge: 795 2529 Weight: 10 
+Edge: 790 726 Weight: 10 
+Edge: 833 709 Weight: 10 
+Edge: 820 663 Weight: 10 
+Edge: 789 628 Weight: 10 
+Edge: 834 604 Weight: 10 
+Edge: 776 533 Weight: 10 
+Edge: 819 525 Weight: 10 
+Edge: 794 501 Weight: 10 
+Edge: 831 430 Weight: 10 
+Edge: 414 828 Weight: 10 
+Edge: 797 409 Weight: 10 
+Edge: 388 828 Weight: 10 
+Edge: 782 357 Weight: 10 
+Edge: 788 344 Weight: 10 
+Edge: 418 307 Weight: 10 
+Edge: 806 285 Weight: 10 
+Edge: 805 264 Weight: 10 
+Edge: 823 206 Weight: 10 
+Edge: 835 164 Weight: 10 
+Edge: 837 164 Weight: 10 
+Edge: 1 7188 Weight: 10 
 
-Execution Time: 8429700 ns
+Execution Time: 255487500 ns
